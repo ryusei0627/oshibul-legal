@@ -58,8 +58,10 @@
     }
     li { margin-bottom: 6px; }
     strong { font-weight: 700; }
+    /* FB-15-2 (2026-06-05): 外部サービステーブルを縦表示でも見切れず折り返すように。 */
     table {
       width: 100%;
+      table-layout: fixed;
       border-collapse: collapse;
       font-size: 13px;
       margin-bottom: 16px;
@@ -69,6 +71,8 @@
       padding: 8px 10px;
       text-align: left;
       vertical-align: top;
+      word-break: break-word;
+      overflow-wrap: anywhere;
     }
     th { background: #F6F7FA; font-weight: 700; }
     a { color: #60A5FA; text-decoration: none; }
@@ -84,7 +88,7 @@
 <body>
   <div class="container">
     <h1>プライバシーポリシー</h1>
-    <p class="update-date">最終更新日：2026年6月3日（DAN 初稿反映版 / Rev 6.0 草案）</p>
+    <p class="update-date">最終更新日：2026年6月3日</p>
     <p class="intro">モバイルアプリケーション「推しブル」（以下「本アプリ」といいます。）を運営する「推しブル運営事務局」（以下「当事務局」といいます。）は、本アプリにおける、ユーザーに関する情報の取扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」といいます。）を定めます。</p>
 
     <h2>1. 取得する情報</h2>

@@ -58,8 +58,12 @@
     }
     li { margin-bottom: 6px; }
     strong { font-weight: 700; }
+    /* FB-15-2 (2026-06-05): スマホ縦表示でテーブル横スクロール / セル見切れ解消。
+       table-layout: fixed + word-break + overflow-wrap で長文セルを折り返し。
+       th の width: 30% は維持（ラベル列確保）/ white-space: nowrap 撤去（狭幅横溢れの真因）。 */
     table {
       width: 100%;
+      table-layout: fixed;
       border-collapse: collapse;
       font-size: 14px;
       margin-bottom: 16px;
@@ -69,12 +73,13 @@
       padding: 10px 12px;
       text-align: left;
       vertical-align: top;
+      word-break: break-word;
+      overflow-wrap: anywhere;
     }
     th {
       background: #F6F7FA;
       font-weight: 700;
       width: 30%;
-      white-space: nowrap;
     }
     a { color: #60A5FA; text-decoration: none; }
     a:hover { text-decoration: underline; }
@@ -97,7 +102,7 @@
 <body>
   <div class="container">
     <h1>特定商取引法に基づく表記</h1>
-    <p class="update-date">最終更新日：2026年6月3日（DAN 初稿反映版 / 新規）</p>
+    <p class="update-date">最終更新日：2026年6月3日</p>
     <p class="intro">Oshibul（推しブル / 以下「本アプリ」）の有料サービスに関し、特定商取引に関する法律 第 11 条（通信販売）に基づき以下の通り表記します。</p>
 
     <h2>事業者情報</h2>
