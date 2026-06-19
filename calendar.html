@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://hshedudijjqauvpdmwhg.supabase.co; img-src 'self' https://hshedudijjqauvpdmwhg.supabase.co data:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; frame-ancestors 'none';">
+  <title>公式カレンダー / 推しブル</title>
+  <style>
+    :root {
+      --primary: #FF6B9D;
+      --primary-deep: #FF3D7F;
+      --ink: #2B0F1E;
+      --ink-soft: #A87B91;
+      --ink-faint: #C9A6B8;
+      --bg: #FFF3F7;
+      --card: #FFFFFF;
+      --border: #FFE0EC;
+      --shadow: 0 4px 20px rgba(255, 107, 157, 0.12);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      min-height: 100vh;
+      padding: 20px 16px 60px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+
+    .group-card {
+      background: var(--card);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .group-card .swatch {
+      width: 6px;
+      align-self: stretch;
+      border-radius: 4px;
+      background: var(--primary);
+      flex-shrink: 0;
+    }
+    .group-card .image {
+      width: 64px;
+      height: 64px;
+      border-radius: 14px;
+      background: var(--border);
+      flex-shrink: 0;
+      object-fit: cover;
+    }
+    .group-card .meta { flex: 1; min-width: 0; }
+    .group-card .label { font-size: 11px; font-weight: 700; color: var(--ink-soft); letter-spacing: 0.04em; }
+    .group-card .name { font-size: 20px; font-weight: 800; margin: 4px 0 0; color: var(--ink); word-break: break-word; }
+
+    .events { display: flex; flex-direction: column; gap: 12px; }
+    .event {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+    .event .date-row {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    .event .date {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--primary-deep);
+      line-height: 1;
+    }
+    .event .weekday { font-size: 12px; font-weight: 700; color: var(--ink-soft); }
+    .event .type-tag {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--primary-deep);
+      background: var(--border);
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+    .event .title {
+      font-size: 16px;
+      font-weight: 700;
+      margin: 4px 0 8px;
+      color: var(--ink);
+      word-break: break-word;
+    }
+    .event .row {
+      display: flex;
+      gap: 8px;
+      align-items: baseline;
+      font-size: 13px;
+      color: var(--ink-soft);
+      margin-top: 4px;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+    .event .row .row-label {
+      font-size: 11px;
+      font-weight: 700;
+      min-width: 64px;
+      color: var(--ink-faint);
+      flex-shrink: 0;
+    }
+    .event .row .row-value { flex: 1; color: var(--ink); }
+    .event .benefits {
+      margin: 10px 0 0;
+      padding: 10px 12px;
+      background: #FFF8FB;
+      border-radius: 10px;
+      border: 1px dashed var(--border);
+    }
+    .event .benefits .ben-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--primary-deep);
+      margin-bottom: 4px;
+    }
+    .event .benefits ul {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 13px;
+      color: var(--ink);
+      line-height: 1.6;
+    }
+
+    .empty, .error {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--ink-soft);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .empty .icon, .error .icon { font-size: 40px; margin-bottom: 12px; }
+
+    .loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--ink-soft);
+      font-size: 14px;
+    }
+    .loading .dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: var(--primary);
+      border-radius: 50%;
+      margin: 0 2px;
+      animation: bounce 1.2s infinite ease-in-out;
+    }
+    .loading .dot:nth-child(2) { animation-delay: 0.15s; }
+    .loading .loading-dot-3 { animation-delay: 0.3s; }
+    @keyframes bounce {
+      0%, 80%, 100% { transform: scale(0.7); opacity: 0.5; }
+      40% { transform: scale(1); opacity: 1; }
+    }
+
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 11px;
+      color: var(--ink-faint);
+      line-height: 1.7;
+    }
+    .footer .footer-label { font-weight: 700; color: var(--ink-soft); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div id="root" class="loading" role="status" aria-live="polite">
+      <div><span class="dot"></span><span class="dot"></span><span class="dot loading-dot-3"></span></div>
+      <div style="margin-top: 12px;">読み込み中...</div>
+    </div>
+    <div class="footer">
+      <div class="footer-label">推しブル / Oshibul 公式カレンダー</div>
+      <div>このページは検索エンジンには載せていません。</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    // D-20260619-02 / 070: 推しブル Web カレンダー
+    //   設計書 v6 (= docs/web-calendar-phase-d-spec-v2.md) 準拠
+    //   - 全描画は textContent (= innerHTML 禁止 / XSS 完全遮断)
+    //   - admission_benefits 描画は 配列のみ受容 / 5 件上限 / 50 字上限 / リンク化禁止
+    //   - Supabase 通信は anon key + RPC 2 種のみ (= 直接テーブル SELECT 不可)
+    //   - 本番値固定: anon key は公開前提 (= RLS + RPC 経由でのみ意味を持つ)
+
+    var SUPABASE_URL = "https://hshedudijjqauvpdmwhg.supabase.co";
+    var SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhzaGVkdWRpampxYXV2cGRtd2hnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE5Mjc5NzksImV4cCI6MjA4NzUwMzk3OX0.xrRRJwMThL0em8NAPnQMDFcR1qtQkHyGYWWNSFRZxRk";
+
+    var UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+    var WEEKDAYS = ["日", "月", "火", "水", "木", "金", "土"];
+    var EVENT_TYPE_LABELS = {
+      live: "ライブ",
+      event: "イベント",
+      release: "リリース",
+      birthday: "生誕祭",
+      anniversary: "周年",
+      meetgreet: "特典会",
+      other: "その他"
+    };
+    var MAX_BENEFITS_COUNT = 5;
+    var MAX_BENEFIT_LENGTH = 50;
+
+    function el(tag, className, text) {
+      var node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text != null) node.textContent = String(text);
+      return node;
+    }
+
+    function renderError(message) {
+      var root = document.getElementById("root");
+      root.className = "error";
+      root.replaceChildren();
+      var icon = el("div", "icon", "📅");
+      var msg = el("div", null, message);
+      root.appendChild(icon);
+      root.appendChild(msg);
+    }
+
+    function formatDate(iso) {
+      // YYYY-MM-DDTHH:mm:ss+09:00 等を local 解釈で M/D + 曜日
+      try {
+        var d = new Date(iso);
+        if (isNaN(d.getTime())) return { date: "", weekday: "" };
+        var m = d.getMonth() + 1;
+        var day = d.getDate();
+        return { date: m + "/" + day, weekday: WEEKDAYS[d.getDay()] };
+      } catch (e) {
+        return { date: "", weekday: "" };
+      }
+    }
+
+    function formatTimeRange(startIso, endIso) {
+      function hm(iso) {
+        if (!iso) return null;
+        try {
+          var d = new Date(iso);
+          if (isNaN(d.getTime())) return null;
+          var h = String(d.getHours()).padStart(2, "0");
+          var min = String(d.getMinutes()).padStart(2, "0");
+          return h + ":" + min;
+        } catch (e) {
+          return null;
+        }
+      }
+      var s = hm(startIso);
+      var e = hm(endIso);
+      if (s && e) return s + " 〜 " + e;
+      if (s) return s + " 〜";
+      if (e) return "〜 " + e;
+      return null;
+    }
+
+    function addRow(parent, label, value) {
+      if (value == null || value === "") return;
+      var row = el("div", "row");
+      row.appendChild(el("span", "row-label", label));
+      row.appendChild(el("span", "row-value", value));
+      parent.appendChild(row);
+    }
+
+    function renderBenefits(parent, raw) {
+      // 設計書 v6: 配列のみ受容 / String 化 / slice / filter / リンク化禁止
+      if (!Array.isArray(raw)) return;
+      var safeBenefits = raw
+        .slice(0, MAX_BENEFITS_COUNT)
+        .map(function (b) { return String(b == null ? "" : b).slice(0, MAX_BENEFIT_LENGTH); })
+        .filter(function (b) { return b.length > 0; });
+      if (safeBenefits.length === 0) return;
+
+      var box = el("div", "benefits");
+      box.appendChild(el("div", "ben-label", "入場特典"));
+      var ul = el("ul");
+      safeBenefits.forEach(function (text) {
+        ul.appendChild(el("li", null, text));
+      });
+      box.appendChild(ul);
+      parent.appendChild(box);
+    }
+
+    function renderGroupCard(group) {
+      var card = el("div", "group-card");
+      var swatch = el("div", "swatch");
+      if (typeof group.color === "string" && /^#[0-9A-Fa-f]{6}$/.test(group.color)) {
+        swatch.style.background = group.color;
+      }
+      card.appendChild(swatch);
+
+      if (typeof group.image_url === "string" && group.image_url.indexOf("https://") === 0) {
+        var img = document.createElement("img");
+        img.className = "image";
+        img.src = group.image_url;
+        img.alt = "";
+        card.appendChild(img);
+      }
+
+      var meta = el("div", "meta");
+      meta.appendChild(el("div", "label", "公式カレンダー"));
+      meta.appendChild(el("h1", "name", group.name || "(名称未設定)"));
+      card.appendChild(meta);
+      return card;
+    }
+
+    function renderEvent(event) {
+      var wrap = el("div", "event");
+
+      var dateRow = el("div", "date-row");
+      var d = formatDate(event.start_at);
+      dateRow.appendChild(el("span", "date", d.date));
+      dateRow.appendChild(el("span", "weekday", d.weekday ? "(" + d.weekday + ")" : ""));
+      var typeLabel = EVENT_TYPE_LABELS[event.event_type] || null;
+      if (typeLabel) dateRow.appendChild(el("span", "type-tag", typeLabel));
+      wrap.appendChild(dateRow);
+
+      wrap.appendChild(el("h2", "title", event.title || "(タイトル未設定)"));
+
+      addRow(wrap, "会場", event.venue);
+      addRow(wrap, "開場", formatTimeRange(event.open_at, null));
+      addRow(wrap, "公演", formatTimeRange(event.performance_start_at, event.performance_end_at));
+      addRow(wrap, "特典会", formatTimeRange(event.meet_greet_start_at, event.meet_greet_end_at));
+      if (typeof event.ticket_price === "number" && event.ticket_price > 0) {
+        addRow(wrap, "料金", "￥" + event.ticket_price.toLocaleString("ja-JP"));
+      }
+
+      renderBenefits(wrap, event.admission_benefits);
+
+      return wrap;
+    }
+
+    function renderEvents(events) {
+      var root = document.getElementById("root");
+      if (!events || events.length === 0) {
+        var empty = el("div", "empty");
+        empty.appendChild(el("div", "icon", "🌷"));
+        empty.appendChild(el("div", null, "予定がありません"));
+        // root に group-card だけ残してその後ろに empty を入れる
+        var box = el("div");
+        box.appendChild(empty);
+        root.appendChild(box);
+        return;
+      }
+      var list = el("div", "events");
+      events.forEach(function (ev) {
+        list.appendChild(renderEvent(ev));
+      });
+      root.appendChild(list);
+    }
+
+    async function main() {
+      var params = new URLSearchParams(window.location.search);
+      var groupId = params.get("group_id");
+      if (!groupId || !UUID_RE.test(groupId)) {
+        renderError("無効な URL です");
+        return;
+      }
+
+      try {
+        var client = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+        var groupRes = await client.rpc("get_public_calendar_group", { p_group_id: groupId });
+        if (groupRes.error || !Array.isArray(groupRes.data) || groupRes.data.length === 0) {
+          renderError("カレンダーが見つかりません");
+          return;
+        }
+        var group = groupRes.data[0];
+
+        var eventsRes = await client.rpc("get_public_calendar_events", { p_group_id: groupId });
+        var events = eventsRes.error || !Array.isArray(eventsRes.data) ? [] : eventsRes.data;
+
+        var root = document.getElementById("root");
+        root.className = "";
+        root.replaceChildren();
+        root.appendChild(renderGroupCard(group));
+        renderEvents(events);
+
+        // タイトルに groupName を反映 (= ブラウザタブ表示用 / 推測リスクなし)
+        if (group.name) document.title = group.name + " 公式カレンダー / 推しブル";
+      } catch (e) {
+        renderError("読み込みに失敗しました。時間をおいて再度お試しください。");
+      }
+    }
+
+    main();
+  </script>
+</body>
+</html>
