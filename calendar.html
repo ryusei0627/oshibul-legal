@@ -135,6 +135,60 @@
       line-height: 1.6;
     }
 
+    /* D-20260622-02 / 073: チケット種別表示 */
+    .event .tickets { margin-top: 10px; }
+    .event .tickets-label {
+      font-size: 11px;
+      font-weight: 700;
+      min-width: 64px;
+      color: var(--ink-faint);
+      margin-bottom: 6px;
+    }
+    .event .tickets-empty {
+      font-size: 13px;
+      color: var(--ink-soft);
+    }
+    .event .tickets-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .event .tickets-item {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--ink);
+      padding: 6px 10px;
+      background: #FFF8FB;
+      border-radius: 8px;
+    }
+    .event .tickets-name {
+      font-weight: 700;
+      color: var(--ink);
+    }
+    .event .tickets-price {
+      font-weight: 800;
+      color: var(--primary-deep);
+    }
+    .event .tickets-price.free { color: #1ABC9C; }
+    .event .tickets-link {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none;
+      margin-left: auto;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--primary);
+      transition: opacity 0.15s;
+    }
+    .event .tickets-link:hover { opacity: 0.75; }
+
     .empty, .error {
       text-align: center;
       padding: 60px 20px;
@@ -176,8 +230,9 @@
     .footer .footer-label { font-weight: 700; color: var(--ink-soft); }
   </style>
   <!-- D-20260620-01 / v7: Supabase SDK と本体 JS を defer 読み込み (= inline script 禁止 / CSP 整合) -->
+  <!-- D-20260622-02 / v10: ?v=2 で Cloudflare / ブラウザキャッシュを cache bust -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
-  <script src="calendar.js" defer></script>
+  <script src="calendar.js?v=2" defer></script>
 </head>
 <body>
   <div class="wrap">

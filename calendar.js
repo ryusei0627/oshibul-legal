@@ -27,6 +27,9 @@
   };
   var MAX_BENEFITS_COUNT = 5;
   var MAX_BENEFIT_LENGTH = 50;
+  // D-20260622-02 / 073 / 設計書 v10: チケット種別描画制約
+  var MAX_TICKET_TYPES_COUNT = 10;       // 件数上限 (= DoS 防御 / 戻り値も RPC 側 LIMIT 10 で二重)
+  var MAX_TICKET_NAME_LENGTH = 100;      // name 文字数上限 (= DB CHECK と同等)
 
   function el(tag, className, text) {
     var node = document.createElement(tag);
@@ -84,6 +87,80 @@
     row.appendChild(el("span", "row-label", label));
     row.appendChild(el("span", "row-value", value));
     parent.appendChild(row);
+  }
+
+  // D-20260622-02 / 設計書 v10 §「ticket_types JSONB 描画制約」
+  //   - protocol === 'https:' のみ許可 (= javascript:/data:/http:/file: 等遮断)
+  //   - new URL() 正規化後の href を採用 (= proto smuggling 防止)
+  function sanitizeTicketUrl(url) {
+    if (typeof url !== "string" || url.length === 0) return null;
+    var parsed;
+    try {
+      parsed = new URL(url);
+    } catch (e) {
+      return null;
+    }
+    if (parsed.protocol !== "https:") return null;
+    return parsed.href;
+  }
+
+  function renderTicketTypes(parent, raw) {
+    // 設計書 v10: ticket_types JSONB 配列を描画 (= 旧 ticket_price 撤去)
+    //   - 配列のみ受容 / 件数 + 名前長サニタイズ
+    //   - price は INTEGER + 非負のみ
+    //   - 「料金未設定 / 無料 / 金額表示」3 出し分け
+    var ticketTypes = Array.isArray(raw) ? raw : [];
+
+    var safeTicketTypes = ticketTypes
+      .slice(0, MAX_TICKET_TYPES_COUNT)
+      .map(function (t) {
+        var name = String(t && t.name != null ? t.name : "").slice(0, MAX_TICKET_NAME_LENGTH);
+        var price = (t && Number.isInteger(t.price) && t.price >= 0) ? t.price : null;
+        var ticketUrl = sanitizeTicketUrl(t && t.ticket_url);
+        return { name: name, price: price, ticket_url: ticketUrl };
+      })
+      .filter(function (t) { return t.name.length > 0 && t.price !== null; });
+
+    var box = el("div", "tickets");
+    box.appendChild(el("div", "tickets-label", "料金"));
+
+    if (safeTicketTypes.length === 0) {
+      // event_ticket_types 空 (または全て不正) → 「料金未設定」
+      box.appendChild(el("div", "tickets-empty", "料金未設定"));
+      parent.appendChild(box);
+      return;
+    }
+
+    var ul = el("ul", "tickets-list");
+    safeTicketTypes.forEach(function (t) {
+      var li = el("li", "tickets-item");
+
+      var nameSpan = el("span", "tickets-name", t.name);
+      li.appendChild(nameSpan);
+
+      var priceSpan = el("span", "tickets-price");
+      if (t.price === 0) {
+        priceSpan.textContent = "無料";
+        priceSpan.classList.add("free");
+      } else {
+        priceSpan.textContent = "¥" + t.price.toLocaleString("ja-JP");
+      }
+      li.appendChild(priceSpan);
+
+      if (t.ticket_url) {
+        var a = document.createElement("a");
+        a.className = "tickets-link";
+        a.href = t.ticket_url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = "購入はこちら →";
+        li.appendChild(a);
+      }
+
+      ul.appendChild(li);
+    });
+    box.appendChild(ul);
+    parent.appendChild(box);
   }
 
   function renderBenefits(parent, raw) {
@@ -145,9 +222,9 @@
     addRow(wrap, "開場", formatTimeRange(event.open_at, null));
     addRow(wrap, "公演", formatTimeRange(event.performance_start_at, event.performance_end_at));
     addRow(wrap, "特典会", formatTimeRange(event.meet_greet_start_at, event.meet_greet_end_at));
-    if (typeof event.ticket_price === "number" && event.ticket_price > 0) {
-      addRow(wrap, "料金", "￥" + event.ticket_price.toLocaleString("ja-JP"));
-    }
+
+    // D-20260622-02 / 073 / 設計書 v10: 旧 event.ticket_price 撤去 / ticket_types リスト表示に置換
+    renderTicketTypes(wrap, event.ticket_types);
 
     renderBenefits(wrap, event.admission_benefits);
 
