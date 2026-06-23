@@ -166,6 +166,18 @@
       -webkit-text-stroke: 1.9px var(--stub-ink);
       paint-order: stroke fill;
     }
+    /* Codex B 案突合 軽微 #3: -webkit-text-stroke 非対応環境 fallback (= 黒縁を text-shadow で再現) */
+    @supports not (-webkit-text-stroke: 1px black) {
+      .event .stub .stub-month {
+        text-shadow: -1.2px -1.2px 0 var(--stub-ink), 1.2px -1.2px 0 var(--stub-ink), -1.2px 1.2px 0 var(--stub-ink), 1.2px 1.2px 0 var(--stub-ink);
+      }
+      .event .stub .stub-day {
+        text-shadow: -2.5px -2.5px 0 var(--stub-ink), 2.5px -2.5px 0 var(--stub-ink), -2.5px 2.5px 0 var(--stub-ink), 2.5px 2.5px 0 var(--stub-ink);
+      }
+      .event .stub .stub-wd {
+        text-shadow: -1.5px -1.5px 0 var(--stub-ink), 1.5px -1.5px 0 var(--stub-ink), -1.5px 1.5px 0 var(--stub-ink), 1.5px 1.5px 0 var(--stub-ink);
+      }
+    }
 
     /* 本文 */
     .event .body {

@@ -9,22 +9,25 @@
 (function () {
   var SUPABASE_URL = "https://hshedudijjqauvpdmwhg.supabase.co";
   var SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhzaGVkdWRpampxYXV2cGRtd2hnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE5Mjc5NzksImV4cCI6MjA4NzUwMzk3OX0.xrRRJwMThL0em8NAPnQMDFcR1qtQkHyGYWWNSFRZxRk";
+  // Codex B 案突合 軽微 #1 反映: ヒーロー画像は Supabase host 限定 (= CSP img-src と一致)
+  var SUPABASE_IMG_PREFIX = SUPABASE_URL + "/";
 
   var UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
   var WEEKDAYS = ["日", "月", "火", "水", "木", "金", "土"];
   var MONTH_JA = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
 
-  // event_type → カテゴリ (= 色 + ラベル / B 案 CAT 準拠)
+  // event_type → カテゴリ (= 現行 DB schema 準拠 / EventTypeBadge.tsx と同色)
+  //   src/lib/types.ts L5: "taiban" | "shusai" | "oneman" | "release" | "festival" | "other"
+  //   src/components/calendar/EventTypeBadge.tsx の text カラーを採用 (= 背景は color + "1F" で 12% 透過)
   var EVENT_CAT = {
-    live:        { label: "ライブ",   color: "#3B82F6" },
-    event:       { label: "イベント", color: "#94A3B8" },
-    release:     { label: "リリイベ", color: "#A855F7" },
-    birthday:    { label: "生誕祭",   color: "#F59E0B" },
-    anniversary: { label: "周年",     color: "#F59E0B" },
-    meetgreet:   { label: "特典会",   color: "#FF3D7F" },
-    other:       { label: "その他",   color: "#94A3B8" }
+    taiban:   { label: "対バン",   color: "#2563EB" },
+    shusai:   { label: "主催",     color: "#D61E62" },
+    oneman:   { label: "ワンマン", color: "#7C3AED" },
+    release:  { label: "リリイベ", color: "#D97706" },
+    festival: { label: "フェス",   color: "#16A34A" },
+    other:    { label: "その他",   color: "#6B3A52" }
   };
-  var DEFAULT_CAT = { label: "イベント", color: "#94A3B8" };
+  var DEFAULT_CAT = { label: "その他", color: "#6B3A52" };
 
   var MAX_BENEFITS_COUNT = 5;
   var MAX_BENEFIT_LENGTH = 50;
@@ -175,7 +178,8 @@
     var hero = el("div", "hero");
 
     var wrap = el("div", "image-wrap");
-    if (typeof group.image_url === "string" && group.image_url.indexOf("https://") === 0) {
+    // Codex B 案突合 軽微 #1: Supabase host 限定チェック (= CSP img-src と一致 / 仕様整合)
+    if (typeof group.image_url === "string" && group.image_url.indexOf(SUPABASE_IMG_PREFIX) === 0) {
       var img = document.createElement("img");
       img.className = "image";
       img.src = group.image_url;
@@ -256,6 +260,10 @@
     renderTicketTypes(body, event.ticket_types);
     renderBenefits(body, event.admission_benefits);
 
+    // Codex B 案突合 軽微 #2: event.performance_order は RPC 戻り値にあるが、
+    // B 案デザインでは表示意図なし (= イベント並び順は RPC 側 start_at ASC で確定)
+    // → 意図的に未使用 / 将来表示要望が出たら本ファイルで追加
+
     card.appendChild(body);
     return card;
   }
@@ -304,6 +312,10 @@
       var root = document.getElementById("root");
       root.className = "";
       root.replaceChildren();
+      // Codex B 案突合 軽微 #4: ローディング解除後も aria 構造を保持 (= スクリーンリーダー対応)
+      root.setAttribute("role", "main");
+      root.setAttribute("aria-label", "公式カレンダー");
+      root.removeAttribute("aria-live");
       root.appendChild(renderHero(group));
       root.appendChild(renderMonthBar(events));
       renderEvents(root, events);
