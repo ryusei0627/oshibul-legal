@@ -4,211 +4,361 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex,nofollow,noarchive">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://hshedudijjqauvpdmwhg.supabase.co; img-src 'self' https://hshedudijjqauvpdmwhg.supabase.co data:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'; frame-ancestors 'none';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://hshedudijjqauvpdmwhg.supabase.co; img-src 'self' https://hshedudijjqauvpdmwhg.supabase.co data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; object-src 'none'; base-uri 'none'; frame-ancestors 'none';">
   <title>公式カレンダー / 推しブル</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Zen+Maru+Gothic:wght@500;700;900&family=Baloo+2:wght@700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #FF6B9D;
-      --primary-deep: #FF3D7F;
-      --ink: #2B0F1E;
-      --ink-soft: #A87B91;
-      --ink-faint: #C9A6B8;
-      --bg: #FFF3F7;
+      --pink: #FF3D7F;
+      --pink-deep: #E01E63;
+      --ink: #43243A;
+      --ink-soft: #9A6F88;
+      --ink-faint: #C2A4B4;
+      --paper: #FFF3F7;
+      --paper2: #FFE8F0;
       --card: #FFFFFF;
-      --border: #FFE0EC;
-      --shadow: 0 4px 20px rgba(255, 107, 157, 0.12);
+      --line: #FBE0EA;
+      --sat: #6589C8;
+      --sun: #D76577;
+      --stub-ink: #2A1622;
+      --shadow-card: 0 6px 18px rgba(160,40,90,0.10);
+      --shadow-hero: 0 8px 22px rgba(160,40,90,0.12);
+      --font-pop: "Mochiy Pop One", "Zen Maru Gothic", "Noto Sans JP", sans-serif;
+      --font-round: "Zen Maru Gothic", "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+      --font-num: "Baloo 2", -apple-system, BlinkMacSystemFont, sans-serif;
     }
     * { box-sizing: border-box; }
     html, body { margin: 0; padding: 0; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
-      background: var(--bg);
+      font-family: var(--font-round);
+      background: radial-gradient(120% 55% at 50% 0%, var(--paper2) 0%, var(--paper) 50%);
       color: var(--ink);
       min-height: 100vh;
-      padding: 20px 16px 60px;
+      padding: 12px 0 28px;
       -webkit-font-smoothing: antialiased;
     }
-    .wrap { max-width: 720px; margin: 0 auto; }
+    .wrap { max-width: 480px; margin: 0 auto; padding: 0 20px; }
 
-    .group-card {
+    /* ヒーロー (= polaroid) */
+    .hero {
       background: var(--card);
       border-radius: 18px;
-      padding: 20px;
-      box-shadow: var(--shadow);
-      display: flex;
-      gap: 14px;
-      align-items: center;
-      margin-bottom: 20px;
+      padding: 11px 11px 15px;
+      box-shadow: var(--shadow-hero);
+      border: 1px solid var(--line);
+      margin-bottom: 4px;
     }
-    .group-card .swatch {
-      width: 6px;
-      align-self: stretch;
-      border-radius: 4px;
-      background: var(--primary);
-      flex-shrink: 0;
+    .hero .image-wrap {
+      border-radius: 12px;
+      overflow: hidden;
+      background: var(--paper);
+      aspect-ratio: 1 / 0.78;
     }
-    .group-card .image {
-      width: 64px;
-      height: 64px;
-      border-radius: 14px;
-      background: var(--border);
-      flex-shrink: 0;
+    .hero .image {
+      display: block;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
     }
-    .group-card .meta { flex: 1; min-width: 0; }
-    .group-card .label { font-size: 11px; font-weight: 700; color: var(--ink-soft); letter-spacing: 0.04em; }
-    .group-card .name { font-size: 20px; font-weight: 800; margin: 4px 0 0; color: var(--ink); word-break: break-word; }
-
-    .events { display: flex; flex-direction: column; gap: 12px; }
-    .event {
-      background: var(--card);
-      border-radius: 14px;
-      padding: 16px;
-      box-shadow: var(--shadow);
-      border: 1px solid var(--border);
+    .hero .image-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-faint);
+      font-size: 13px;
+      font-weight: 700;
     }
-    .event .date-row {
+    .hero .meta { text-align: center; padding-top: 12px; }
+    .hero .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-round);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      color: var(--pink);
+      margin-bottom: 5px;
+    }
+    .hero .name {
+      font-family: var(--font-pop);
+      font-size: 25px;
+      font-weight: 400;
+      color: var(--ink);
+      line-height: 1.15;
+      margin: 0;
+      word-break: break-word;
+    }
+
+    /* 月見出し */
+    .month-bar {
+      padding: 22px 4px 12px;
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .month-bar .month {
+      font-family: var(--font-pop);
+      font-size: 26px;
+      color: var(--pink);
+    }
+    .month-bar .year {
+      font-family: var(--font-num);
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--ink-soft);
+    }
+
+    /* イベントカード */
+    .events { display: flex; flex-direction: column; gap: 16px; }
+    .event {
+      display: flex;
+      background: var(--card);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+      border: 1px solid var(--line);
+    }
+
+    /* 半券 (= 日付) */
+    .event .stub {
+      width: 68px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 4px;
+      border-right: 1px solid var(--line);
+      background: #fff;
+    }
+    .event.is-sat .stub { background: var(--sat); border-right: none; }
+    .event.is-sun .stub, .event.is-hol .stub { background: var(--sun); border-right: none; }
+    .event .stub .stub-month {
+      font-family: var(--font-num);
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1;
+      color: #fff;
+      -webkit-text-stroke: 1.7px var(--stub-ink);
+      paint-order: stroke fill;
+    }
+    .event .stub .stub-day {
+      font-family: var(--font-num);
+      font-size: 38px;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -1px;
+      color: #fff;
+      -webkit-text-stroke: 3.8px var(--stub-ink);
+      paint-order: stroke fill;
+    }
+    .event .stub .stub-wd {
+      font-family: var(--font-round);
+      font-size: 16px;
+      font-weight: 800;
+      margin-top: 3px;
+      color: #fff;
+      -webkit-text-stroke: 1.9px var(--stub-ink);
+      paint-order: stroke fill;
+    }
+
+    /* 本文 */
+    .event .body {
+      flex: 1;
+      min-width: 0;
+      padding: 15px 16px 16px;
+    }
+    .event .head {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 9px;
+      flex-wrap: wrap;
+    }
+    .event .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 11px;
+      border-radius: 999px;
+    }
+    .event .chip .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 4px;
+    }
+    .event .chip .chip-label {
+      font-family: var(--font-round);
+      font-size: 11.5px;
+      font-weight: 800;
+    }
+    .event .title {
+      margin: 0 0 12px;
+      font-family: var(--font-pop);
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 1.35;
+      color: var(--ink);
+      word-break: break-word;
+    }
+
+    /* 情報行 (会場 / 公演 / 特典会 / 開場) */
+    .event .rows { margin-bottom: 14px; }
+    .event .row {
       display: flex;
       align-items: baseline;
       gap: 10px;
-      margin-bottom: 8px;
-      flex-wrap: wrap;
-    }
-    .event .date {
-      font-size: 22px;
-      font-weight: 800;
-      color: var(--primary-deep);
-      line-height: 1;
-    }
-    .event .weekday { font-size: 12px; font-weight: 700; color: var(--ink-soft); }
-    .event .type-tag {
-      font-size: 11px;
-      font-weight: 700;
-      color: var(--primary-deep);
-      background: var(--border);
-      padding: 2px 8px;
-      border-radius: 999px;
-    }
-    .event .title {
-      font-size: 16px;
-      font-weight: 700;
-      margin: 4px 0 8px;
-      color: var(--ink);
-      word-break: break-word;
-    }
-    .event .row {
-      display: flex;
-      gap: 8px;
-      align-items: baseline;
-      font-size: 13px;
-      color: var(--ink-soft);
-      margin-top: 4px;
-      line-height: 1.5;
-      word-break: break-word;
+      padding: 6px 0;
+      border-top: 1px solid var(--line);
     }
     .event .row .row-label {
-      font-size: 11px;
-      font-weight: 700;
-      min-width: 64px;
-      color: var(--ink-faint);
+      width: 56px;
       flex-shrink: 0;
-    }
-    .event .row .row-value { flex: 1; color: var(--ink); }
-    .event .benefits {
-      margin: 10px 0 0;
-      padding: 10px 12px;
-      background: #FFF8FB;
-      border-radius: 10px;
-      border: 1px dashed var(--border);
-    }
-    .event .benefits .ben-label {
-      font-size: 11px;
-      font-weight: 700;
-      color: var(--primary-deep);
-      margin-bottom: 4px;
-    }
-    .event .benefits ul {
-      margin: 0;
-      padding-left: 18px;
-      font-size: 13px;
-      color: var(--ink);
-      line-height: 1.6;
-    }
-
-    /* D-20260622-02 / 073: チケット種別表示 */
-    .event .tickets { margin-top: 10px; }
-    .event .tickets-label {
-      font-size: 11px;
-      font-weight: 700;
-      min-width: 64px;
-      color: var(--ink-faint);
-      margin-bottom: 6px;
-    }
-    .event .tickets-empty {
-      font-size: 13px;
+      font-family: var(--font-round);
+      font-size: 12px;
+      font-weight: 800;
       color: var(--ink-soft);
     }
+    .event .row .row-value {
+      font-family: var(--font-round);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--ink);
+      word-break: break-word;
+      flex: 1;
+    }
+
+    /* 料金 (= 複数チケット縦リスト / 半券モチーフ維持) */
+    .event .tickets {
+      border-top: 1px solid var(--line);
+      padding: 8px 0 10px;
+      margin-bottom: 14px;
+    }
+    .event .tickets .tickets-label {
+      font-family: var(--font-round);
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--ink-soft);
+      margin-bottom: 6px;
+    }
+    .event .tickets .tickets-empty {
+      font-family: var(--font-round);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--ink-faint);
+    }
     .event .tickets-list {
+      list-style: none;
       margin: 0;
       padding: 0;
-      list-style: none;
       display: flex;
       flex-direction: column;
       gap: 6px;
     }
     .event .tickets-item {
       display: flex;
-      flex-wrap: wrap;
       align-items: baseline;
       gap: 10px;
-      font-size: 13px;
-      color: var(--ink);
-      padding: 6px 10px;
-      background: #FFF8FB;
-      border-radius: 8px;
+      padding: 7px 10px;
+      background: var(--paper);
+      border-radius: 10px;
+      flex-wrap: wrap;
     }
     .event .tickets-name {
-      font-weight: 700;
+      font-family: var(--font-round);
+      font-size: 13px;
+      font-weight: 800;
       color: var(--ink);
     }
     .event .tickets-price {
+      font-family: var(--font-num);
+      font-size: 15px;
       font-weight: 800;
-      color: var(--primary-deep);
-    }
-    .event .tickets-price.free { color: #1ABC9C; }
-    .event .tickets-link {
-      font-size: 12px;
-      font-weight: 700;
-      color: var(--primary);
-      text-decoration: none;
+      color: var(--pink-deep);
       margin-left: auto;
-      padding: 4px 10px;
-      border-radius: 999px;
-      border: 1px solid var(--primary);
-      transition: opacity 0.15s;
     }
-    .event .tickets-link:hover { opacity: 0.75; }
+    .event .tickets-price.free { color: #1A9F8C; }
+    .event .tickets-link {
+      flex-basis: 100%;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-family: var(--font-round);
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #fff;
+      background: var(--pink);
+      border-radius: 999px;
+      padding: 9px 8px;
+      margin-top: 4px;
+    }
 
+    /* 入場特典 */
+    .event .benefits {
+      background: var(--paper);
+      border-radius: 12px;
+      padding: 11px 13px;
+    }
+    .event .benefits .ben-label {
+      font-family: var(--font-round);
+      font-size: 11.5px;
+      font-weight: 800;
+      color: var(--ink-soft);
+      margin-bottom: 6px;
+    }
+    .event .benefits ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .event .benefits li {
+      display: flex;
+      align-items: baseline;
+      gap: 7px;
+    }
+    .event .benefits .ben-mark {
+      font-size: 10px;
+      color: var(--pink);
+      line-height: 1;
+    }
+    .event .benefits .ben-text {
+      font-family: var(--font-round);
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.4;
+    }
+
+    /* 空 / エラー / ロード */
     .empty, .error {
       text-align: center;
       padding: 60px 20px;
       color: var(--ink-soft);
       font-size: 14px;
       line-height: 1.7;
+      font-family: var(--font-round);
     }
     .empty .icon, .error .icon { font-size: 40px; margin-bottom: 12px; }
-
     .loading {
       text-align: center;
       padding: 60px 20px;
       color: var(--ink-soft);
       font-size: 14px;
+      font-family: var(--font-round);
     }
     .loading .dot {
       display: inline-block;
       width: 8px;
       height: 8px;
-      background: var(--primary);
+      background: var(--pink);
       border-radius: 50%;
       margin: 0 2px;
       animation: bounce 1.2s infinite ease-in-out;
@@ -220,19 +370,27 @@
       40% { transform: scale(1); opacity: 1; }
     }
 
+    /* フッター */
     .footer {
-      margin-top: 40px;
+      margin-top: 24px;
       text-align: center;
+      padding: 6px 22px 4px;
+      font-family: var(--font-round);
+    }
+    .footer .footer-label {
+      font-size: 12.5px;
+      font-weight: 800;
+      color: var(--ink-soft);
+    }
+    .footer .footer-sub {
+      margin-top: 6px;
       font-size: 11px;
       color: var(--ink-faint);
       line-height: 1.7;
     }
-    .footer .footer-label { font-weight: 700; color: var(--ink-soft); }
   </style>
-  <!-- D-20260620-01 / v7: Supabase SDK と本体 JS を defer 読み込み (= inline script 禁止 / CSP 整合) -->
-  <!-- D-20260622-02 / v10: ?v=2 で Cloudflare / ブラウザキャッシュを cache bust -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
-  <script src="calendar.js?v=2" defer></script>
+  <script src="calendar.js?v=3" defer></script>
 </head>
 <body>
   <div class="wrap">
@@ -242,7 +400,7 @@
     </div>
     <div class="footer">
       <div class="footer-label">推しブル / Oshibul 公式カレンダー</div>
-      <div>このページは検索エンジンには載せていません。</div>
+      <div class="footer-sub">このページは検索エンジンには載せていません。</div>
     </div>
   </div>
 </body>

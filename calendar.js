@@ -1,14 +1,10 @@
-// D-20260619-02 / D-20260620-01 / 070: 推しブル Web カレンダー本体ロジック
-//   設計書 v7 (= docs/web-calendar-phase-d-spec-v2.md) 準拠
+// 推しブル Web カレンダー本体 / B 案デザイン (= 半券モチーフ + 丸ゴシック)
+//   設計書 v11.1 (= docs/web-calendar-phase-d-spec-v2.md) + デザイン B 案 (= 推し活ポップ) 準拠
 //   - 全描画は textContent (= innerHTML 禁止 / XSS 完全遮断)
-//   - admission_benefits 描画は 配列のみ受容 / 5 件上限 / 50 字上限 / リンク化禁止
+//   - admission_benefits: 配列のみ受容 / 5 件上限 / 50 字上限 / リンク化禁止
+//   - ticket_types: 配列のみ受容 / 10 件上限 / name 100 字上限 / https URL のみ
 //   - Supabase 通信は anon key + RPC 2 種のみ (= 直接テーブル SELECT 不可)
-//   - 本番値固定: anon key は公開前提 (= RLS + RPC 経由でのみ意味を持つ)
-//
-// v7 重要事項:
-//   - 本ファイルは calendar.html 側から `<script src="calendar.js" defer></script>` で
-//     CSP `script-src 'self' https://cdn.jsdelivr.net` 整合のもと読み込まれる。
-//   - inline `<script>` での実装は CSP でブロックされるため禁止。
+//   - inline <script> 禁止 (= CSP 整合 / calendar.html から defer 読み込み)
 
 (function () {
   var SUPABASE_URL = "https://hshedudijjqauvpdmwhg.supabase.co";
@@ -16,20 +12,24 @@
 
   var UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
   var WEEKDAYS = ["日", "月", "火", "水", "木", "金", "土"];
-  var EVENT_TYPE_LABELS = {
-    live: "ライブ",
-    event: "イベント",
-    release: "リリース",
-    birthday: "生誕祭",
-    anniversary: "周年",
-    meetgreet: "特典会",
-    other: "その他"
+  var MONTH_JA = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
+
+  // event_type → カテゴリ (= 色 + ラベル / B 案 CAT 準拠)
+  var EVENT_CAT = {
+    live:        { label: "ライブ",   color: "#3B82F6" },
+    event:       { label: "イベント", color: "#94A3B8" },
+    release:     { label: "リリイベ", color: "#A855F7" },
+    birthday:    { label: "生誕祭",   color: "#F59E0B" },
+    anniversary: { label: "周年",     color: "#F59E0B" },
+    meetgreet:   { label: "特典会",   color: "#FF3D7F" },
+    other:       { label: "その他",   color: "#94A3B8" }
   };
+  var DEFAULT_CAT = { label: "イベント", color: "#94A3B8" };
+
   var MAX_BENEFITS_COUNT = 5;
   var MAX_BENEFIT_LENGTH = 50;
-  // D-20260622-02 / 073 / 設計書 v10: チケット種別描画制約
-  var MAX_TICKET_TYPES_COUNT = 10;       // 件数上限 (= DoS 防御 / 戻り値も RPC 側 LIMIT 10 で二重)
-  var MAX_TICKET_NAME_LENGTH = 100;      // name 文字数上限 (= DB CHECK と同等)
+  var MAX_TICKET_TYPES_COUNT = 10;
+  var MAX_TICKET_NAME_LENGTH = 100;
 
   function el(tag, className, text) {
     var node = document.createElement(tag);
@@ -48,30 +48,24 @@
     root.appendChild(msg);
   }
 
-  function formatDate(iso) {
+  function parseDate(iso) {
+    if (!iso) return null;
     try {
       var d = new Date(iso);
-      if (isNaN(d.getTime())) return { date: "", weekday: "" };
-      var m = d.getMonth() + 1;
-      var day = d.getDate();
-      return { date: m + "/" + day, weekday: WEEKDAYS[d.getDay()] };
+      if (isNaN(d.getTime())) return null;
+      return d;
     } catch (e) {
-      return { date: "", weekday: "" };
+      return null;
     }
   }
 
   function formatTimeRange(startIso, endIso) {
     function hm(iso) {
-      if (!iso) return null;
-      try {
-        var d = new Date(iso);
-        if (isNaN(d.getTime())) return null;
-        var h = String(d.getHours()).padStart(2, "0");
-        var min = String(d.getMinutes()).padStart(2, "0");
-        return h + ":" + min;
-      } catch (e) {
-        return null;
-      }
+      var d = parseDate(iso);
+      if (!d) return null;
+      var h = String(d.getHours()).padStart(2, "0");
+      var min = String(d.getMinutes()).padStart(2, "0");
+      return h + ":" + min;
     }
     var s = hm(startIso);
     var e = hm(endIso);
@@ -89,9 +83,6 @@
     parent.appendChild(row);
   }
 
-  // D-20260622-02 / 設計書 v10 §「ticket_types JSONB 描画制約」
-  //   - protocol === 'https:' のみ許可 (= javascript:/data:/http:/file: 等遮断)
-  //   - new URL() 正規化後の href を採用 (= proto smuggling 防止)
   function sanitizeTicketUrl(url) {
     if (typeof url !== "string" || url.length === 0) return null;
     var parsed;
@@ -104,11 +95,8 @@
     return parsed.href;
   }
 
+  // 料金: 複数チケット縦リスト (= 半券モチーフ維持 / 利用者判断 2026-06-23 A 案)
   function renderTicketTypes(parent, raw) {
-    // 設計書 v10: ticket_types JSONB 配列を描画 (= 旧 ticket_price 撤去)
-    //   - 配列のみ受容 / 件数 + 名前長サニタイズ
-    //   - price は INTEGER + 非負のみ
-    //   - 「料金未設定 / 無料 / 金額表示」3 出し分け
     var ticketTypes = Array.isArray(raw) ? raw : [];
 
     var safeTicketTypes = ticketTypes
@@ -125,7 +113,6 @@
     box.appendChild(el("div", "tickets-label", "料金"));
 
     if (safeTicketTypes.length === 0) {
-      // event_ticket_types 空 (または全て不正) → 「料金未設定」
       box.appendChild(el("div", "tickets-empty", "料金未設定"));
       parent.appendChild(box);
       return;
@@ -135,8 +122,7 @@
     safeTicketTypes.forEach(function (t) {
       var li = el("li", "tickets-item");
 
-      var nameSpan = el("span", "tickets-name", t.name);
-      li.appendChild(nameSpan);
+      li.appendChild(el("span", "tickets-name", t.name));
 
       var priceSpan = el("span", "tickets-price");
       if (t.price === 0) {
@@ -164,7 +150,6 @@
   }
 
   function renderBenefits(parent, raw) {
-    // 設計書 v6: 配列のみ受容 / String 化 / slice / filter / リンク化禁止
     if (!Array.isArray(raw)) return;
     var safeBenefits = raw
       .slice(0, MAX_BENEFITS_COUNT)
@@ -176,77 +161,118 @@
     box.appendChild(el("div", "ben-label", "入場特典"));
     var ul = el("ul");
     safeBenefits.forEach(function (text) {
-      ul.appendChild(el("li", null, text));
+      var li = el("li");
+      li.appendChild(el("span", "ben-mark", "♥"));
+      li.appendChild(el("span", "ben-text", text));
+      ul.appendChild(li);
     });
     box.appendChild(ul);
     parent.appendChild(box);
   }
 
-  function renderGroupCard(group) {
-    var card = el("div", "group-card");
-    var swatch = el("div", "swatch");
-    if (typeof group.color === "string" && /^#[0-9A-Fa-f]{6}$/.test(group.color)) {
-      swatch.style.background = group.color;
-    }
-    card.appendChild(swatch);
+  // ヒーロー (= polaroid)
+  function renderHero(group) {
+    var hero = el("div", "hero");
 
+    var wrap = el("div", "image-wrap");
     if (typeof group.image_url === "string" && group.image_url.indexOf("https://") === 0) {
       var img = document.createElement("img");
       img.className = "image";
       img.src = group.image_url;
       img.alt = "";
-      card.appendChild(img);
+      wrap.appendChild(img);
+    } else {
+      wrap.appendChild(el("div", "image-placeholder", "グループ画像"));
     }
+    hero.appendChild(wrap);
 
     var meta = el("div", "meta");
-    meta.appendChild(el("div", "label", "公式カレンダー"));
+    var eyebrow = el("div", "eyebrow");
+    eyebrow.appendChild(el("span", null, "♡"));
+    eyebrow.appendChild(el("span", null, "公式カレンダー"));
+    eyebrow.appendChild(el("span", null, "♡"));
+    meta.appendChild(eyebrow);
     meta.appendChild(el("h1", "name", group.name || "(名称未設定)"));
-    card.appendChild(meta);
+    hero.appendChild(meta);
+
+    return hero;
+  }
+
+  // 月見出し (= 直近イベントの月 / 無ければ今月)
+  function renderMonthBar(events) {
+    var d = null;
+    if (events && events.length > 0) d = parseDate(events[0].start_at);
+    if (!d) d = new Date();
+    var bar = el("div", "month-bar");
+    bar.appendChild(el("span", "month", MONTH_JA[d.getMonth()]));
+    bar.appendChild(el("span", "year", String(d.getFullYear())));
+    return bar;
+  }
+
+  // イベントカード (= B 案 / 半券 + 本文)
+  function renderEvent(event) {
+    var d = parseDate(event.start_at);
+    var wd = d ? d.getDay() : -1; // 0=日, 6=土
+    var card = el("div", "event");
+    if (wd === 6) card.classList.add("is-sat");
+    else if (wd === 0) card.classList.add("is-sun");
+
+    // 半券
+    var stub = el("div", "stub");
+    if (d) {
+      stub.appendChild(el("div", "stub-month", (d.getMonth() + 1) + "月"));
+      stub.appendChild(el("div", "stub-day", String(d.getDate())));
+      stub.appendChild(el("div", "stub-wd", "(" + WEEKDAYS[wd] + ")"));
+    } else {
+      stub.appendChild(el("div", "stub-day", "?"));
+    }
+    card.appendChild(stub);
+
+    // 本文
+    var body = el("div", "body");
+
+    var head = el("div", "head");
+    var cat = EVENT_CAT[event.event_type] || DEFAULT_CAT;
+    var chip = el("span", "chip");
+    chip.style.background = cat.color + "1F";
+    var dot = el("span", "dot");
+    dot.style.background = cat.color;
+    chip.appendChild(dot);
+    var chipLabel = el("span", "chip-label", cat.label);
+    chipLabel.style.color = cat.color;
+    chip.appendChild(chipLabel);
+    head.appendChild(chip);
+    body.appendChild(head);
+
+    body.appendChild(el("h3", "title", event.title || "(タイトル未設定)"));
+
+    var rows = el("div", "rows");
+    addRow(rows, "会場", event.venue);
+    addRow(rows, "開場", formatTimeRange(event.open_at, null));
+    addRow(rows, "公演", formatTimeRange(event.performance_start_at, event.performance_end_at));
+    addRow(rows, "特典会", formatTimeRange(event.meet_greet_start_at, event.meet_greet_end_at));
+    if (rows.children.length > 0) body.appendChild(rows);
+
+    renderTicketTypes(body, event.ticket_types);
+    renderBenefits(body, event.admission_benefits);
+
+    card.appendChild(body);
     return card;
   }
 
-  function renderEvent(event) {
-    var wrap = el("div", "event");
-
-    var dateRow = el("div", "date-row");
-    var d = formatDate(event.start_at);
-    dateRow.appendChild(el("span", "date", d.date));
-    dateRow.appendChild(el("span", "weekday", d.weekday ? "(" + d.weekday + ")" : ""));
-    var typeLabel = EVENT_TYPE_LABELS[event.event_type] || null;
-    if (typeLabel) dateRow.appendChild(el("span", "type-tag", typeLabel));
-    wrap.appendChild(dateRow);
-
-    wrap.appendChild(el("h2", "title", event.title || "(タイトル未設定)"));
-
-    addRow(wrap, "会場", event.venue);
-    addRow(wrap, "開場", formatTimeRange(event.open_at, null));
-    addRow(wrap, "公演", formatTimeRange(event.performance_start_at, event.performance_end_at));
-    addRow(wrap, "特典会", formatTimeRange(event.meet_greet_start_at, event.meet_greet_end_at));
-
-    // D-20260622-02 / 073 / 設計書 v10: 旧 event.ticket_price 撤去 / ticket_types リスト表示に置換
-    renderTicketTypes(wrap, event.ticket_types);
-
-    renderBenefits(wrap, event.admission_benefits);
-
-    return wrap;
-  }
-
-  function renderEvents(events) {
-    var root = document.getElementById("root");
+  function renderEvents(parent, events) {
     if (!events || events.length === 0) {
       var empty = el("div", "empty");
       empty.appendChild(el("div", "icon", "🌷"));
       empty.appendChild(el("div", null, "予定がありません"));
-      var box = el("div");
-      box.appendChild(empty);
-      root.appendChild(box);
+      parent.appendChild(empty);
       return;
     }
     var list = el("div", "events");
     events.forEach(function (ev) {
       list.appendChild(renderEvent(ev));
     });
-    root.appendChild(list);
+    parent.appendChild(list);
   }
 
   async function main() {
@@ -278,8 +304,9 @@
       var root = document.getElementById("root");
       root.className = "";
       root.replaceChildren();
-      root.appendChild(renderGroupCard(group));
-      renderEvents(events);
+      root.appendChild(renderHero(group));
+      root.appendChild(renderMonthBar(events));
+      renderEvents(root, events);
 
       if (group.name) document.title = group.name + " 公式カレンダー / 推しブル";
     } catch (e) {
@@ -287,8 +314,6 @@
     }
   }
 
-  // defer 読み込みのため DOMContentLoaded を待つ必要はない (= 解析完了後に実行される)
-  // ただし Supabase SDK スクリプトも defer なので両方の評価順を保証するため一手間。
   if (window.supabase) {
     main();
   } else {
