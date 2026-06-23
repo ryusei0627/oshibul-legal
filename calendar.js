@@ -173,29 +173,40 @@
     parent.appendChild(box);
   }
 
-  // ヒーロー (= polaroid)
+  // ヒーロー
+  //   画像あり (= Supabase host 配信) → polaroid 枠 + 画像 + グループ名 (= B 案 polaroid)
+  //   画像なし → polaroid 枠なし / グループ名だけシンプル表示 (= 利用者 FB#1 / 2026-06-23)
   function renderHero(group) {
-    var hero = el("div", "hero");
+    var hasImage = typeof group.image_url === "string" && group.image_url.indexOf(SUPABASE_IMG_PREFIX) === 0;
 
-    var wrap = el("div", "image-wrap");
-    // Codex B 案突合 軽微 #1: Supabase host 限定チェック (= CSP img-src と一致 / 仕様整合)
-    if (typeof group.image_url === "string" && group.image_url.indexOf(SUPABASE_IMG_PREFIX) === 0) {
-      var img = document.createElement("img");
-      img.className = "image";
-      img.src = group.image_url;
-      img.alt = "";
-      wrap.appendChild(img);
-    } else {
-      wrap.appendChild(el("div", "image-placeholder", "グループ画像"));
+    function buildEyebrow() {
+      var eyebrow = el("div", "eyebrow");
+      eyebrow.appendChild(el("span", null, "♡"));
+      eyebrow.appendChild(el("span", null, "公式カレンダー"));
+      eyebrow.appendChild(el("span", null, "♡"));
+      return eyebrow;
     }
+
+    if (!hasImage) {
+      // テキストヒーロー (polaroid 枠なし / 画像領域もなし)
+      var textHero = el("div", "hero-text");
+      textHero.appendChild(buildEyebrow());
+      textHero.appendChild(el("h1", "name", group.name || "(名称未設定)"));
+      return textHero;
+    }
+
+    // polaroid ヒーロー (画像あり)
+    var hero = el("div", "hero");
+    var wrap = el("div", "image-wrap");
+    var img = document.createElement("img");
+    img.className = "image";
+    img.src = group.image_url;
+    img.alt = "";
+    wrap.appendChild(img);
     hero.appendChild(wrap);
 
     var meta = el("div", "meta");
-    var eyebrow = el("div", "eyebrow");
-    eyebrow.appendChild(el("span", null, "♡"));
-    eyebrow.appendChild(el("span", null, "公式カレンダー"));
-    eyebrow.appendChild(el("span", null, "♡"));
-    meta.appendChild(eyebrow);
+    meta.appendChild(buildEyebrow());
     meta.appendChild(el("h1", "name", group.name || "(名称未設定)"));
     hero.appendChild(meta);
 
