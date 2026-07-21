@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T21:29:53+09:00",
+  "generated_at": "2026-07-21T21:55:55+09:00",
   "events": [
     {
       "id": "ev_rif2026main",
@@ -30,6 +30,21 @@
       "timetable_status": "published",
       "updated_at": "2026-07-21T12:00:00+09:00",
       "path": "catalog/events/ev_tif2026main.json"
+    },
+    {
+      "id": "ev_isj2026main",
+      "name": "IDOL SUMMER JUNGLE 2026",
+      "dates": [
+        "2026-08-07",
+        "2026-08-08",
+        "2026-08-09"
+      ],
+      "venue_names": [
+        "お台場"
+      ],
+      "timetable_status": "lineup_only",
+      "updated_at": "2026-07-21T21:55:55+09:00",
+      "path": "catalog/events/ev_isj2026main.json"
     }
   ]
 }

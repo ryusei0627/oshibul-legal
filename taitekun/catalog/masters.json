@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T21:29:53+09:00",
+  "generated_at": "2026-07-21T21:55:55+09:00",
   "artists": [
     {
       "id": "ar_tif0000001",
@@ -1126,6 +1126,821 @@
       "id": "ar_g6cd2dd2f47",
       "name": "高柳明音",
       "aliases": []
+    },
+    {
+      "id": "ar_g43d12a6f14",
+      "name": "&CUTE",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf8442977ba",
+      "name": "17秒前の瞬きに光を",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4722c716a3",
+      "name": "4次元コンパス",
+      "aliases": []
+    },
+    {
+      "id": "ar_g851ec62c51",
+      "name": "AISTEAL",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga9fe643c9b",
+      "name": "AIWO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6100c5a274",
+      "name": "AKANECLUB.",
+      "aliases": []
+    },
+    {
+      "id": "ar_g337ffdbd79",
+      "name": "AZATOY",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9085e193c6",
+      "name": "Ange☆Reve",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge5c14956d7",
+      "name": "Aproof",
+      "aliases": []
+    },
+    {
+      "id": "ar_g910c236555",
+      "name": "Blueberry Girls",
+      "aliases": []
+    },
+    {
+      "id": "ar_g962b8193ca",
+      "name": "Bunny La Crew",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1a08b7c264",
+      "name": "CAL&RES",
+      "aliases": []
+    },
+    {
+      "id": "ar_gca4e677081",
+      "name": "COLOR of COLOR",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf005048527",
+      "name": "CURE'T",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3718b0bd13",
+      "name": "Cherie!",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc0b0b19141",
+      "name": "Chuu♡Cute",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge66362a8bd",
+      "name": "CoTei",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3059e6ea12",
+      "name": "DREAMING MONSTER",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb61092e55e",
+      "name": "Drug&Drop",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0517392413",
+      "name": "EcruRare",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9fdbac26a5",
+      "name": "FLORERISA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8b6eda38fe",
+      "name": "FRESH CHARM",
+      "aliases": []
+    },
+    {
+      "id": "ar_g43fb246479",
+      "name": "Falench.",
+      "aliases": []
+    },
+    {
+      "id": "ar_g51153806e6",
+      "name": "GigiL",
+      "aliases": []
+    },
+    {
+      "id": "ar_g15c0d48bfd",
+      "name": "Honey Devil",
+      "aliases": []
+    },
+    {
+      "id": "ar_g211f76ba7d",
+      "name": "I MY ME MINE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g216b8714e4",
+      "name": "JAPANARIZM",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfa01b7d92a",
+      "name": "JINKS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3bdadbdd31",
+      "name": "Jewel☆Garden",
+      "aliases": []
+    },
+    {
+      "id": "ar_g240a0e03b2",
+      "name": "KAIJU ON THE STAGE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5de1938510",
+      "name": "KEKM",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge87e1bbe09",
+      "name": "KissBee",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6954174e75",
+      "name": "LADYBABY",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf95067e432",
+      "name": "LAST PiECE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g929f065b26",
+      "name": "LIT MOON",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4d4b091ebd",
+      "name": "LiVREAL",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge9343d5ff2",
+      "name": "Lily scale",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbb0401700b",
+      "name": "LilyS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1ca88937b8",
+      "name": "Lollipop♡CHU",
+      "aliases": []
+    },
+    {
+      "id": "ar_g20b0ccd63a",
+      "name": "Lovlis",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0a001e3265",
+      "name": "Lumiétoile",
+      "aliases": []
+    },
+    {
+      "id": "ar_g348977e248",
+      "name": "Lv.♡Charm",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf4f73800fa",
+      "name": "Lって何のLですか？",
+      "aliases": []
+    },
+    {
+      "id": "ar_g71e6357710",
+      "name": "MADOROMI-マドロミ-",
+      "aliases": []
+    },
+    {
+      "id": "ar_g75f59bb93d",
+      "name": "MATE×MATE!",
+      "aliases": []
+    },
+    {
+      "id": "ar_g719d1feb12",
+      "name": "MEOWMEW",
+      "aliases": []
+    },
+    {
+      "id": "ar_g54b05f0b7e",
+      "name": "MOMENT COLLECTION",
+      "aliases": []
+    },
+    {
+      "id": "ar_g26183861db",
+      "name": "Malcolm Mask McLaren",
+      "aliases": []
+    },
+    {
+      "id": "ar_gef071a1291",
+      "name": "MiX BeRRY",
+      "aliases": []
+    },
+    {
+      "id": "ar_g97bd6d9d6e",
+      "name": "MyDresscode",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8a67224503",
+      "name": "NEFRALISE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6abfcf62c6",
+      "name": "NO LiMIT",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga9667e64bd",
+      "name": "ON THE AIR",
+      "aliases": []
+    },
+    {
+      "id": "ar_g723633df5d",
+      "name": "OS☆U",
+      "aliases": []
+    },
+    {
+      "id": "ar_gec6fd3140d",
+      "name": "One Last Bloom",
+      "aliases": []
+    },
+    {
+      "id": "ar_g738cd29154",
+      "name": "PLATINUM Princess研究生",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd503af8f64",
+      "name": "PSYCHOデリック",
+      "aliases": []
+    },
+    {
+      "id": "ar_g41038d9a44",
+      "name": "Palpitink",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd2e9b0ee0d",
+      "name": "ParaLulu",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf6c3c33ede",
+      "name": "Payrin's",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0b6f5e200e",
+      "name": "PiRiRi",
+      "aliases": []
+    },
+    {
+      "id": "ar_g78c02dc5fa",
+      "name": "Re:♡",
+      "aliases": []
+    },
+    {
+      "id": "ar_g064da06858",
+      "name": "RePLAY",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfde4b32f61",
+      "name": "SAI²Rium",
+      "aliases": []
+    },
+    {
+      "id": "ar_g92c438d730",
+      "name": "SEKAIE⭐︎",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbb5f509acd",
+      "name": "SHAKEBE",
+      "aliases": []
+    },
+    {
+      "id": "ar_gffab41ed5b",
+      "name": "SPRISE",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga526e3f44f",
+      "name": "STARRY×NIGHT↗︎",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd8a7f0419e",
+      "name": "Shibu3 project",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0865532d3a",
+      "name": "Spiralia",
+      "aliases": []
+    },
+    {
+      "id": "ar_g12688f673c",
+      "name": "Sugar♡Holic",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3b7944f51f",
+      "name": "Switch Drop",
+      "aliases": []
+    },
+    {
+      "id": "ar_g55ad592786",
+      "name": "UNDO",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga578d4e05c",
+      "name": "UPDANCE Lily",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1a34ee8141",
+      "name": "VILLAINS HOUSE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0accefbb43",
+      "name": "VVSiS",
+      "aliases": []
+    },
+    {
+      "id": "ar_geab05c43d6",
+      "name": "XINXIN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8bd1cad89b",
+      "name": "YumeLia",
+      "aliases": []
+    },
+    {
+      "id": "ar_g996f338866",
+      "name": "ZUTTOMOTTO",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcb101192df",
+      "name": "ash",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga7ae723c5f",
+      "name": "buGG",
+      "aliases": []
+    },
+    {
+      "id": "ar_g31a94cd4e5",
+      "name": "iRiNE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7151fae2c0",
+      "name": "ideal peco",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2cd7907937",
+      "name": "kimikara（きみから）",
+      "aliases": []
+    },
+    {
+      "id": "ar_g53414278bd",
+      "name": "melnoir",
+      "aliases": []
+    },
+    {
+      "id": "ar_g30d19eb3ac",
+      "name": "metarium",
+      "aliases": []
+    },
+    {
+      "id": "ar_g983ad048af",
+      "name": "miao",
+      "aliases": []
+    },
+    {
+      "id": "ar_g43735b4118",
+      "name": "solanin",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3d9a1cd777",
+      "name": "α＋",
+      "aliases": []
+    },
+    {
+      "id": "ar_g03c8ab6060",
+      "name": "♡めるみみ♡",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8f9b3e78d2",
+      "name": "⼭北早紀",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb8bf0f5039",
+      "name": "『TryVII』",
+      "aliases": []
+    },
+    {
+      "id": "ar_g516470abe5",
+      "name": "あいすなっつ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbb15bedd95",
+      "name": "あたまのなかは8ビット⁉︎",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd8995aa538",
+      "name": "いつかの夜に僕たちが、",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9382d6f3b6",
+      "name": "お願い‼︎フルハウス",
+      "aliases": []
+    },
+    {
+      "id": "ar_g88d6677a57",
+      "name": "このアイドルはフィクションです。",
+      "aliases": []
+    },
+    {
+      "id": "ar_g47a3535d97",
+      "name": "こみっきゅおん！",
+      "aliases": []
+    },
+    {
+      "id": "ar_g80040c28af",
+      "name": "しろもん",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9edae14147",
+      "name": "じゅじゅ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf36019ca81",
+      "name": "ぜろから☆すた→と",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8b240dfb12",
+      "name": "ちゃーむぽっしゅ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8b0b1c3640",
+      "name": "てんしめし！",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc17381a9fd",
+      "name": "なう♡すとれーじ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g79cee43706",
+      "name": "なんキニ！",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc354651c45",
+      "name": "にっぽん！真骨頂",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0ffcd7280c",
+      "name": "のんふぃく！",
+      "aliases": []
+    },
+    {
+      "id": "ar_gada9ea01e6",
+      "name": "べるべっとセンテンス",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4a46116ea1",
+      "name": "まぶだちゅ！",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2a01b46ead",
+      "name": "めっ！",
+      "aliases": []
+    },
+    {
+      "id": "ar_g49714d619f",
+      "name": "アイテムはてるてるのみ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gad2db8b1a7",
+      "name": "アキシブproject",
+      "aliases": []
+    },
+    {
+      "id": "ar_g05a363d491",
+      "name": "アストレイル",
+      "aliases": []
+    },
+    {
+      "id": "ar_g828b118c0b",
+      "name": "アップアップガールズ（プロレス）",
+      "aliases": []
+    },
+    {
+      "id": "ar_g40537aec5e",
+      "name": "エイアイカ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2f2697f962",
+      "name": "オカシリゾート",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfc09332d95",
+      "name": "ギミック",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9c0748003c",
+      "name": "コングラッチェ！",
+      "aliases": []
+    },
+    {
+      "id": "ar_gee497f297d",
+      "name": "サクヤコノハナ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8d6d55ae55",
+      "name": "サークルライチ塾生三期",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6473fbe89d",
+      "name": "シオリベル",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4b293cba38",
+      "name": "シャニムニ=パレード",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9ebe57961e",
+      "name": "シャルロット",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3052a9e9a8",
+      "name": "シンダーエラ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g69adc9b423",
+      "name": "シンデレラ宣言！",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6684f8de4a",
+      "name": "スターチスのラブレター",
+      "aliases": []
+    },
+    {
+      "id": "ar_g414b0a0eee",
+      "name": "スプスラッシュ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g34b39766fa",
+      "name": "セクト",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc5f589b28d",
+      "name": "セレインノート",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4bead2c19c",
+      "name": "テラテラ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g560fb2e853",
+      "name": "ニコニコ♡LOVERS",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc8b97bb97e",
+      "name": "ネクスタリア",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb6ffc3ee95",
+      "name": "ネコプラpixx.",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2258c6fc28",
+      "name": "ハニースパイスRe.",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8eae9d140a",
+      "name": "ハレとハレ！",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge3e2c47570",
+      "name": "パラレルサイダー",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2a8727960a",
+      "name": "ヒロインズ研究生",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7e0a5841ef",
+      "name": "ヒロインズ研究生大阪",
+      "aliases": []
+    },
+    {
+      "id": "ar_g724621fd91",
+      "name": "ベロティカ",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge5b213fbfd",
+      "name": "マザリ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6ad16e133d",
+      "name": "マーキュロ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6f2c63ebf8",
+      "name": "メモリーズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g71d7adc04c",
+      "name": "ラビットビット",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3908f695ee",
+      "name": "ワガママな",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6b3bef2838",
+      "name": "ワンダーウィード天",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga9ff5155f3",
+      "name": "君と見るそら",
+      "aliases": []
+    },
+    {
+      "id": "ar_g32b0939d3f",
+      "name": "君と青",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc692c203f0",
+      "name": "宵越しのアンサンブル",
+      "aliases": []
+    },
+    {
+      "id": "ar_g17e46456c4",
+      "name": "山崎夢羽",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9c2b32eb14",
+      "name": "強がりセンセーション",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1aaa3b9b9b",
+      "name": "恋に落ちる確率は限りなく低いが0じゃない",
+      "aliases": []
+    },
+    {
+      "id": "ar_g641ae80810",
+      "name": "月とソーダ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gdc42f013e9",
+      "name": "点染テンセイ少女",
+      "aliases": []
+    },
+    {
+      "id": "ar_geeef19e5db",
+      "name": "玉響storage",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbc6dbea7ea",
+      "name": "神様の言う通り",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga743899404",
+      "name": "空想ロマンス",
+      "aliases": []
+    },
+    {
+      "id": "ar_g28f49e5a22",
+      "name": "笑う門には福来たる",
+      "aliases": []
+    },
+    {
+      "id": "ar_g525300b913",
+      "name": "絶望キネマ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7ad2063fef",
+      "name": "花いろは",
+      "aliases": []
+    },
+    {
+      "id": "ar_geb52b185d9",
+      "name": "虜なるプレリュード",
+      "aliases": []
+    },
+    {
+      "id": "ar_g671e487a9f",
+      "name": "蛍",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3e3d4ca423",
+      "name": "遥か、彼方。",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8be7f7d1f7",
+      "name": "Ｏ₂",
+      "aliases": []
     }
   ],
   "venues": [
@@ -1139,6 +1954,13 @@
     {
       "id": "vn_rif2026ariake",
       "name": "TOKYO DREAM PARK / TFTホール(有明)",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_isj2026odaiba",
+      "name": "お台場R地区",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 10
