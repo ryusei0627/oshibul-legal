@@ -1,7 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T22:20:00+09:00",
+  "generated_at": "2026-07-21T23:09:11+09:00",
   "events": [
+    {
+      "id": "ev_frf2026main",
+      "name": "FUJI ROCK FESTIVAL '26",
+      "dates": [
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26"
+      ],
+      "venue_names": [
+        "苗場"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-21T23:09:11+09:00",
+      "path": "catalog/events/ev_frf2026main.json"
+    },
     {
       "id": "ev_rif2026main",
       "name": "六本木アイドルフェスティバル2026",

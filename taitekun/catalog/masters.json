@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T21:55:55+09:00",
+  "generated_at": "2026-07-21T23:09:11+09:00",
   "artists": [
     {
       "id": "ar_tif0000001",
@@ -1941,6 +1941,1106 @@
       "id": "ar_g8be7f7d1f7",
       "name": "Ｏ₂",
       "aliases": []
+    },
+    {
+      "id": "ar_g1ad5c117f3",
+      "name": "1950’s Western Caravan Orchestra",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc30c4eb1b2",
+      "name": "AAAMYYY (Tempalay)",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge307cc4411",
+      "name": "ALTIN GÜN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g88dfcbed99",
+      "name": "AMERICAN FOOTBALL",
+      "aliases": []
+    },
+    {
+      "id": "ar_gda8a3f5678",
+      "name": "ANGINE DE POITRINE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6c5163826d",
+      "name": "ANIEKY A GO GO ! BAND",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbe374691eb",
+      "name": "ANTIBALAS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g876a6075c4",
+      "name": "ANTS HOUSE (Nariaki & Nomizo & Rintaro Sekizuka)",
+      "aliases": []
+    },
+    {
+      "id": "ar_g457d067a92",
+      "name": "AOIZO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g087b81b664",
+      "name": "ARLO PARKS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g73da1cab2d",
+      "name": "ASIAN KUNG-FU GENERATION",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd82f4e1fe3",
+      "name": "A_Root同根生",
+      "aliases": []
+    },
+    {
+      "id": "ar_g63bf3dcc47",
+      "name": "Aki",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd906808b87",
+      "name": "Aooo",
+      "aliases": []
+    },
+    {
+      "id": "ar_g52e2647ce8",
+      "name": "BABY SOUL",
+      "aliases": []
+    },
+    {
+      "id": "ar_g48e063d66e",
+      "name": "BAD TRIP SUMMER (Night Ambient Set)",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd00f35c3aa",
+      "name": "BADBADNOTGOOD",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc397394c74",
+      "name": "BAKU (KAIKOO)",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4c9c2df3dd",
+      "name": "BASEMENT JAXX",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbf927f1431",
+      "name": "BOHEMIAN BETYARS",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd0d292482d",
+      "name": "BUFFALO DAUGHTER",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5a85ef4d44",
+      "name": "Bamboo Boy",
+      "aliases": []
+    },
+    {
+      "id": "ar_g30be72c8a1",
+      "name": "Bialystocks",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf334aa5d39",
+      "name": "Black Boboi",
+      "aliases": []
+    },
+    {
+      "id": "ar_g75a545a814",
+      "name": "Bone Us",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf709e52769",
+      "name": "Bongjeingan",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge77d2ea167",
+      "name": "CADEJO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g963f5fa94a",
+      "name": "CHAPPO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g31495d515e",
+      "name": "CLUB SKA",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga28fccafde",
+      "name": "CRAZY-T",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6936805eab",
+      "name": "CUMBIA KID",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4b6782419d",
+      "name": "Can Dream®",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcd3e83905b",
+      "name": "Caravan",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8eea9426cd",
+      "name": "DAISUKE KURODA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g34d852451f",
+      "name": "DJ COLA",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd344e68108",
+      "name": "DJ GONCHAN",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga4969bb261",
+      "name": "DJ HANA-G",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5663efbf03",
+      "name": "DJ JIM",
+      "aliases": []
+    },
+    {
+      "id": "ar_gdf6e8651fb",
+      "name": "DJ QUIETSTORM",
+      "aliases": []
+    },
+    {
+      "id": "ar_g93badfb426",
+      "name": "DJ SCNDLS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0809c7ead2",
+      "name": "DJ TOMMY",
+      "aliases": []
+    },
+    {
+      "id": "ar_g91bec288fd",
+      "name": "DMBQ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gab4fa30275",
+      "name": "DOC.KOYAMANTADO",
+      "aliases": []
+    },
+    {
+      "id": "ar_gead29111c1",
+      "name": "DONAVON FRANKENREITER",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd826b311c0",
+      "name": "DR. IHARA",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc110a29b72",
+      "name": "E.O.U",
+      "aliases": []
+    },
+    {
+      "id": "ar_g15a51bdb1d",
+      "name": "ENTH",
+      "aliases": []
+    },
+    {
+      "id": "ar_g113aae0d13",
+      "name": "EXPANSION",
+      "aliases": []
+    },
+    {
+      "id": "ar_g77910489f1",
+      "name": "FRIKO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g783e9329ad",
+      "name": "FUMINN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4c1e636ff3",
+      "name": "Fujii Kaze",
+      "aliases": []
+    },
+    {
+      "id": "ar_gee67e70a5d",
+      "name": "GAZ MAYALL",
+      "aliases": []
+    },
+    {
+      "id": "ar_g079eec5104",
+      "name": "GEORDIE GREEP",
+      "aliases": []
+    },
+    {
+      "id": "ar_g69d17b3363",
+      "name": "GEORGE WILLIAMS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4fea389ed1",
+      "name": "GOMA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8b66ff1c47",
+      "name": "GOOD4NOTHING",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3b6fa637aa",
+      "name": "GRAPEVINE",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcfff53deb3",
+      "name": "GeGeGe",
+      "aliases": []
+    },
+    {
+      "id": "ar_g74ba815b43",
+      "name": "Gingersamm",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge1de6d9513",
+      "name": "HANASUBI",
+      "aliases": []
+    },
+    {
+      "id": "ar_gde2f36655f",
+      "name": "HOT DOG EXPRESS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g56e19211b6",
+      "name": "HYUKOH",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga2232bbd6f",
+      "name": "Hi-STANDARD",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9d8fb39373",
+      "name": "IO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9e78b56b88",
+      "name": "It’s US!!!!",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb08b7dddee",
+      "name": "JAMAiCAN TiME",
+      "aliases": []
+    },
+    {
+      "id": "ar_gce7731a052",
+      "name": "JAPAN CUMBIA FESTIVAL DJs",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4e3ccb03a0",
+      "name": "JOEY VALENCE & BRAE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g59479cf792",
+      "name": "KHRUANGBIN",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga8b97ad53f",
+      "name": "KIKI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1c205595f7",
+      "name": "KING NABE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g99063f1dfd",
+      "name": "KNEECAP",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga21e68e233",
+      "name": "KOKOROKO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1fea440750",
+      "name": "KOTARO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g045e49ec9a",
+      "name": "KOTORI",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb8afc273fc",
+      "name": "Kadal",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1e57c8a40f",
+      "name": "Keishi Tanaka",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8d5327cb7d",
+      "name": "Kon & y.（Timothy Really）",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7bd1b0f335",
+      "name": "Kroi",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbfb7a71ccf",
+      "name": "LA LOM",
+      "aliases": []
+    },
+    {
+      "id": "ar_g320aec15fb",
+      "name": "LETTUCE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7fac7fd8f5",
+      "name": "LOVE FOR NIPPON",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge737990b07",
+      "name": "LOYLE CARNER",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1fa36e365c",
+      "name": "Lomax(NC4K)",
+      "aliases": []
+    },
+    {
+      "id": "ar_g271844d09f",
+      "name": "MASH弦楽団",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2f5fab227d",
+      "name": "MASSIVE ATTACK",
+      "aliases": []
+    },
+    {
+      "id": "ar_g16dfd25a8c",
+      "name": "MITSKI",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge32df9f42f",
+      "name": "MIZ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6afa116174",
+      "name": "MOGWAI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4610653178",
+      "name": "MONJOE",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbad87474c3",
+      "name": "MaL a.k.a. Primal Dub",
+      "aliases": []
+    },
+    {
+      "id": "ar_g75a59afbe9",
+      "name": "Mateus Asato",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf8dcb9c390",
+      "name": "Michael Kaneko",
+      "aliases": []
+    },
+    {
+      "id": "ar_g64d2f4efaf",
+      "name": "My Hair is Bad",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6898c7b2df",
+      "name": "NAOKI IENAGA (DUB STORE RECORDS)",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2b72d7c07d",
+      "name": "NONE THE WiSER",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd054f208c4",
+      "name": "NORTH KANTO REBEL SOUND CLASH",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfe5bd5950e",
+      "name": "NakamuraEmi",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbf7d874de6",
+      "name": "Natsuki Fujimoto (Tempalay)",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8f21460704",
+      "name": "Noridogam",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6440fe82a5",
+      "name": "Nozomu",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9992fe046c",
+      "name": "O.N.O (THA BLUE HERB)",
+      "aliases": []
+    },
+    {
+      "id": "ar_g40e1f104fd",
+      "name": "OAU",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd39de64e71",
+      "name": "OGRE YOU ASSHOLE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9beccb7b50",
+      "name": "OLDMAN",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbe12ddf159",
+      "name": "P.O.W ALL STARS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2dba6991b1",
+      "name": "PLINI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3059abcf69",
+      "name": "QUADECA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3300de3109",
+      "name": "REGA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6e12862488",
+      "name": "RIHO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6aefa09937",
+      "name": "RJD",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1ae481b396",
+      "name": "ROUTE 17 Rock'n'Roll ORCHESTRA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g86fe9473a7",
+      "name": "RUBY FLASHMAN",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf2fbfdb3d4",
+      "name": "Riddim  Saunter",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7c0e6e9a2c",
+      "name": "SAKURA CIRCUS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g64b864c383",
+      "name": "SHADOWS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g61c1a6b205",
+      "name": "SILENT POETS（DUB ENSEMBLE)",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc1789ff998",
+      "name": "SIX LOUNGE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1a489717bc",
+      "name": "SNAIL MAIL",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2d3610c544",
+      "name": "SOFIA ISELLA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g594e316c60",
+      "name": "SON ROMPE PERA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g00511a099f",
+      "name": "SPECIAL GUEST",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9edc1ea39f",
+      "name": "STOMPIN' RIFFRAFFS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g79a6b4bf2a",
+      "name": "SUGIURUMN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g38bfcf3a01",
+      "name": "SYAYOS",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd273510b31",
+      "name": "Satria Ramadhan",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5e566f5184",
+      "name": "Soichi Terada",
+      "aliases": []
+    },
+    {
+      "id": "ar_g053f5a4c66",
+      "name": "TAKU INOUE",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge436cc9f57",
+      "name": "TAKUTO AND NEKKOYA BAND",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga3e2878eb5",
+      "name": "TEKASA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9345d89c94",
+      "name": "TENDOUJI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g109a0b5f46",
+      "name": "TENDRE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g47bfc9eb3d",
+      "name": "TESTSET",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfb52183a2f",
+      "name": "THE BETHS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8538978f76",
+      "name": "THE BREAKS",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge7769eebb5",
+      "name": "THE KING LION",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5649449f4c",
+      "name": "THE LEMON TWIGS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g305d28ab4b",
+      "name": "THURSTON MOORE GROUP",
+      "aliases": []
+    },
+    {
+      "id": "ar_g04992a6802",
+      "name": "TIM ROCKINS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9b92e332ce",
+      "name": "TIVE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2bfe9f5f2b",
+      "name": "TOMORA",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd249a2ec4b",
+      "name": "TORO Y MOI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8e6c6ffec6",
+      "name": "TOYO P",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc3c047d270",
+      "name": "TURNSTILE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8268450b96",
+      "name": "TXAKO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g661288776e",
+      "name": "Tempalay",
+      "aliases": []
+    },
+    {
+      "id": "ar_g13c26957c5",
+      "name": "The xx",
+      "aliases": []
+    },
+    {
+      "id": "ar_g62b7e04dc4",
+      "name": "Tocago",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb483d05993",
+      "name": "Trueno",
+      "aliases": []
+    },
+    {
+      "id": "ar_g717af03130",
+      "name": "TĀL FRY",
+      "aliases": []
+    },
+    {
+      "id": "ar_gaa30935544",
+      "name": "US",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf86cc5f7c7",
+      "name": "Upendra and friends plus Mr. Sunil",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb4e06b5353",
+      "name": "Wappen",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6bd3febf7a",
+      "name": "Weval DJ Set",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge7c26124c3",
+      "name": "XG",
+      "aliases": []
+    },
+    {
+      "id": "ar_g092452cb6a",
+      "name": "YOSHIROTTEN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g31b65a5ce0",
+      "name": "YUSUKE OGAWA",
+      "aliases": []
+    },
+    {
+      "id": "ar_geca5383633",
+      "name": "YUUF",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfad1de7e69",
+      "name": "Yo-Sea",
+      "aliases": []
+    },
+    {
+      "id": "ar_g52853ddd62",
+      "name": "Yutaro",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfc219112de",
+      "name": "ZIONHILL SESSION",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbc16bd4309",
+      "name": "Za SAVAGE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4e3ded545d",
+      "name": "a flood of circle",
+      "aliases": []
+    },
+    {
+      "id": "ar_g743a4c4767",
+      "name": "almenialva",
+      "aliases": []
+    },
+    {
+      "id": "ar_g74cbf12e07",
+      "name": "cero",
+      "aliases": []
+    },
+    {
+      "id": "ar_gac694b0566",
+      "name": "el tempo",
+      "aliases": []
+    },
+    {
+      "id": "ar_g306cd0bf70",
+      "name": "jizue",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5e7f596443",
+      "name": "mayu",
+      "aliases": []
+    },
+    {
+      "id": "ar_g205623ffb1",
+      "name": "neco眠る",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5dd0c91300",
+      "name": "never young beach",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga188e7e374",
+      "name": "saccharin",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd5a64198bb",
+      "name": "the Tiger",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7f552d75db",
+      "name": "the cabs",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc0418180be",
+      "name": "w.o.d.",
+      "aliases": []
+    },
+    {
+      "id": "ar_g93daa8bb2c",
+      "name": "xxxx xxx xxxxxxx",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga5bc52a7db",
+      "name": "youhei(BLACK GANION/UNTTLD)",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfa5e6e0985",
+      "name": "こたに",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbcdd50b2e3",
+      "name": "ずっと真夜中でいいのに。(スパイシーズ状態)",
+      "aliases": []
+    },
+    {
+      "id": "ar_g69721e8897",
+      "name": "んoon",
+      "aliases": []
+    },
+    {
+      "id": "ar_g82135b7f9f",
+      "name": "アトミック・ カフェ 忌野清志郎 PEACE SONGS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8a89135a86",
+      "name": "アトミック・ カフェ 曽我部恵一",
+      "aliases": []
+    },
+    {
+      "id": "ar_gaf7b4ff623",
+      "name": "アトミック・カフェ トーク【戦争と平和】",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga00b221624",
+      "name": "アトミック・カフェ トーク【福島事故から15年】",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge91b328059",
+      "name": "クマイルス",
+      "aliases": []
+    },
+    {
+      "id": "ar_g60082851ad",
+      "name": "ケロポンズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb098d201b7",
+      "name": "サニーデイ・サービス",
+      "aliases": []
+    },
+    {
+      "id": "ar_gaceb0f268c",
+      "name": "スーパー登山部",
+      "aliases": []
+    },
+    {
+      "id": "ar_g44833bd8f6",
+      "name": "タデクイ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9dfd565ff5",
+      "name": "チャラン・ポ・ランタン",
+      "aliases": []
+    },
+    {
+      "id": "ar_g33342ba357",
+      "name": "テレビ大陸音頭",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfafa3d8548",
+      "name": "ブランデー戦記",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0c4254a48f",
+      "name": "ヨガワークショップ / 渋木さやか",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge22ad27f38",
+      "name": "中西レモン＆すずめのティアーズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g253cf36814",
+      "name": "二兆円",
+      "aliases": []
+    },
+    {
+      "id": "ar_g22b2e51166",
+      "name": "井上園子",
+      "aliases": []
+    },
+    {
+      "id": "ar_g05c384d2ce",
+      "name": "君島大空 × 水野蒼生  電氣交響楽団",
+      "aliases": []
+    },
+    {
+      "id": "ar_g46e7156cef",
+      "name": "和泉眞生",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0372cd6682",
+      "name": "奇妙礼太郎BAND",
+      "aliases": []
+    },
+    {
+      "id": "ar_g405d27dbc2",
+      "name": "寺久保伶矢",
+      "aliases": []
+    },
+    {
+      "id": "ar_g029e122725",
+      "name": "岡田拓郎",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga9d9e8e5a9",
+      "name": "岩崎桃子",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb21232c2a6",
+      "name": "平井 大",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9fab85a736",
+      "name": "平沢進+会人",
+      "aliases": []
+    },
+    {
+      "id": "ar_gaba9d3884a",
+      "name": "快速東京",
+      "aliases": []
+    },
+    {
+      "id": "ar_gdfa3a18b33",
+      "name": "揺らぎ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbed864401c",
+      "name": "日髙晴野",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6b50fa15bd",
+      "name": "杉本ラララ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd4b4a4c054",
+      "name": "来島エル",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb0a493a9dc",
+      "name": "柴田聡子(BAND SET)",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4abb8d4aa0",
+      "name": "梅井美咲",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5793130c7a",
+      "name": "浅井健一",
+      "aliases": []
+    },
+    {
+      "id": "ar_g72a50a3f49",
+      "name": "猿臂",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3e35211a47",
+      "name": "田原“104”洋",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfecd7919c9",
+      "name": "砂の壁",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9b0c6c3018",
+      "name": "礼賛",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga9a8190fea",
+      "name": "苗場音楽突撃隊",
+      "aliases": []
+    },
+    {
+      "id": "ar_g20ddad9d0b",
+      "name": "蓮沼執太チーム",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd84a68d01e",
+      "name": "藤原さくら",
+      "aliases": []
+    },
+    {
+      "id": "ar_g35f668bb8f",
+      "name": "藤田悠也",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbcb317ce51",
+      "name": "鬼の右腕",
+      "aliases": []
     }
   ],
   "venues": [
@@ -1961,6 +3061,13 @@
     {
       "id": "vn_isj2026odaiba",
       "name": "お台場R地区",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_frf2026naeba",
+      "name": "苗場スキー場(新潟県湯沢町)",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 10
