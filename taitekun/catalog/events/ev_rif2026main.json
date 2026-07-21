@@ -1,0 +1,3019 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-21T21:29:53+09:00",
+  "event": {
+    "id": "ev_rif2026main",
+    "name": "六本木アイドルフェスティバル2026",
+    "name_reading": "ろっぽんぎあいどるふぇすてぃばる",
+    "hashtag": "#RIF2026",
+    "official_url": "https://www.tv-asahi.co.jp/idolfes/",
+    "note": "有明 4ステージ+特典会 / 7月25日(土)・26日(日)開催。テレビ朝日主催・10年目記念で有明へ移転。特典会はTFTホール1000(ブースA〜L)。",
+    "days": [
+      {
+        "id": "dy_rif20260725",
+        "activity_date": "2026-07-25",
+        "start": "2026-07-25T10:40:00+09:00",
+        "end": "2026-07-25T20:10:00+09:00",
+        "timetable_status": "published",
+        "venue_ids": [
+          "vn_rif2026ariake"
+        ],
+        "lanes": [
+          {
+            "id": "ln_rifd2f6353088",
+            "name": "DREAM STAGE",
+            "kind": "stage",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 1
+          },
+          {
+            "id": "ln_rif82bd4cac2f",
+            "name": "FUTURE STAGE",
+            "kind": "stage",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 2
+          },
+          {
+            "id": "ln_rif92befac19d",
+            "name": "GOLD STAGE",
+            "kind": "stage",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 3
+          },
+          {
+            "id": "ln_rif120e9f092c",
+            "name": "PRIME STAGE",
+            "kind": "stage",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 4
+          },
+          {
+            "id": "ln_rif6e13e9c574",
+            "name": "特典会A",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 5
+          },
+          {
+            "id": "ln_rifdbf1f21e17",
+            "name": "特典会B",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 6
+          },
+          {
+            "id": "ln_rifd177478ddf",
+            "name": "特典会C",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 7
+          },
+          {
+            "id": "ln_rif70b8f5d80e",
+            "name": "特典会D",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 8
+          },
+          {
+            "id": "ln_rifa0d6ed7b08",
+            "name": "特典会E",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 9
+          },
+          {
+            "id": "ln_rif1781ec9c9f",
+            "name": "特典会F",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 10
+          },
+          {
+            "id": "ln_rif1cb3c03a01",
+            "name": "特典会G",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 11
+          },
+          {
+            "id": "ln_rif5349748b95",
+            "name": "特典会H",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 12
+          },
+          {
+            "id": "ln_rif2bc0d4369c",
+            "name": "特典会I",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 13
+          },
+          {
+            "id": "ln_rife84cc717e8",
+            "name": "特典会J",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 14
+          },
+          {
+            "id": "ln_rifdbc32b71b1",
+            "name": "特典会K",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 15
+          },
+          {
+            "id": "ln_rif412fdf2543",
+            "name": "特典会L",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 16
+          }
+        ],
+        "acts": [
+          {
+            "id": "ac_rifa07313f645",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "other",
+            "title": "LOVE CHANT（オープニングアクト）",
+            "start": "2026-07-25T10:40:00+09:00",
+            "end": "2026-07-25T10:50:00+09:00"
+          },
+          {
+            "id": "ac_rif6b240b4930",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "other",
+            "title": "オープニング",
+            "start": "2026-07-25T10:50:00+09:00",
+            "end": "2026-07-25T11:00:00+09:00"
+          },
+          {
+            "id": "ac_rif2472013390",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "other",
+            "title": "PASSPO☆（SPステージ「10年目記念だよ!OG集合!!」）",
+            "start": "2026-07-25T11:05:00+09:00",
+            "end": "2026-07-25T11:30:00+09:00"
+          },
+          {
+            "id": "ac_rif9fb8d439d0",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000120"
+            ],
+            "start": "2026-07-25T11:40:00+09:00",
+            "end": "2026-07-25T12:10:00+09:00"
+          },
+          {
+            "id": "ac_rif1791c9b3b3",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000024"
+            ],
+            "start": "2026-07-25T12:20:00+09:00",
+            "end": "2026-07-25T12:50:00+09:00"
+          },
+          {
+            "id": "ac_rif7b6f2e0ab0",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000033"
+            ],
+            "start": "2026-07-25T13:00:00+09:00",
+            "end": "2026-07-25T13:30:00+09:00"
+          },
+          {
+            "id": "ac_riffa98915949",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000130"
+            ],
+            "start": "2026-07-25T13:40:00+09:00",
+            "end": "2026-07-25T14:10:00+09:00"
+          },
+          {
+            "id": "ac_rif931e05cb1e",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000109"
+            ],
+            "start": "2026-07-25T14:20:00+09:00",
+            "end": "2026-07-25T14:50:00+09:00"
+          },
+          {
+            "id": "ac_rifcd13894edb",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "other",
+            "title": "LinQ（SPステージ「10年目記念だよ!OG集合!!」）",
+            "start": "2026-07-25T15:00:00+09:00",
+            "end": "2026-07-25T15:30:00+09:00",
+            "artist_ids": [
+              "ar_tif0000030"
+            ]
+          },
+          {
+            "id": "ac_rif34eca3d227",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000038"
+            ],
+            "start": "2026-07-25T15:40:00+09:00",
+            "end": "2026-07-25T16:10:00+09:00"
+          },
+          {
+            "id": "ac_rif303a49a08c",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000084"
+            ],
+            "start": "2026-07-25T16:20:00+09:00",
+            "end": "2026-07-25T16:50:00+09:00"
+          },
+          {
+            "id": "ac_rifd55c158d10",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000136"
+            ],
+            "start": "2026-07-25T17:00:00+09:00",
+            "end": "2026-07-25T17:30:00+09:00"
+          },
+          {
+            "id": "ac_riffac250061f",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g19bbe391d9"
+            ],
+            "start": "2026-07-25T17:40:00+09:00",
+            "end": "2026-07-25T18:10:00+09:00"
+          },
+          {
+            "id": "ac_rif85222d6a74",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000091"
+            ],
+            "start": "2026-07-25T18:20:00+09:00",
+            "end": "2026-07-25T18:50:00+09:00"
+          },
+          {
+            "id": "ac_rif20c21c3e68",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000101"
+            ],
+            "start": "2026-07-25T19:00:00+09:00",
+            "end": "2026-07-25T19:30:00+09:00"
+          },
+          {
+            "id": "ac_rif98967a6101",
+            "lane_id": "ln_rifd2f6353088",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000031"
+            ],
+            "start": "2026-07-25T19:40:00+09:00",
+            "end": "2026-07-25T20:10:00+09:00"
+          },
+          {
+            "id": "ac_rif6e17e9ade1",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000004"
+            ],
+            "start": "2026-07-25T11:00:00+09:00",
+            "end": "2026-07-25T11:20:00+09:00"
+          },
+          {
+            "id": "ac_rif09bf56ab41",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000126"
+            ],
+            "start": "2026-07-25T11:20:00+09:00",
+            "end": "2026-07-25T11:40:00+09:00"
+          },
+          {
+            "id": "ac_rifca2af8e98c",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000130"
+            ],
+            "start": "2026-07-25T11:40:00+09:00",
+            "end": "2026-07-25T12:00:00+09:00"
+          },
+          {
+            "id": "ac_rifb989534280",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000020"
+            ],
+            "start": "2026-07-25T12:05:00+09:00",
+            "end": "2026-07-25T12:25:00+09:00"
+          },
+          {
+            "id": "ac_rif48896992cc",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g663a277666"
+            ],
+            "start": "2026-07-25T12:25:00+09:00",
+            "end": "2026-07-25T12:45:00+09:00"
+          },
+          {
+            "id": "ac_rif89ad30620e",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000082"
+            ],
+            "start": "2026-07-25T12:45:00+09:00",
+            "end": "2026-07-25T13:05:00+09:00"
+          },
+          {
+            "id": "ac_rifc3baecbed9",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000118"
+            ],
+            "start": "2026-07-25T13:25:00+09:00",
+            "end": "2026-07-25T13:45:00+09:00"
+          },
+          {
+            "id": "ac_rifb0c3b1c3cb",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000142"
+            ],
+            "start": "2026-07-25T13:45:00+09:00",
+            "end": "2026-07-25T14:05:00+09:00"
+          },
+          {
+            "id": "ac_rif7bf614200a",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g32b4e0155b"
+            ],
+            "start": "2026-07-25T14:05:00+09:00",
+            "end": "2026-07-25T14:15:00+09:00"
+          },
+          {
+            "id": "ac_rif03c8c5d150",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000028"
+            ],
+            "start": "2026-07-25T14:15:00+09:00",
+            "end": "2026-07-25T14:35:00+09:00"
+          },
+          {
+            "id": "ac_rifbc05b25ba4",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000066"
+            ],
+            "start": "2026-07-25T14:40:00+09:00",
+            "end": "2026-07-25T15:00:00+09:00"
+          },
+          {
+            "id": "ac_rif1a6347c128",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000153"
+            ],
+            "start": "2026-07-25T15:00:00+09:00",
+            "end": "2026-07-25T15:20:00+09:00"
+          },
+          {
+            "id": "ac_rifb60cf28351",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000022"
+            ],
+            "start": "2026-07-25T15:20:00+09:00",
+            "end": "2026-07-25T15:40:00+09:00"
+          },
+          {
+            "id": "ac_rifa623da8095",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000114"
+            ],
+            "start": "2026-07-25T16:00:00+09:00",
+            "end": "2026-07-25T16:20:00+09:00"
+          },
+          {
+            "id": "ac_rif4cde145316",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g3b46eb910d"
+            ],
+            "start": "2026-07-25T16:20:00+09:00",
+            "end": "2026-07-25T16:40:00+09:00"
+          },
+          {
+            "id": "ac_rif303ebf07ad",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000042"
+            ],
+            "start": "2026-07-25T16:40:00+09:00",
+            "end": "2026-07-25T17:00:00+09:00"
+          },
+          {
+            "id": "ac_rif95ae4bf63e",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000143"
+            ],
+            "start": "2026-07-25T17:05:00+09:00",
+            "end": "2026-07-25T17:25:00+09:00"
+          },
+          {
+            "id": "ac_rifcbf67ecd5b",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000034"
+            ],
+            "start": "2026-07-25T17:25:00+09:00",
+            "end": "2026-07-25T17:45:00+09:00"
+          },
+          {
+            "id": "ac_rifacb8b4f9dc",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000125"
+            ],
+            "start": "2026-07-25T17:45:00+09:00",
+            "end": "2026-07-25T18:05:00+09:00"
+          },
+          {
+            "id": "ac_rif23ac356648",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000077"
+            ],
+            "start": "2026-07-25T18:10:00+09:00",
+            "end": "2026-07-25T18:30:00+09:00"
+          },
+          {
+            "id": "ac_rif4132dddd2b",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000127"
+            ],
+            "start": "2026-07-25T18:30:00+09:00",
+            "end": "2026-07-25T18:50:00+09:00"
+          },
+          {
+            "id": "ac_rif1de8947523",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000115"
+            ],
+            "start": "2026-07-25T18:50:00+09:00",
+            "end": "2026-07-25T19:10:00+09:00"
+          },
+          {
+            "id": "ac_rif590bf16350",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000116"
+            ],
+            "start": "2026-07-25T19:15:00+09:00",
+            "end": "2026-07-25T19:35:00+09:00"
+          },
+          {
+            "id": "ac_rif0286ac301b",
+            "lane_id": "ln_rif82bd4cac2f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000131"
+            ],
+            "start": "2026-07-25T19:35:00+09:00",
+            "end": "2026-07-25T19:55:00+09:00"
+          },
+          {
+            "id": "ac_rif929a137a27",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000022"
+            ],
+            "start": "2026-07-25T11:00:00+09:00",
+            "end": "2026-07-25T11:20:00+09:00"
+          },
+          {
+            "id": "ac_rife54430d727",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000176"
+            ],
+            "start": "2026-07-25T11:20:00+09:00",
+            "end": "2026-07-25T11:40:00+09:00"
+          },
+          {
+            "id": "ac_rif8cf9fde5e5",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000066"
+            ],
+            "start": "2026-07-25T11:40:00+09:00",
+            "end": "2026-07-25T12:00:00+09:00"
+          },
+          {
+            "id": "ac_rif4d8fa9fd12",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000042"
+            ],
+            "start": "2026-07-25T12:05:00+09:00",
+            "end": "2026-07-25T12:25:00+09:00"
+          },
+          {
+            "id": "ac_rif00ebc7b78a",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g94a077e3e9"
+            ],
+            "start": "2026-07-25T12:25:00+09:00",
+            "end": "2026-07-25T12:45:00+09:00"
+          },
+          {
+            "id": "ac_rifa8e7add50c",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000184"
+            ],
+            "start": "2026-07-25T12:45:00+09:00",
+            "end": "2026-07-25T13:05:00+09:00"
+          },
+          {
+            "id": "ac_rifcc29e0edaf",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000100"
+            ],
+            "start": "2026-07-25T13:10:00+09:00",
+            "end": "2026-07-25T13:30:00+09:00"
+          },
+          {
+            "id": "ac_rif0935668294",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000025"
+            ],
+            "start": "2026-07-25T13:30:00+09:00",
+            "end": "2026-07-25T13:50:00+09:00"
+          },
+          {
+            "id": "ac_rif0389b4f347",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gca5eee5562"
+            ],
+            "start": "2026-07-25T13:50:00+09:00",
+            "end": "2026-07-25T14:10:00+09:00"
+          },
+          {
+            "id": "ac_rif0c3d03b7a0",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000115"
+            ],
+            "start": "2026-07-25T14:20:00+09:00",
+            "end": "2026-07-25T14:40:00+09:00"
+          },
+          {
+            "id": "ac_rif84014d72e9",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000150"
+            ],
+            "start": "2026-07-25T14:40:00+09:00",
+            "end": "2026-07-25T15:00:00+09:00"
+          },
+          {
+            "id": "ac_rif606cff3f13",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000031"
+            ],
+            "start": "2026-07-25T15:00:00+09:00",
+            "end": "2026-07-25T15:20:00+09:00"
+          },
+          {
+            "id": "ac_rifb8a8c1854e",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000136"
+            ],
+            "start": "2026-07-25T15:25:00+09:00",
+            "end": "2026-07-25T15:45:00+09:00"
+          },
+          {
+            "id": "ac_rif36076b7582",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000111"
+            ],
+            "start": "2026-07-25T15:45:00+09:00",
+            "end": "2026-07-25T16:05:00+09:00"
+          },
+          {
+            "id": "ac_rif410a95e10f",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000131"
+            ],
+            "start": "2026-07-25T16:05:00+09:00",
+            "end": "2026-07-25T16:25:00+09:00"
+          },
+          {
+            "id": "ac_rifeaaa55a040",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000116"
+            ],
+            "start": "2026-07-25T16:30:00+09:00",
+            "end": "2026-07-25T16:50:00+09:00"
+          },
+          {
+            "id": "ac_rifad6327f469",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g6cd2dd2f47"
+            ],
+            "start": "2026-07-25T16:50:00+09:00",
+            "end": "2026-07-25T17:10:00+09:00"
+          },
+          {
+            "id": "ac_rif0329264983",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gef2beb49fa"
+            ],
+            "start": "2026-07-25T17:10:00+09:00",
+            "end": "2026-07-25T17:30:00+09:00"
+          },
+          {
+            "id": "ac_rif09704600af",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000168"
+            ],
+            "start": "2026-07-25T17:40:00+09:00",
+            "end": "2026-07-25T18:00:00+09:00"
+          },
+          {
+            "id": "ac_rifc6f070614f",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000021"
+            ],
+            "start": "2026-07-25T18:00:00+09:00",
+            "end": "2026-07-25T18:20:00+09:00"
+          },
+          {
+            "id": "ac_rifa2d3a2d510",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000126"
+            ],
+            "start": "2026-07-25T18:20:00+09:00",
+            "end": "2026-07-25T18:40:00+09:00"
+          },
+          {
+            "id": "ac_rifd2298e0968",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000043"
+            ],
+            "start": "2026-07-25T18:45:00+09:00",
+            "end": "2026-07-25T19:05:00+09:00"
+          },
+          {
+            "id": "ac_rif021bd4c1cf",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000024"
+            ],
+            "start": "2026-07-25T19:05:00+09:00",
+            "end": "2026-07-25T19:25:00+09:00"
+          },
+          {
+            "id": "ac_rifabe7e3d38f",
+            "lane_id": "ln_rif92befac19d",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000082"
+            ],
+            "start": "2026-07-25T19:25:00+09:00",
+            "end": "2026-07-25T19:45:00+09:00"
+          },
+          {
+            "id": "ac_riff7d7e4a916",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g19bbe391d9"
+            ],
+            "start": "2026-07-25T11:00:00+09:00",
+            "end": "2026-07-25T11:25:00+09:00"
+          },
+          {
+            "id": "ac_rif53b10b6f34",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000168"
+            ],
+            "start": "2026-07-25T11:25:00+09:00",
+            "end": "2026-07-25T11:50:00+09:00"
+          },
+          {
+            "id": "ac_rif171996335b",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000028"
+            ],
+            "start": "2026-07-25T11:50:00+09:00",
+            "end": "2026-07-25T12:15:00+09:00"
+          },
+          {
+            "id": "ac_rifa570228cd9",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gd2773574ee"
+            ],
+            "start": "2026-07-25T12:20:00+09:00",
+            "end": "2026-07-25T12:45:00+09:00"
+          },
+          {
+            "id": "ac_rif7080a12a70",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g26084454cb"
+            ],
+            "start": "2026-07-25T12:45:00+09:00",
+            "end": "2026-07-25T13:10:00+09:00"
+          },
+          {
+            "id": "ac_rif1eab4f8194",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g6cd2dd2f47"
+            ],
+            "start": "2026-07-25T13:10:00+09:00",
+            "end": "2026-07-25T13:30:00+09:00"
+          },
+          {
+            "id": "ac_rif20f9dfee3b",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000192"
+            ],
+            "start": "2026-07-25T13:35:00+09:00",
+            "end": "2026-07-25T14:00:00+09:00"
+          },
+          {
+            "id": "ac_rifb4e887e519",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gbb7913b7e6"
+            ],
+            "start": "2026-07-25T14:00:00+09:00",
+            "end": "2026-07-25T14:25:00+09:00"
+          },
+          {
+            "id": "ac_rif7b1015c4f2",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g3b78f3826b"
+            ],
+            "start": "2026-07-25T14:25:00+09:00",
+            "end": "2026-07-25T14:50:00+09:00"
+          },
+          {
+            "id": "ac_rif17bb93efd8",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000077"
+            ],
+            "start": "2026-07-25T14:55:00+09:00",
+            "end": "2026-07-25T15:20:00+09:00"
+          },
+          {
+            "id": "ac_rifb84ebed4b0",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g6cdaaa8cb2"
+            ],
+            "start": "2026-07-25T15:20:00+09:00",
+            "end": "2026-07-25T15:45:00+09:00"
+          },
+          {
+            "id": "ac_rifa0f622fba7",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000034"
+            ],
+            "start": "2026-07-25T15:45:00+09:00",
+            "end": "2026-07-25T16:10:00+09:00"
+          },
+          {
+            "id": "ac_rif901b6640ca",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000125"
+            ],
+            "start": "2026-07-25T16:15:00+09:00",
+            "end": "2026-07-25T16:40:00+09:00"
+          },
+          {
+            "id": "ac_rif1fad6ff754",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000025"
+            ],
+            "start": "2026-07-25T16:40:00+09:00",
+            "end": "2026-07-25T17:05:00+09:00"
+          },
+          {
+            "id": "ac_rifd87e23d464",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000142"
+            ],
+            "start": "2026-07-25T17:05:00+09:00",
+            "end": "2026-07-25T17:30:00+09:00"
+          },
+          {
+            "id": "ac_rif25167b29bd",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000100"
+            ],
+            "start": "2026-07-25T17:35:00+09:00",
+            "end": "2026-07-25T18:00:00+09:00"
+          },
+          {
+            "id": "ac_rif4c7c5d9cd9",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000153"
+            ],
+            "start": "2026-07-25T18:00:00+09:00",
+            "end": "2026-07-25T18:25:00+09:00"
+          },
+          {
+            "id": "ac_rifcba13f55ba",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000030"
+            ],
+            "start": "2026-07-25T18:25:00+09:00",
+            "end": "2026-07-25T18:50:00+09:00"
+          },
+          {
+            "id": "ac_riffb5bf7ebab",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000118"
+            ],
+            "start": "2026-07-25T18:55:00+09:00",
+            "end": "2026-07-25T19:20:00+09:00"
+          },
+          {
+            "id": "ac_rif67e0483e81",
+            "lane_id": "ln_rif120e9f092c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000084"
+            ],
+            "start": "2026-07-25T19:20:00+09:00",
+            "end": "2026-07-25T19:45:00+09:00"
+          },
+          {
+            "id": "ac_rifb3f98acb9b",
+            "lane_id": "ln_rif6e13e9c574",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_ge53aefeadc"
+            ],
+            "start": "2026-07-25T11:30:00+09:00",
+            "end": "2026-07-25T12:30:00+09:00"
+          },
+          {
+            "id": "ac_rif8b7005641f",
+            "lane_id": "ln_rif6e13e9c574",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000033"
+            ],
+            "start": "2026-07-25T14:10:00+09:00",
+            "end": "2026-07-25T15:10:00+09:00"
+          },
+          {
+            "id": "ac_rifcd8896e375",
+            "lane_id": "ln_rif6e13e9c574",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000030"
+            ],
+            "start": "2026-07-25T16:10:00+09:00",
+            "end": "2026-07-25T17:10:00+09:00"
+          },
+          {
+            "id": "ac_riface706b2a9",
+            "lane_id": "ln_rif6e13e9c574",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000084"
+            ],
+            "start": "2026-07-25T17:30:00+09:00",
+            "end": "2026-07-25T18:30:00+09:00"
+          },
+          {
+            "id": "ac_riff20b1493f5",
+            "lane_id": "ln_rifdbf1f21e17",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000120"
+            ],
+            "start": "2026-07-25T12:50:00+09:00",
+            "end": "2026-07-25T13:50:00+09:00"
+          },
+          {
+            "id": "ac_rifff990aff12",
+            "lane_id": "ln_rifdbf1f21e17",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000130"
+            ],
+            "start": "2026-07-25T14:50:00+09:00",
+            "end": "2026-07-25T15:50:00+09:00"
+          },
+          {
+            "id": "ac_rifa18b6da849",
+            "lane_id": "ln_rifdbf1f21e17",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g84187267f8"
+            ],
+            "start": "2026-07-25T16:10:00+09:00",
+            "end": "2026-07-25T17:10:00+09:00"
+          },
+          {
+            "id": "ac_rif52037eba5c",
+            "lane_id": "ln_rifdbf1f21e17",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000136"
+            ],
+            "start": "2026-07-25T18:10:00+09:00",
+            "end": "2026-07-25T19:10:00+09:00"
+          },
+          {
+            "id": "ac_rifaa843bc120",
+            "lane_id": "ln_rifd177478ddf",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000024"
+            ],
+            "start": "2026-07-25T13:30:00+09:00",
+            "end": "2026-07-25T14:30:00+09:00"
+          },
+          {
+            "id": "ac_rif06c8e76a57",
+            "lane_id": "ln_rifd177478ddf",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000091"
+            ],
+            "start": "2026-07-25T15:20:00+09:00",
+            "end": "2026-07-25T16:20:00+09:00",
+            "title": "高嶺のなでしこ（物販のみ）"
+          },
+          {
+            "id": "ac_rife9e947a9da",
+            "lane_id": "ln_rifd177478ddf",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000038"
+            ],
+            "start": "2026-07-25T16:50:00+09:00",
+            "end": "2026-07-25T17:50:00+09:00"
+          },
+          {
+            "id": "ac_rif921873e673",
+            "lane_id": "ln_rif70b8f5d80e",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000004"
+            ],
+            "start": "2026-07-25T12:00:00+09:00",
+            "end": "2026-07-25T13:00:00+09:00"
+          },
+          {
+            "id": "ac_rifbb782c035a",
+            "lane_id": "ln_rif70b8f5d80e",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g663a277666"
+            ],
+            "start": "2026-07-25T13:25:00+09:00",
+            "end": "2026-07-25T14:25:00+09:00"
+          },
+          {
+            "id": "ac_rife47c0bb943",
+            "lane_id": "ln_rif70b8f5d80e",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000142"
+            ],
+            "start": "2026-07-25T14:50:00+09:00",
+            "end": "2026-07-25T15:50:00+09:00"
+          },
+          {
+            "id": "ac_rif25ed64988a",
+            "lane_id": "ln_rif70b8f5d80e",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000127"
+            ],
+            "start": "2026-07-25T16:30:00+09:00",
+            "end": "2026-07-25T17:30:00+09:00"
+          },
+          {
+            "id": "ac_rif3f8cbcbba3",
+            "lane_id": "ln_rif70b8f5d80e",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000034"
+            ],
+            "start": "2026-07-25T18:25:00+09:00",
+            "end": "2026-07-25T19:25:00+09:00"
+          },
+          {
+            "id": "ac_rifdfa9a8b532",
+            "lane_id": "ln_rifa0d6ed7b08",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000126"
+            ],
+            "start": "2026-07-25T12:20:00+09:00",
+            "end": "2026-07-25T13:20:00+09:00"
+          },
+          {
+            "id": "ac_rifc9822dd2cb",
+            "lane_id": "ln_rifa0d6ed7b08",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000082"
+            ],
+            "start": "2026-07-25T13:45:00+09:00",
+            "end": "2026-07-25T14:45:00+09:00"
+          },
+          {
+            "id": "ac_rif26a739d66e",
+            "lane_id": "ln_rifa0d6ed7b08",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000028"
+            ],
+            "start": "2026-07-25T15:15:00+09:00",
+            "end": "2026-07-25T16:15:00+09:00"
+          },
+          {
+            "id": "ac_rif73cae043c2",
+            "lane_id": "ln_rifa0d6ed7b08",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000114"
+            ],
+            "start": "2026-07-25T17:00:00+09:00",
+            "end": "2026-07-25T18:00:00+09:00"
+          },
+          {
+            "id": "ac_rif1819f9b34d",
+            "lane_id": "ln_rifa0d6ed7b08",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000125"
+            ],
+            "start": "2026-07-25T18:45:00+09:00",
+            "end": "2026-07-25T19:45:00+09:00"
+          },
+          {
+            "id": "ac_rifcb87331223",
+            "lane_id": "ln_rif1781ec9c9f",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000020"
+            ],
+            "start": "2026-07-25T13:05:00+09:00",
+            "end": "2026-07-25T14:05:00+09:00"
+          },
+          {
+            "id": "ac_rif1f61fa73b3",
+            "lane_id": "ln_rif1781ec9c9f",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000118"
+            ],
+            "start": "2026-07-25T14:25:00+09:00",
+            "end": "2026-07-25T15:25:00+09:00"
+          },
+          {
+            "id": "ac_rif2481d7ac2a",
+            "lane_id": "ln_rif1781ec9c9f",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000153"
+            ],
+            "start": "2026-07-25T16:00:00+09:00",
+            "end": "2026-07-25T17:00:00+09:00"
+          },
+          {
+            "id": "ac_rif30ce51cce2",
+            "lane_id": "ln_rif1781ec9c9f",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000143"
+            ],
+            "start": "2026-07-25T18:05:00+09:00",
+            "end": "2026-07-25T19:05:00+09:00"
+          },
+          {
+            "id": "ac_rif8b79f7fbff",
+            "lane_id": "ln_rif1cb3c03a01",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000022"
+            ],
+            "start": "2026-07-25T11:50:00+09:00",
+            "end": "2026-07-25T12:50:00+09:00"
+          },
+          {
+            "id": "ac_riffd47ba9eb2",
+            "lane_id": "ln_rif1cb3c03a01",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000042"
+            ],
+            "start": "2026-07-25T13:00:00+09:00",
+            "end": "2026-07-25T14:00:00+09:00"
+          },
+          {
+            "id": "ac_riffde29bc40b",
+            "lane_id": "ln_rif1cb3c03a01",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000100"
+            ],
+            "start": "2026-07-25T14:10:00+09:00",
+            "end": "2026-07-25T15:10:00+09:00"
+          },
+          {
+            "id": "ac_rifc7b268639e",
+            "lane_id": "ln_rif1cb3c03a01",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000115"
+            ],
+            "start": "2026-07-25T15:20:00+09:00",
+            "end": "2026-07-25T16:20:00+09:00"
+          },
+          {
+            "id": "ac_rife13a3801dc",
+            "lane_id": "ln_rif1cb3c03a01",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000111"
+            ],
+            "start": "2026-07-25T16:35:00+09:00",
+            "end": "2026-07-25T17:35:00+09:00"
+          },
+          {
+            "id": "ac_rifc73753c08d",
+            "lane_id": "ln_rif1cb3c03a01",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_gef2beb49fa"
+            ],
+            "start": "2026-07-25T18:00:00+09:00",
+            "end": "2026-07-25T19:00:00+09:00"
+          },
+          {
+            "id": "ac_rifeb6a3b004b",
+            "lane_id": "ln_rif5349748b95",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000176"
+            ],
+            "start": "2026-07-25T12:10:00+09:00",
+            "end": "2026-07-25T13:10:00+09:00"
+          },
+          {
+            "id": "ac_rifac9031d0a2",
+            "lane_id": "ln_rif5349748b95",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g94a077e3e9"
+            ],
+            "start": "2026-07-25T13:20:00+09:00",
+            "end": "2026-07-25T14:20:00+09:00"
+          },
+          {
+            "id": "ac_riff570ae0772",
+            "lane_id": "ln_rif5349748b95",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000025"
+            ],
+            "start": "2026-07-25T14:30:00+09:00",
+            "end": "2026-07-25T15:30:00+09:00"
+          },
+          {
+            "id": "ac_rife32f2543c0",
+            "lane_id": "ln_rif5349748b95",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000150"
+            ],
+            "start": "2026-07-25T15:40:00+09:00",
+            "end": "2026-07-25T16:40:00+09:00"
+          },
+          {
+            "id": "ac_rifc3ca12dbe9",
+            "lane_id": "ln_rif5349748b95",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000131"
+            ],
+            "start": "2026-07-25T16:55:00+09:00",
+            "end": "2026-07-25T17:55:00+09:00"
+          },
+          {
+            "id": "ac_rif6615df7ce6",
+            "lane_id": "ln_rif5349748b95",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000021"
+            ],
+            "start": "2026-07-25T18:50:00+09:00",
+            "end": "2026-07-25T19:50:00+09:00"
+          },
+          {
+            "id": "ac_riff248b8b9bd",
+            "lane_id": "ln_rif2bc0d4369c",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000066"
+            ],
+            "start": "2026-07-25T12:30:00+09:00",
+            "end": "2026-07-25T13:30:00+09:00"
+          },
+          {
+            "id": "ac_riffceb16b0d3",
+            "lane_id": "ln_rif2bc0d4369c",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000184"
+            ],
+            "start": "2026-07-25T13:40:00+09:00",
+            "end": "2026-07-25T14:40:00+09:00"
+          },
+          {
+            "id": "ac_riff5fc46d8ba",
+            "lane_id": "ln_rif2bc0d4369c",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_gca5eee5562"
+            ],
+            "start": "2026-07-25T14:50:00+09:00",
+            "end": "2026-07-25T15:50:00+09:00"
+          },
+          {
+            "id": "ac_rif7eca8240a1",
+            "lane_id": "ln_rif2bc0d4369c",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000031"
+            ],
+            "start": "2026-07-25T16:00:00+09:00",
+            "end": "2026-07-25T17:00:00+09:00"
+          },
+          {
+            "id": "ac_rif023135f6c0",
+            "lane_id": "ln_rif2bc0d4369c",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000116"
+            ],
+            "start": "2026-07-25T17:20:00+09:00",
+            "end": "2026-07-25T18:20:00+09:00"
+          },
+          {
+            "id": "ac_rif62f8b5d4e2",
+            "lane_id": "ln_rife84cc717e8",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g19bbe391d9"
+            ],
+            "start": "2026-07-25T12:05:00+09:00",
+            "end": "2026-07-25T13:05:00+09:00"
+          },
+          {
+            "id": "ac_rif95381e6db3",
+            "lane_id": "ln_rife84cc717e8",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g26084454cb"
+            ],
+            "start": "2026-07-25T13:50:00+09:00",
+            "end": "2026-07-25T14:50:00+09:00"
+          },
+          {
+            "id": "ac_rif71adb102e9",
+            "lane_id": "ln_rife84cc717e8",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g3b78f3826b"
+            ],
+            "start": "2026-07-25T15:30:00+09:00",
+            "end": "2026-07-25T16:30:00+09:00"
+          },
+          {
+            "id": "ac_rif3b59b3ae7a",
+            "lane_id": "ln_rife84cc717e8",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000043"
+            ],
+            "start": "2026-07-25T16:45:00+09:00",
+            "end": "2026-07-25T17:45:00+09:00"
+          },
+          {
+            "id": "ac_rif78dced0fe2",
+            "lane_id": "ln_rifdbc32b71b1",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000168"
+            ],
+            "start": "2026-07-25T12:30:00+09:00",
+            "end": "2026-07-25T13:30:00+09:00"
+          },
+          {
+            "id": "ac_rif5c30e6d621",
+            "lane_id": "ln_rifdbc32b71b1",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000192"
+            ],
+            "start": "2026-07-25T14:40:00+09:00",
+            "end": "2026-07-25T15:40:00+09:00"
+          },
+          {
+            "id": "ac_riff312b7055d",
+            "lane_id": "ln_rifdbc32b71b1",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000077"
+            ],
+            "start": "2026-07-25T16:00:00+09:00",
+            "end": "2026-07-25T17:00:00+09:00"
+          },
+          {
+            "id": "ac_rif056dd197be",
+            "lane_id": "ln_rif412fdf2543",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_gd2773574ee"
+            ],
+            "start": "2026-07-25T13:25:00+09:00",
+            "end": "2026-07-25T14:25:00+09:00"
+          },
+          {
+            "id": "ac_rif7ff67c8b5d",
+            "lane_id": "ln_rif412fdf2543",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_gbb7913b7e6"
+            ],
+            "start": "2026-07-25T15:05:00+09:00",
+            "end": "2026-07-25T16:05:00+09:00"
+          },
+          {
+            "id": "ac_rifff243ec72f",
+            "lane_id": "ln_rif412fdf2543",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g6cdaaa8cb2"
+            ],
+            "start": "2026-07-25T16:25:00+09:00",
+            "end": "2026-07-25T17:25:00+09:00"
+          }
+        ]
+      },
+      {
+        "id": "dy_rif20260726",
+        "activity_date": "2026-07-26",
+        "start": "2026-07-26T10:40:00+09:00",
+        "end": "2026-07-26T20:10:00+09:00",
+        "timetable_status": "published",
+        "venue_ids": [
+          "vn_rif2026ariake"
+        ],
+        "lanes": [
+          {
+            "id": "ln_rife4af8610a8",
+            "name": "DREAM STAGE",
+            "kind": "stage",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 1
+          },
+          {
+            "id": "ln_rifbf4434ffff",
+            "name": "FUTURE STAGE",
+            "kind": "stage",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 2
+          },
+          {
+            "id": "ln_rif4992bebbd7",
+            "name": "GOLD STAGE",
+            "kind": "stage",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 3
+          },
+          {
+            "id": "ln_rif889ea808ce",
+            "name": "PRIME STAGE",
+            "kind": "stage",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 4
+          },
+          {
+            "id": "ln_rif1168113d04",
+            "name": "特典会A",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 5
+          },
+          {
+            "id": "ln_rifae42117888",
+            "name": "特典会B",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 6
+          },
+          {
+            "id": "ln_rife6692d8f6a",
+            "name": "特典会C",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 7
+          },
+          {
+            "id": "ln_rifacdd1d739d",
+            "name": "特典会D",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 8
+          },
+          {
+            "id": "ln_rif275f8d2a97",
+            "name": "特典会E",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 9
+          },
+          {
+            "id": "ln_rifce1fc6aaa5",
+            "name": "特典会F",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 10
+          },
+          {
+            "id": "ln_rif6ea31687f3",
+            "name": "特典会G",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 11
+          },
+          {
+            "id": "ln_rifbac31ffb0b",
+            "name": "特典会H",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 12
+          },
+          {
+            "id": "ln_rifdc9e181e09",
+            "name": "特典会I",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 13
+          },
+          {
+            "id": "ln_rif050b6ae5d0",
+            "name": "特典会J",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 14
+          },
+          {
+            "id": "ln_rif4e9531fbce",
+            "name": "特典会K",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 15
+          },
+          {
+            "id": "ln_rif6d2692b545",
+            "name": "特典会L",
+            "kind": "booth",
+            "venue_id": "vn_rif2026ariake",
+            "sort_order": 16
+          }
+        ],
+        "acts": [
+          {
+            "id": "ac_rif0f9372d233",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "other",
+            "title": "NEVER END ROLL（オープニングアクト）",
+            "start": "2026-07-26T10:40:00+09:00",
+            "end": "2026-07-26T10:50:00+09:00"
+          },
+          {
+            "id": "ac_rifde4558b214",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "other",
+            "title": "オープニング",
+            "start": "2026-07-26T10:50:00+09:00",
+            "end": "2026-07-26T11:00:00+09:00"
+          },
+          {
+            "id": "ac_rif67f9b8d0a0",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000029"
+            ],
+            "start": "2026-07-26T11:00:00+09:00",
+            "end": "2026-07-26T11:30:00+09:00"
+          },
+          {
+            "id": "ac_rif645cf545ea",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000005"
+            ],
+            "start": "2026-07-26T11:40:00+09:00",
+            "end": "2026-07-26T12:10:00+09:00"
+          },
+          {
+            "id": "ac_rif6f1e430e35",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "other",
+            "title": "まねきケチャ（SPステージ「10年目記念だよ!OG集合!!」）",
+            "start": "2026-07-26T12:20:00+09:00",
+            "end": "2026-07-26T12:50:00+09:00",
+            "artist_ids": [
+              "ar_tif0000143"
+            ]
+          },
+          {
+            "id": "ac_rif20d6240076",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000069"
+            ],
+            "start": "2026-07-26T13:00:00+09:00",
+            "end": "2026-07-26T13:30:00+09:00"
+          },
+          {
+            "id": "ac_rif834b6e03ee",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000004"
+            ],
+            "start": "2026-07-26T13:40:00+09:00",
+            "end": "2026-07-26T14:10:00+09:00"
+          },
+          {
+            "id": "ac_rif1fc96f3873",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000065"
+            ],
+            "start": "2026-07-26T14:20:00+09:00",
+            "end": "2026-07-26T14:50:00+09:00"
+          },
+          {
+            "id": "ac_rif4f037a41e4",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000003"
+            ],
+            "start": "2026-07-26T15:00:00+09:00",
+            "end": "2026-07-26T15:30:00+09:00"
+          },
+          {
+            "id": "ac_rifdfec1be235",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000049"
+            ],
+            "start": "2026-07-26T15:40:00+09:00",
+            "end": "2026-07-26T16:10:00+09:00"
+          },
+          {
+            "id": "ac_rifc4f22fc76d",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000082"
+            ],
+            "start": "2026-07-26T16:20:00+09:00",
+            "end": "2026-07-26T16:50:00+09:00"
+          },
+          {
+            "id": "ac_rif1cdcf36325",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000047"
+            ],
+            "start": "2026-07-26T17:00:00+09:00",
+            "end": "2026-07-26T17:30:00+09:00"
+          },
+          {
+            "id": "ac_rif274dd718ef",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "other",
+            "title": "SUPER☆GiRLS（SPステージ「10年目記念だよ!OG集合!!」）",
+            "start": "2026-07-26T17:40:00+09:00",
+            "end": "2026-07-26T18:10:00+09:00",
+            "artist_ids": [
+              "ar_tif0000043"
+            ]
+          },
+          {
+            "id": "ac_riff739c6d0df",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000009"
+            ],
+            "start": "2026-07-26T18:20:00+09:00",
+            "end": "2026-07-26T18:50:00+09:00"
+          },
+          {
+            "id": "ac_rifcd0c08c4dd",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000131"
+            ],
+            "start": "2026-07-26T19:00:00+09:00",
+            "end": "2026-07-26T19:30:00+09:00"
+          },
+          {
+            "id": "ac_rif55558843c7",
+            "lane_id": "ln_rife4af8610a8",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000011"
+            ],
+            "start": "2026-07-26T19:40:00+09:00",
+            "end": "2026-07-26T20:10:00+09:00"
+          },
+          {
+            "id": "ac_rif5de9462ce1",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000091"
+            ],
+            "start": "2026-07-26T11:00:00+09:00",
+            "end": "2026-07-26T11:20:00+09:00"
+          },
+          {
+            "id": "ac_rif41d14cbe16",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000074"
+            ],
+            "start": "2026-07-26T11:20:00+09:00",
+            "end": "2026-07-26T11:40:00+09:00"
+          },
+          {
+            "id": "ac_rif2ea8a9fd8d",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000047"
+            ],
+            "start": "2026-07-26T11:40:00+09:00",
+            "end": "2026-07-26T12:00:00+09:00"
+          },
+          {
+            "id": "ac_rif15f40ac238",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000049"
+            ],
+            "start": "2026-07-26T12:05:00+09:00",
+            "end": "2026-07-26T12:25:00+09:00"
+          },
+          {
+            "id": "ac_rif2126059278",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000155"
+            ],
+            "start": "2026-07-26T12:25:00+09:00",
+            "end": "2026-07-26T12:45:00+09:00"
+          },
+          {
+            "id": "ac_rif8339ff800f",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000084"
+            ],
+            "start": "2026-07-26T12:45:00+09:00",
+            "end": "2026-07-26T13:05:00+09:00"
+          },
+          {
+            "id": "ac_rif26c50f2504",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000173"
+            ],
+            "start": "2026-07-26T13:05:00+09:00",
+            "end": "2026-07-26T13:15:00+09:00"
+          },
+          {
+            "id": "ac_rif7d66c0a9b2",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000021"
+            ],
+            "start": "2026-07-26T13:35:00+09:00",
+            "end": "2026-07-26T13:55:00+09:00"
+          },
+          {
+            "id": "ac_rifcd5b80612d",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000018"
+            ],
+            "start": "2026-07-26T13:55:00+09:00",
+            "end": "2026-07-26T14:15:00+09:00"
+          },
+          {
+            "id": "ac_rif43e342da1e",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000062"
+            ],
+            "start": "2026-07-26T14:15:00+09:00",
+            "end": "2026-07-26T14:35:00+09:00"
+          },
+          {
+            "id": "ac_rif94c8bbade7",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000009"
+            ],
+            "start": "2026-07-26T14:40:00+09:00",
+            "end": "2026-07-26T15:00:00+09:00"
+          },
+          {
+            "id": "ac_rif6f7e305fdb",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000043"
+            ],
+            "start": "2026-07-26T15:00:00+09:00",
+            "end": "2026-07-26T15:20:00+09:00"
+          },
+          {
+            "id": "ac_riff20a6cc345",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g19bbe391d9"
+            ],
+            "start": "2026-07-26T15:20:00+09:00",
+            "end": "2026-07-26T15:40:00+09:00"
+          },
+          {
+            "id": "ac_rif2e678c2879",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000033"
+            ],
+            "start": "2026-07-26T16:00:00+09:00",
+            "end": "2026-07-26T16:20:00+09:00"
+          },
+          {
+            "id": "ac_rif1f85cee3f4",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000117"
+            ],
+            "start": "2026-07-26T16:20:00+09:00",
+            "end": "2026-07-26T16:40:00+09:00"
+          },
+          {
+            "id": "ac_rif471dc47f9a",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000050"
+            ],
+            "start": "2026-07-26T16:40:00+09:00",
+            "end": "2026-07-26T17:00:00+09:00"
+          },
+          {
+            "id": "ac_rif76a6a72e5a",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000089"
+            ],
+            "start": "2026-07-26T17:05:00+09:00",
+            "end": "2026-07-26T17:25:00+09:00"
+          },
+          {
+            "id": "ac_rif3b8f0dd405",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000030"
+            ],
+            "start": "2026-07-26T17:25:00+09:00",
+            "end": "2026-07-26T17:45:00+09:00"
+          },
+          {
+            "id": "ac_rif33d9d38436",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000029"
+            ],
+            "start": "2026-07-26T17:45:00+09:00",
+            "end": "2026-07-26T18:05:00+09:00"
+          },
+          {
+            "id": "ac_rifa857926ab4",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000038"
+            ],
+            "start": "2026-07-26T18:10:00+09:00",
+            "end": "2026-07-26T18:30:00+09:00"
+          },
+          {
+            "id": "ac_rifbd7a2e5a3b",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g38fdf256f0"
+            ],
+            "start": "2026-07-26T18:30:00+09:00",
+            "end": "2026-07-26T18:50:00+09:00"
+          },
+          {
+            "id": "ac_rif9ac0a98d1d",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000120"
+            ],
+            "start": "2026-07-26T18:50:00+09:00",
+            "end": "2026-07-26T19:10:00+09:00"
+          },
+          {
+            "id": "ac_rif7730f69785",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000065"
+            ],
+            "start": "2026-07-26T19:15:00+09:00",
+            "end": "2026-07-26T19:35:00+09:00"
+          },
+          {
+            "id": "ac_rifc03080fba1",
+            "lane_id": "ln_rifbf4434ffff",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000003"
+            ],
+            "start": "2026-07-26T19:35:00+09:00",
+            "end": "2026-07-26T19:55:00+09:00"
+          },
+          {
+            "id": "ac_rifeac49d884c",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000059"
+            ],
+            "start": "2026-07-26T11:00:00+09:00",
+            "end": "2026-07-26T11:20:00+09:00"
+          },
+          {
+            "id": "ac_rif777893ca12",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000174"
+            ],
+            "start": "2026-07-26T11:20:00+09:00",
+            "end": "2026-07-26T11:40:00+09:00"
+          },
+          {
+            "id": "ac_rifdca61edfc2",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g6a966de780"
+            ],
+            "start": "2026-07-26T11:40:00+09:00",
+            "end": "2026-07-26T12:00:00+09:00"
+          },
+          {
+            "id": "ac_rif4d83111893",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000182"
+            ],
+            "start": "2026-07-26T12:05:00+09:00",
+            "end": "2026-07-26T12:25:00+09:00"
+          },
+          {
+            "id": "ac_rif03efdba4f7",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000179"
+            ],
+            "start": "2026-07-26T12:25:00+09:00",
+            "end": "2026-07-26T12:45:00+09:00"
+          },
+          {
+            "id": "ac_rif4308d19af0",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000117"
+            ],
+            "start": "2026-07-26T12:45:00+09:00",
+            "end": "2026-07-26T13:05:00+09:00"
+          },
+          {
+            "id": "ac_rif3a1b56a70b",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000068"
+            ],
+            "start": "2026-07-26T13:10:00+09:00",
+            "end": "2026-07-26T13:30:00+09:00"
+          },
+          {
+            "id": "ac_rif021fc814b6",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000053"
+            ],
+            "start": "2026-07-26T13:30:00+09:00",
+            "end": "2026-07-26T13:50:00+09:00"
+          },
+          {
+            "id": "ac_rif61e81c3c30",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000089"
+            ],
+            "start": "2026-07-26T13:50:00+09:00",
+            "end": "2026-07-26T14:10:00+09:00"
+          },
+          {
+            "id": "ac_rifac0880d515",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000091"
+            ],
+            "start": "2026-07-26T14:20:00+09:00",
+            "end": "2026-07-26T14:40:00+09:00"
+          },
+          {
+            "id": "ac_rif42bab7c735",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000144"
+            ],
+            "start": "2026-07-26T14:40:00+09:00",
+            "end": "2026-07-26T15:00:00+09:00"
+          },
+          {
+            "id": "ac_rifd5ec74ff04",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000038"
+            ],
+            "start": "2026-07-26T15:00:00+09:00",
+            "end": "2026-07-26T15:20:00+09:00"
+          },
+          {
+            "id": "ac_rif52633e7968",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g50f9deb34d"
+            ],
+            "start": "2026-07-26T15:25:00+09:00",
+            "end": "2026-07-26T15:45:00+09:00"
+          },
+          {
+            "id": "ac_riff32efb6c58",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000169"
+            ],
+            "start": "2026-07-26T15:45:00+09:00",
+            "end": "2026-07-26T16:05:00+09:00"
+          },
+          {
+            "id": "ac_rif5ab746dbf8",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000030"
+            ],
+            "start": "2026-07-26T16:05:00+09:00",
+            "end": "2026-07-26T16:25:00+09:00"
+          },
+          {
+            "id": "ac_riff2170d1864",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000040"
+            ],
+            "start": "2026-07-26T16:30:00+09:00",
+            "end": "2026-07-26T16:50:00+09:00"
+          },
+          {
+            "id": "ac_rif5b4cee4021",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000004"
+            ],
+            "start": "2026-07-26T16:50:00+09:00",
+            "end": "2026-07-26T17:10:00+09:00"
+          },
+          {
+            "id": "ac_rifc1101501ca",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000028"
+            ],
+            "start": "2026-07-26T17:10:00+09:00",
+            "end": "2026-07-26T17:30:00+09:00"
+          },
+          {
+            "id": "ac_riffd48d7f595",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000118"
+            ],
+            "start": "2026-07-26T17:40:00+09:00",
+            "end": "2026-07-26T18:00:00+09:00"
+          },
+          {
+            "id": "ac_rif721572b014",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000153"
+            ],
+            "start": "2026-07-26T18:00:00+09:00",
+            "end": "2026-07-26T18:20:00+09:00"
+          },
+          {
+            "id": "ac_rifec2b1874b7",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000049"
+            ],
+            "start": "2026-07-26T18:20:00+09:00",
+            "end": "2026-07-26T18:40:00+09:00"
+          },
+          {
+            "id": "ac_rifda89597e0b",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000084"
+            ],
+            "start": "2026-07-26T18:45:00+09:00",
+            "end": "2026-07-26T19:05:00+09:00"
+          },
+          {
+            "id": "ac_rifc49004778d",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000033"
+            ],
+            "start": "2026-07-26T19:05:00+09:00",
+            "end": "2026-07-26T19:25:00+09:00"
+          },
+          {
+            "id": "ac_riff5f155753e",
+            "lane_id": "ln_rif4992bebbd7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g19bbe391d9"
+            ],
+            "start": "2026-07-26T19:25:00+09:00",
+            "end": "2026-07-26T19:45:00+09:00"
+          },
+          {
+            "id": "ac_rif501d691a90",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000131"
+            ],
+            "start": "2026-07-26T11:00:00+09:00",
+            "end": "2026-07-26T11:25:00+09:00"
+          },
+          {
+            "id": "ac_rif9730d82c7f",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000120"
+            ],
+            "start": "2026-07-26T11:25:00+09:00",
+            "end": "2026-07-26T11:50:00+09:00"
+          },
+          {
+            "id": "ac_rifaaccb94d3f",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gca2cde3951"
+            ],
+            "start": "2026-07-26T11:50:00+09:00",
+            "end": "2026-07-26T12:15:00+09:00"
+          },
+          {
+            "id": "ac_rif33dcd23e41",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g2dd8e7449c"
+            ],
+            "start": "2026-07-26T12:20:00+09:00",
+            "end": "2026-07-26T12:45:00+09:00"
+          },
+          {
+            "id": "ac_rif4e30d6007d",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g50f9deb34d"
+            ],
+            "start": "2026-07-26T12:45:00+09:00",
+            "end": "2026-07-26T13:10:00+09:00"
+          },
+          {
+            "id": "ac_rif41e2a31e2a",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gda98118942"
+            ],
+            "start": "2026-07-26T13:10:00+09:00",
+            "end": "2026-07-26T13:35:00+09:00"
+          },
+          {
+            "id": "ac_rif6b2f51b106",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000155"
+            ],
+            "start": "2026-07-26T13:40:00+09:00",
+            "end": "2026-07-26T14:05:00+09:00"
+          },
+          {
+            "id": "ac_rifa231502550",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000143"
+            ],
+            "start": "2026-07-26T14:05:00+09:00",
+            "end": "2026-07-26T14:30:00+09:00"
+          },
+          {
+            "id": "ac_rife08d5b0f2b",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "other",
+            "title": "塩見きらwithプロデュースアイドル（コラボ）",
+            "start": "2026-07-26T14:30:00+09:00",
+            "end": "2026-07-26T15:00:00+09:00"
+          },
+          {
+            "id": "ac_rif0d26c3250e",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ga1a226bd7a"
+            ],
+            "start": "2026-07-26T15:05:00+09:00",
+            "end": "2026-07-26T15:30:00+09:00"
+          },
+          {
+            "id": "ac_rifae6ad94346",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g14b20698c7"
+            ],
+            "start": "2026-07-26T15:30:00+09:00",
+            "end": "2026-07-26T15:55:00+09:00"
+          },
+          {
+            "id": "ac_rif31fca43e76",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g8d799b4e12"
+            ],
+            "start": "2026-07-26T15:55:00+09:00",
+            "end": "2026-07-26T16:20:00+09:00"
+          },
+          {
+            "id": "ac_rif6372549ab9",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000061"
+            ],
+            "start": "2026-07-26T16:25:00+09:00",
+            "end": "2026-07-26T16:50:00+09:00"
+          },
+          {
+            "id": "ac_rif242696d1b8",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000090"
+            ],
+            "start": "2026-07-26T16:50:00+09:00",
+            "end": "2026-07-26T17:15:00+09:00"
+          },
+          {
+            "id": "ac_rif13bf93c2c6",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000052"
+            ],
+            "start": "2026-07-26T17:15:00+09:00",
+            "end": "2026-07-26T17:40:00+09:00"
+          },
+          {
+            "id": "ac_rif4a459aaddc",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000144"
+            ],
+            "start": "2026-07-26T17:45:00+09:00",
+            "end": "2026-07-26T18:10:00+09:00"
+          },
+          {
+            "id": "ac_riffd32b1a777",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000174"
+            ],
+            "start": "2026-07-26T18:10:00+09:00",
+            "end": "2026-07-26T18:35:00+09:00"
+          },
+          {
+            "id": "ac_rif089e706acf",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000074"
+            ],
+            "start": "2026-07-26T18:35:00+09:00",
+            "end": "2026-07-26T19:00:00+09:00"
+          },
+          {
+            "id": "ac_rif487b41d2d3",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000021"
+            ],
+            "start": "2026-07-26T19:05:00+09:00",
+            "end": "2026-07-26T19:30:00+09:00"
+          },
+          {
+            "id": "ac_rife012c4eaf8",
+            "lane_id": "ln_rif889ea808ce",
+            "kind": "live",
+            "artist_ids": [
+              "ar_tif0000062"
+            ],
+            "start": "2026-07-26T19:30:00+09:00",
+            "end": "2026-07-26T19:55:00+09:00"
+          },
+          {
+            "id": "ac_rif88b64bdab6",
+            "lane_id": "ln_rif1168113d04",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g10d016a61d"
+            ],
+            "start": "2026-07-26T11:30:00+09:00",
+            "end": "2026-07-26T12:30:00+09:00"
+          },
+          {
+            "id": "ac_rif7fec23a41e",
+            "lane_id": "ln_rif1168113d04",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000120"
+            ],
+            "start": "2026-07-26T12:50:00+09:00",
+            "end": "2026-07-26T13:50:00+09:00"
+          },
+          {
+            "id": "ac_rifce1fb499a7",
+            "lane_id": "ln_rif1168113d04",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000069"
+            ],
+            "start": "2026-07-26T14:10:00+09:00",
+            "end": "2026-07-26T15:10:00+09:00"
+          },
+          {
+            "id": "ac_rifbd653f64be",
+            "lane_id": "ln_rif1168113d04",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g8691c9c318"
+            ],
+            "start": "2026-07-26T15:40:00+09:00",
+            "end": "2026-07-26T16:40:00+09:00"
+          },
+          {
+            "id": "ac_rif5712ec8bba",
+            "lane_id": "ln_rif1168113d04",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000003"
+            ],
+            "start": "2026-07-26T16:50:00+09:00",
+            "end": "2026-07-26T17:50:00+09:00"
+          },
+          {
+            "id": "ac_rif5256d4f036",
+            "lane_id": "ln_rif1168113d04",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000047"
+            ],
+            "start": "2026-07-26T18:10:00+09:00",
+            "end": "2026-07-26T19:10:00+09:00"
+          },
+          {
+            "id": "ac_rif08fbe8c7d3",
+            "lane_id": "ln_rifae42117888",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000029"
+            ],
+            "start": "2026-07-26T12:10:00+09:00",
+            "end": "2026-07-26T13:10:00+09:00"
+          },
+          {
+            "id": "ac_rif5e1853c823",
+            "lane_id": "ln_rifae42117888",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g8691c9c318"
+            ],
+            "start": "2026-07-26T15:40:00+09:00",
+            "end": "2026-07-26T16:40:00+09:00"
+          },
+          {
+            "id": "ac_rif8801358e2f",
+            "lane_id": "ln_rifae42117888",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000043"
+            ],
+            "start": "2026-07-26T18:50:00+09:00",
+            "end": "2026-07-26T19:50:00+09:00"
+          },
+          {
+            "id": "ac_rif188c7962e7",
+            "lane_id": "ln_rife6692d8f6a",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000005"
+            ],
+            "start": "2026-07-26T12:50:00+09:00",
+            "end": "2026-07-26T13:50:00+09:00"
+          },
+          {
+            "id": "ac_rifea827d20db",
+            "lane_id": "ln_rife6692d8f6a",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_gc2a5830c9a"
+            ],
+            "start": "2026-07-26T15:10:00+09:00",
+            "end": "2026-07-26T16:10:00+09:00"
+          },
+          {
+            "id": "ac_rifeb551d6676",
+            "lane_id": "ln_rife6692d8f6a",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000074"
+            ],
+            "start": "2026-07-26T16:30:00+09:00",
+            "end": "2026-07-26T17:30:00+09:00"
+          },
+          {
+            "id": "ac_rif331d6d5c7f",
+            "lane_id": "ln_rife6692d8f6a",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000082"
+            ],
+            "start": "2026-07-26T18:00:00+09:00",
+            "end": "2026-07-26T19:00:00+09:00"
+          },
+          {
+            "id": "ac_rifdab06e2c97",
+            "lane_id": "ln_rifacdd1d739d",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000091"
+            ],
+            "start": "2026-07-26T12:00:00+09:00",
+            "end": "2026-07-26T13:00:00+09:00",
+            "title": "高嶺のなでしこ（物販のみ）"
+          },
+          {
+            "id": "ac_rif52fbfd2bb2",
+            "lane_id": "ln_rifacdd1d739d",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000084"
+            ],
+            "start": "2026-07-26T13:45:00+09:00",
+            "end": "2026-07-26T14:45:00+09:00"
+          },
+          {
+            "id": "ac_rif6bbf53dad9",
+            "lane_id": "ln_rifacdd1d739d",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000143"
+            ],
+            "start": "2026-07-26T15:10:00+09:00",
+            "end": "2026-07-26T16:10:00+09:00"
+          },
+          {
+            "id": "ac_riff169a353b8",
+            "lane_id": "ln_rifacdd1d739d",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g19bbe391d9"
+            ],
+            "start": "2026-07-26T16:20:00+09:00",
+            "end": "2026-07-26T17:20:00+09:00"
+          },
+          {
+            "id": "ac_rif23fb0d55ea",
+            "lane_id": "ln_rifacdd1d739d",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000050"
+            ],
+            "start": "2026-07-26T17:40:00+09:00",
+            "end": "2026-07-26T18:40:00+09:00"
+          },
+          {
+            "id": "ac_rifda11a02c88",
+            "lane_id": "ln_rif275f8d2a97",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000131"
+            ],
+            "start": "2026-07-26T12:25:00+09:00",
+            "end": "2026-07-26T13:25:00+09:00"
+          },
+          {
+            "id": "ac_rif586451b811",
+            "lane_id": "ln_rif275f8d2a97",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000173"
+            ],
+            "start": "2026-07-26T13:55:00+09:00",
+            "end": "2026-07-26T14:55:00+09:00"
+          },
+          {
+            "id": "ac_rif094181e23a",
+            "lane_id": "ln_rif275f8d2a97",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000062"
+            ],
+            "start": "2026-07-26T15:15:00+09:00",
+            "end": "2026-07-26T16:15:00+09:00"
+          },
+          {
+            "id": "ac_rif9d054c4afe",
+            "lane_id": "ln_rif275f8d2a97",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000033"
+            ],
+            "start": "2026-07-26T17:00:00+09:00",
+            "end": "2026-07-26T18:00:00+09:00"
+          },
+          {
+            "id": "ac_rifa844a5add7",
+            "lane_id": "ln_rif275f8d2a97",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000030"
+            ],
+            "start": "2026-07-26T18:25:00+09:00",
+            "end": "2026-07-26T19:25:00+09:00"
+          },
+          {
+            "id": "ac_rif1ae8457d83",
+            "lane_id": "ln_rifce1fc6aaa5",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000049"
+            ],
+            "start": "2026-07-26T13:05:00+09:00",
+            "end": "2026-07-26T14:05:00+09:00"
+          },
+          {
+            "id": "ac_rifb69298e526",
+            "lane_id": "ln_rifce1fc6aaa5",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000021"
+            ],
+            "start": "2026-07-26T14:35:00+09:00",
+            "end": "2026-07-26T15:35:00+09:00"
+          },
+          {
+            "id": "ac_rif102d1dadef",
+            "lane_id": "ln_rifce1fc6aaa5",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000009"
+            ],
+            "start": "2026-07-26T15:55:00+09:00",
+            "end": "2026-07-26T16:55:00+09:00"
+          },
+          {
+            "id": "ac_rif3675ddc7c9",
+            "lane_id": "ln_rif6ea31687f3",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000059"
+            ],
+            "start": "2026-07-26T11:50:00+09:00",
+            "end": "2026-07-26T12:50:00+09:00"
+          },
+          {
+            "id": "ac_rifc4ba1a6415",
+            "lane_id": "ln_rif6ea31687f3",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000182"
+            ],
+            "start": "2026-07-26T13:00:00+09:00",
+            "end": "2026-07-26T14:00:00+09:00"
+          },
+          {
+            "id": "ac_rif00caaba4be",
+            "lane_id": "ln_rif6ea31687f3",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000068"
+            ],
+            "start": "2026-07-26T14:10:00+09:00",
+            "end": "2026-07-26T15:10:00+09:00"
+          },
+          {
+            "id": "ac_rifc266927a6d",
+            "lane_id": "ln_rif6ea31687f3",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000144"
+            ],
+            "start": "2026-07-26T15:30:00+09:00",
+            "end": "2026-07-26T16:30:00+09:00"
+          },
+          {
+            "id": "ac_rif2fff353b97",
+            "lane_id": "ln_rif6ea31687f3",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000169"
+            ],
+            "start": "2026-07-26T16:40:00+09:00",
+            "end": "2026-07-26T17:40:00+09:00"
+          },
+          {
+            "id": "ac_rif3e16f10337",
+            "lane_id": "ln_rif6ea31687f3",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000028"
+            ],
+            "start": "2026-07-26T18:00:00+09:00",
+            "end": "2026-07-26T19:00:00+09:00"
+          },
+          {
+            "id": "ac_rif57617b2a88",
+            "lane_id": "ln_rifbac31ffb0b",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000174"
+            ],
+            "start": "2026-07-26T12:10:00+09:00",
+            "end": "2026-07-26T13:10:00+09:00"
+          },
+          {
+            "id": "ac_riffa8c78853d",
+            "lane_id": "ln_rifbac31ffb0b",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000179"
+            ],
+            "start": "2026-07-26T13:20:00+09:00",
+            "end": "2026-07-26T14:20:00+09:00"
+          },
+          {
+            "id": "ac_rif4b93057628",
+            "lane_id": "ln_rifbac31ffb0b",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000053"
+            ],
+            "start": "2026-07-26T14:30:00+09:00",
+            "end": "2026-07-26T15:30:00+09:00"
+          },
+          {
+            "id": "ac_rifee84e716d9",
+            "lane_id": "ln_rifbac31ffb0b",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000038"
+            ],
+            "start": "2026-07-26T15:50:00+09:00",
+            "end": "2026-07-26T16:50:00+09:00"
+          },
+          {
+            "id": "ac_rif42fa122de2",
+            "lane_id": "ln_rifbac31ffb0b",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000040"
+            ],
+            "start": "2026-07-26T17:20:00+09:00",
+            "end": "2026-07-26T18:20:00+09:00"
+          },
+          {
+            "id": "ac_rif12244385d2",
+            "lane_id": "ln_rifbac31ffb0b",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000118"
+            ],
+            "start": "2026-07-26T18:30:00+09:00",
+            "end": "2026-07-26T19:30:00+09:00"
+          },
+          {
+            "id": "ac_rifb85781558b",
+            "lane_id": "ln_rifdc9e181e09",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000045"
+            ],
+            "start": "2026-07-26T12:30:00+09:00",
+            "end": "2026-07-26T13:30:00+09:00"
+          },
+          {
+            "id": "ac_rif6d0c37d03d",
+            "lane_id": "ln_rifdc9e181e09",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000117"
+            ],
+            "start": "2026-07-26T13:40:00+09:00",
+            "end": "2026-07-26T14:40:00+09:00"
+          },
+          {
+            "id": "ac_rif7d3e30c101",
+            "lane_id": "ln_rifdc9e181e09",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000089"
+            ],
+            "start": "2026-07-26T14:50:00+09:00",
+            "end": "2026-07-26T15:50:00+09:00"
+          },
+          {
+            "id": "ac_rifb396528011",
+            "lane_id": "ln_rifdc9e181e09",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g50f9deb34d"
+            ],
+            "start": "2026-07-26T16:15:00+09:00",
+            "end": "2026-07-26T17:15:00+09:00"
+          },
+          {
+            "id": "ac_rif7bd542852d",
+            "lane_id": "ln_rifdc9e181e09",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000004"
+            ],
+            "start": "2026-07-26T17:40:00+09:00",
+            "end": "2026-07-26T18:40:00+09:00"
+          },
+          {
+            "id": "ac_rif4218c61872",
+            "lane_id": "ln_rifdc9e181e09",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000153"
+            ],
+            "start": "2026-07-26T18:50:00+09:00",
+            "end": "2026-07-26T19:50:00+09:00"
+          },
+          {
+            "id": "ac_rif9ecaf443a3",
+            "lane_id": "ln_rif050b6ae5d0",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g2dd8e7449c"
+            ],
+            "start": "2026-07-26T13:25:00+09:00",
+            "end": "2026-07-26T14:25:00+09:00"
+          },
+          {
+            "id": "ac_rif24da24f0bb",
+            "lane_id": "ln_rif050b6ae5d0",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000018"
+            ],
+            "start": "2026-07-26T14:55:00+09:00",
+            "end": "2026-07-26T15:55:00+09:00"
+          },
+          {
+            "id": "ac_rif63774589df",
+            "lane_id": "ln_rif050b6ae5d0",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g14b20698c7"
+            ],
+            "start": "2026-07-26T16:35:00+09:00",
+            "end": "2026-07-26T17:35:00+09:00"
+          },
+          {
+            "id": "ac_rif093c477487",
+            "lane_id": "ln_rif050b6ae5d0",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000090"
+            ],
+            "start": "2026-07-26T17:55:00+09:00",
+            "end": "2026-07-26T18:55:00+09:00"
+          },
+          {
+            "id": "ac_rifd8a709b76d",
+            "lane_id": "ln_rif4e9531fbce",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_gda98118942"
+            ],
+            "start": "2026-07-26T14:15:00+09:00",
+            "end": "2026-07-26T15:15:00+09:00"
+          },
+          {
+            "id": "ac_rif6539811187",
+            "lane_id": "ln_rif4e9531fbce",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000065"
+            ],
+            "start": "2026-07-26T15:30:00+09:00",
+            "end": "2026-07-26T16:30:00+09:00"
+          },
+          {
+            "id": "ac_rif1209456d25",
+            "lane_id": "ln_rif4e9531fbce",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_g8d799b4e12"
+            ],
+            "start": "2026-07-26T17:00:00+09:00",
+            "end": "2026-07-26T18:00:00+09:00"
+          },
+          {
+            "id": "ac_rife3ac547431",
+            "lane_id": "ln_rif4e9531fbce",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000052"
+            ],
+            "start": "2026-07-26T18:20:00+09:00",
+            "end": "2026-07-26T19:20:00+09:00"
+          },
+          {
+            "id": "ac_rif9e123b2af8",
+            "lane_id": "ln_rif6d2692b545",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_gca2cde3951"
+            ],
+            "start": "2026-07-26T12:55:00+09:00",
+            "end": "2026-07-26T13:55:00+09:00"
+          },
+          {
+            "id": "ac_rifb2bbf75b22",
+            "lane_id": "ln_rif6d2692b545",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000155"
+            ],
+            "start": "2026-07-26T14:45:00+09:00",
+            "end": "2026-07-26T15:45:00+09:00"
+          },
+          {
+            "id": "ac_rif4db946b153",
+            "lane_id": "ln_rif6d2692b545",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_ga1a226bd7a"
+            ],
+            "start": "2026-07-26T16:10:00+09:00",
+            "end": "2026-07-26T17:10:00+09:00"
+          },
+          {
+            "id": "ac_rifd99aba46a0",
+            "lane_id": "ln_rif6d2692b545",
+            "kind": "tokutenkai",
+            "artist_ids": [
+              "ar_tif0000061"
+            ],
+            "start": "2026-07-26T17:30:00+09:00",
+            "end": "2026-07-26T18:30:00+09:00"
+          }
+        ]
+      }
+    ]
+  }
+}

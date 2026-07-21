@@ -1,7 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T12:00:00+09:00",
+  "generated_at": "2026-07-21T21:29:53+09:00",
   "events": [
+    {
+      "id": "ev_rif2026main",
+      "name": "六本木アイドルフェスティバル2026",
+      "dates": [
+        "2026-07-25",
+        "2026-07-26"
+      ],
+      "venue_names": [
+        "有明"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-21T21:29:53+09:00",
+      "path": "catalog/events/ev_rif2026main.json"
+    },
     {
       "id": "ev_tif2026main",
       "name": "TOKYO IDOL FESTIVAL 2026",

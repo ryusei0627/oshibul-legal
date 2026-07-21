@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T12:00:00+09:00",
+  "generated_at": "2026-07-21T21:29:53+09:00",
   "artists": [
     {
       "id": "ar_tif0000001",
@@ -991,12 +991,154 @@
       "id": "ar_tif0000198",
       "name": "パラディーク",
       "aliases": []
+    },
+    {
+      "id": "ar_ga1a226bd7a",
+      "name": "BLUEGOATS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6cdaaa8cb2",
+      "name": "Finally",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3b78f3826b",
+      "name": "HIGH SPIRITS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g663a277666",
+      "name": "HelloYouth",
+      "aliases": []
+    },
+    {
+      "id": "ar_g19bbe391d9",
+      "name": "JamsCollection",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge53aefeadc",
+      "name": "LOVE CHANT",
+      "aliases": []
+    },
+    {
+      "id": "ar_g84187267f8",
+      "name": "LinQ OG",
+      "aliases": []
+    },
+    {
+      "id": "ar_g50f9deb34d",
+      "name": "MISS MERCY",
+      "aliases": []
+    },
+    {
+      "id": "ar_g10d016a61d",
+      "name": "NEVER END ROLL",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd2773574ee",
+      "name": "SAKURADOLL",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbb7913b7e6",
+      "name": "Sophià la Mode",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8d799b4e12",
+      "name": "unSea",
+      "aliases": []
+    },
+    {
+      "id": "ar_g38fdf256f0",
+      "name": "かすみ草とステラ 1〜3期生",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6a966de780",
+      "name": "かすみ草とステラ 4期生",
+      "aliases": []
+    },
+    {
+      "id": "ar_g94a077e3e9",
+      "name": "きゅ〜くる",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2dd8e7449c",
+      "name": "すーぱーぷーぱぁー!!",
+      "aliases": []
+    },
+    {
+      "id": "ar_g32b4e0155b",
+      "name": "はっちゃけ隊",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc2a5830c9a",
+      "name": "まねきケチャ OG",
+      "aliases": []
+    },
+    {
+      "id": "ar_gef2beb49fa",
+      "name": "マジカル・パンチライン",
+      "aliases": []
+    },
+    {
+      "id": "ar_g26084454cb",
+      "name": "マリークラウン",
+      "aliases": []
+    },
+    {
+      "id": "ar_gca5eee5562",
+      "name": "ミームトーキョー",
+      "aliases": []
+    },
+    {
+      "id": "ar_gda98118942",
+      "name": "ルルネージュ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8691c9c318",
+      "name": "塩見きらwithプロデュースアイドル",
+      "aliases": []
+    },
+    {
+      "id": "ar_gca2cde3951",
+      "name": "山﨑夢羽",
+      "aliases": []
+    },
+    {
+      "id": "ar_g14b20698c7",
+      "name": "月刊PAM",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3b46eb910d",
+      "name": "江戸桜",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6cd2dd2f47",
+      "name": "高柳明音",
+      "aliases": []
     }
   ],
   "venues": [
     {
       "id": "vn_tif2026daiba",
       "name": "TIF2026 お台場・青海会場",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_rif2026ariake",
+      "name": "TOKYO DREAM PARK / TFTホール(有明)",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 10
