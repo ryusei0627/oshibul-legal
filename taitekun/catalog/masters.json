@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T23:19:24+09:00",
+  "generated_at": "2026-07-21T23:49:58+09:00",
   "artists": [
     {
       "id": "ar_tif0000001",
@@ -3616,6 +3616,821 @@
       "id": "ar_gebab0ed173",
       "name": "秋山黄色",
       "aliases": []
+    },
+    {
+      "id": "ar_g194f13d18b",
+      "name": ".ENDRECHERI.",
+      "aliases": []
+    },
+    {
+      "id": "ar_g902ba3cda1",
+      "name": "7",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbbee83efe7",
+      "name": "7co",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd45109e3f7",
+      "name": "AKMU",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge0aab2e18d",
+      "name": "ALEX WARREN",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfb2773d6a1",
+      "name": "AUDREY NUNA",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc693baba30",
+      "name": "Ado",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8b347a8f70",
+      "name": "Ave Mujica",
+      "aliases": []
+    },
+    {
+      "id": "ar_g093bdf4278",
+      "name": "BABYMETAL",
+      "aliases": []
+    },
+    {
+      "id": "ar_g13e02ff6ee",
+      "name": "BABYMONSTER",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1981bc0b29",
+      "name": "BE:FIRST",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1639a2cb01",
+      "name": "BINI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7e14eeac3f",
+      "name": "BOY SODA",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbb8c579656",
+      "name": "BUMP OF CHICKEN",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb7671e7215",
+      "name": "CARDINALS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4671729778",
+      "name": "CARÍN LEÓN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g48fc30c9bc",
+      "name": "CHLOE QISHA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0877113b99",
+      "name": "CRYSTAL WATERS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6511f49738",
+      "name": "Chilli Beans.",
+      "aliases": []
+    },
+    {
+      "id": "ar_g32dc6989c6",
+      "name": "Cornelius",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3fba67f2ff",
+      "name": "DAVID BYRNE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g47778f93de",
+      "name": "DEAN & TABBER",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2a8cc51405",
+      "name": "DECEMBER 10",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8765c02aa1",
+      "name": "DERMOT KENNEDY",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3838c87609",
+      "name": "DESTIN CONRAD",
+      "aliases": []
+    },
+    {
+      "id": "ar_gaa520995c4",
+      "name": "Dungeoneering",
+      "aliases": []
+    },
+    {
+      "id": "ar_g81dfd8fb83",
+      "name": "ELMIENE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6f66a81cc3",
+      "name": "EMNW",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0019383945",
+      "name": "FATHER OF PEACE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9a8fead0df",
+      "name": "FKA TWIGS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1bd9a67ecb",
+      "name": "FLORENCE ROAD",
+      "aliases": []
+    },
+    {
+      "id": "ar_g964729c63a",
+      "name": "FULLHOUSE",
+      "aliases": []
+    },
+    {
+      "id": "ar_gea43adfed4",
+      "name": "GOOD NEIGHBOURS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g500e9e75f4",
+      "name": "HALCALI",
+      "aliases": []
+    },
+    {
+      "id": "ar_gaea3fa763a",
+      "name": "HANA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2ca9b0a980",
+      "name": "HANRORO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2e95036ff8",
+      "name": "HOLLY HUMBERSTONE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4bcdd49768",
+      "name": "HUMBE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4d3433d601",
+      "name": "Hyojoo",
+      "aliases": []
+    },
+    {
+      "id": "ar_g291789cab8",
+      "name": "Iga Nana",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8f03696a2f",
+      "name": "JADE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g894ddc32aa",
+      "name": "JAMES FAUNTLEROY",
+      "aliases": []
+    },
+    {
+      "id": "ar_g300ae52b72",
+      "name": "JAMIROQUAI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4c7efff8d7",
+      "name": "JENNIE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g916af79357",
+      "name": "JON SPENCER",
+      "aliases": []
+    },
+    {
+      "id": "ar_g55e7b92433",
+      "name": "Jeremy Quartus",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0dde677aef",
+      "name": "KASABIAN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g122b02f4d2",
+      "name": "KESHI",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcd26289e0e",
+      "name": "KODALINE",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge26266565a",
+      "name": "KOMOREBI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g752c8b4fff",
+      "name": "Kohjiya",
+      "aliases": []
+    },
+    {
+      "id": "ar_g66de1a0e70",
+      "name": "Kvi Baba",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4b6520d4c7",
+      "name": "L'Arc-en-Ciel",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf429b1d7d2",
+      "name": "LATIN MAFIA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g56943ad8db",
+      "name": "LE SSERAFIM",
+      "aliases": []
+    },
+    {
+      "id": "ar_g896d79d8c4",
+      "name": "Legal nerd boyz",
+      "aliases": []
+    },
+    {
+      "id": "ar_gab30418810",
+      "name": "Litty",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7b9717b93a",
+      "name": "Liza",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc17c884733",
+      "name": "MAN WITH A MISSION",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3f069934e3",
+      "name": "MAYSON's PARTY",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga79990d2b0",
+      "name": "METALVERSE",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc2a20beb19",
+      "name": "MIDNIGHT TIL MORNING",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3ebc002aa0",
+      "name": "MIKADO",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf0f5aad1ea",
+      "name": "Maverick Mom",
+      "aliases": []
+    },
+    {
+      "id": "ar_g627f2418d8",
+      "name": "NECTAR WOODE",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd675ffae31",
+      "name": "NOMELON NOLEMON",
+      "aliases": []
+    },
+    {
+      "id": "ar_g109cfb29cf",
+      "name": "Night Tempo",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9ccb6ceb32",
+      "name": "Novel Core",
+      "aliases": []
+    },
+    {
+      "id": "ar_g03edd5486e",
+      "name": "OMARION",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb52fa027b5",
+      "name": "OSHIKIKEIGO",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd835f209dc",
+      "name": "PALOMA MORPHY",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbeb0c5cf48",
+      "name": "PENDULUM",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2e440b4b40",
+      "name": "PENTATONIX",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc0ddac4655",
+      "name": "PEOPLE 1",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1841049c4c",
+      "name": "PRETTY BLEAK",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1794b24673",
+      "name": "PiXXiE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g74d5fb42fc",
+      "name": "REAL McCOY",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga8d49f695a",
+      "name": "REJAY × Andr",
+      "aliases": []
+    },
+    {
+      "id": "ar_g34f2eb529e",
+      "name": "Rol3ert",
+      "aliases": []
+    },
+    {
+      "id": "ar_g63296d8ac3",
+      "name": "SB19",
+      "aliases": []
+    },
+    {
+      "id": "ar_gefbfb9a5cc",
+      "name": "SEKOU",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge2d2ad2aea",
+      "name": "SIRUP",
+      "aliases": []
+    },
+    {
+      "id": "ar_g62778b0808",
+      "name": "SKRYU",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc9991bce5e",
+      "name": "SOUTH ARCADE",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge8aa2426f9",
+      "name": "STARGLOW",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbd3affb554",
+      "name": "STEVE LACY",
+      "aliases": []
+    },
+    {
+      "id": "ar_g81a272ee49",
+      "name": "STUTS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g15e785aa69",
+      "name": "SUEDE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0130daaa84",
+      "name": "Saucy Dog",
+      "aliases": []
+    },
+    {
+      "id": "ar_g67b28ceafd",
+      "name": "Suchmos",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2f2e66a06d",
+      "name": "THE GUEST LIST",
+      "aliases": []
+    },
+    {
+      "id": "ar_g19a4ee8356",
+      "name": "THE STROKES",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0d7ba87660",
+      "name": "THE WARNING",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2af47b1695",
+      "name": "THEA AUSTIN, formerly of SNAP!",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7d0e28e4ee",
+      "name": "TWS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0ffdc665d7",
+      "name": "The RH Factor reunion tribute to Roy Hargrove",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd48fe7e599",
+      "name": "Travis Japan",
+      "aliases": []
+    },
+    {
+      "id": "ar_gca60ac4ac1",
+      "name": "VIAGRA BOYS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g54fb5f1167",
+      "name": "Verses GT",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2ce53a4e57",
+      "name": "WANIMA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3b61e53970",
+      "name": "WEST.",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1fa52ea3b9",
+      "name": "WISP",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0800440a8a",
+      "name": "WOos",
+      "aliases": []
+    },
+    {
+      "id": "ar_g66a234ba11",
+      "name": "Xdinary Heroes",
+      "aliases": []
+    },
+    {
+      "id": "ar_g168dd0457a",
+      "name": "YUKI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g975b3a108b",
+      "name": "ZEBRAHEAD",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7b57fb287a",
+      "name": "Zilqy",
+      "aliases": []
+    },
+    {
+      "id": "ar_g36d51aec22",
+      "name": "amazarashi",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfd35d5bf5c",
+      "name": "eill",
+      "aliases": []
+    },
+    {
+      "id": "ar_g75a13ce17f",
+      "name": "ena mori",
+      "aliases": []
+    },
+    {
+      "id": "ar_gce35698aaa",
+      "name": "kurayamisaka",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3a5964ddb5",
+      "name": "mgk",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5a938adfab",
+      "name": "o.j.o",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5577d51bf2",
+      "name": "さらさ (Band Set)",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga5cb33f674",
+      "name": "にしな",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0cdfebdc8f",
+      "name": "のん & the tears of knight",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5b17131975",
+      "name": "アイナ・ジ・エンド",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd4e6a01644",
+      "name": "キタニタツヤ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf8f9ab2d34",
+      "name": "サカナクション",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb5ba22d745",
+      "name": "ハク。",
+      "aliases": []
+    },
+    {
+      "id": "ar_g039d31bef4",
+      "name": "バチカン市国に愛されたい",
+      "aliases": []
+    },
+    {
+      "id": "ar_g74a43e4fad",
+      "name": "パソコン音楽クラブ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g942110ae10",
+      "name": "マカロニえんぴつ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gde3de3fe81",
+      "name": "中島健人",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf708981a1f",
+      "name": "名誉伝説",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga86e4bc672",
+      "name": "告五人 Accusefive",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd7b788ac09",
+      "name": "女王蜂",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5a90fbfae5",
+      "name": "札幌某所",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9656cf8fad",
+      "name": "板歯目",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8a8d0b2b27",
+      "name": "紫今",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8b81e8fc89",
+      "name": "羊文学",
+      "aliases": []
+    },
+    {
+      "id": "ar_g65ca034a0f",
+      "name": "花冷え。",
+      "aliases": []
+    },
+    {
+      "id": "ar_g54e3784fa2",
+      "name": "阿部真央",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf4272c57e8",
+      "name": "電気グルーヴ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb3dc626cab",
+      "name": "A-TRAK",
+      "aliases": []
+    },
+    {
+      "id": "ar_gdd7efe8cc3",
+      "name": "AOTO",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf84cb5762e",
+      "name": "CLAN QUEEN",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf89e5c2b56",
+      "name": "DJ HASEBE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9fc910b7cc",
+      "name": "DRUNKEN KONG",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0a8fa09635",
+      "name": "Daichi Yamamoto",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2a3532c9a9",
+      "name": "GooDee",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfa287d9d99",
+      "name": "Hana Hope",
+      "aliases": []
+    },
+    {
+      "id": "ar_gedaecf2d9e",
+      "name": "LET ME KNOW",
+      "aliases": []
+    },
+    {
+      "id": "ar_g67f0cf6e8c",
+      "name": "Lavt",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbdf01ce219",
+      "name": "Masato Hayashi",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf279af04ca",
+      "name": "Meg Bonus",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb495c841bf",
+      "name": "MoMo",
+      "aliases": []
+    },
+    {
+      "id": "ar_g08253a932f",
+      "name": "Peterparker69",
+      "aliases": []
+    },
+    {
+      "id": "ar_g50d267aff9",
+      "name": "REJAY",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc76c5ec768",
+      "name": "Re:name",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4b127b3d40",
+      "name": "THE あろーんず",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd9c84b97ec",
+      "name": "The Meal Groove",
+      "aliases": []
+    },
+    {
+      "id": "ar_g68f732c587",
+      "name": "XinU",
+      "aliases": []
+    },
+    {
+      "id": "ar_g802f1c83d0",
+      "name": "in-d",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb9406e8553",
+      "name": "kiki vivi lily",
+      "aliases": []
+    },
+    {
+      "id": "ar_g03aaf07a92",
+      "name": "lil soft tennis",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5f25339e10",
+      "name": "カメレオン・ライム・ウーピーパイ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf41a1ac1c4",
+      "name": "クレイジーウォウウォ!!",
+      "aliases": []
+    },
+    {
+      "id": "ar_g97a497a21e",
+      "name": "大沢伸一",
+      "aliases": []
+    },
+    {
+      "id": "ar_g33e1d96f2d",
+      "name": "新しい学校のリーダーズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4e2368790a",
+      "name": "木村カエラ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g34d86b00b1",
+      "name": "梅田サイファー",
+      "aliases": []
+    },
+    {
+      "id": "ar_g34bb57571b",
+      "name": "鈴木真海子",
+      "aliases": []
     }
   ],
   "venues": [
@@ -3650,6 +4465,20 @@
     {
       "id": "vn_giga2026maishima",
       "name": "舞洲スポーツアイランド(大阪)",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_sstokyo2026",
+      "name": "ZOZOマリンスタジアム／幕張メッセ（千葉県）",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_ssosaka2026",
+      "name": "万博記念公園（大阪府吹田市）",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 10

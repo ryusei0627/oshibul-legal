@@ -1,0 +1,1279 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-21T23:49:58+09:00",
+  "event": {
+    "id": "ev_ssosaka2026main",
+    "name": "SUMMER SONIC 2026 OSAKA",
+    "name_reading": "さまーそにっくおおさか",
+    "hashtag": "#サマソニ",
+    "official_url": "https://www.summersonic.com/tt/osaka-day1/",
+    "note": "万博記念公園（大阪） 5ステージ / 8月14日(金)・15日(土)・16日(日)開催。25周年。ステージ会場: 東の広場/もみじ川/お祭り広場/桜の流れ/EXPO'70パビリオン。",
+    "days": [
+      {
+        "id": "dy_sso20260814",
+        "activity_date": "2026-08-14",
+        "start": "2026-08-14T10:50:00+09:00",
+        "end": "2026-08-14T20:50:00+09:00",
+        "timetable_status": "published",
+        "venue_ids": [
+          "vn_ssosaka2026"
+        ],
+        "lanes": [
+          {
+            "id": "ln_ssoa9b59e2fe7",
+            "name": "AIR STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 1
+          },
+          {
+            "id": "ln_sso0d51b74efb",
+            "name": "MOUNTAIN STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 2
+          },
+          {
+            "id": "ln_ssoa0153c9c70",
+            "name": "SONIC STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 3
+          },
+          {
+            "id": "ln_sso2f1409fe29",
+            "name": "MASSIVE STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 4
+          },
+          {
+            "id": "ln_ssob53559739e",
+            "name": "PAVILION STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 5
+          }
+        ],
+        "acts": [
+          {
+            "id": "ac_ssofabde77849",
+            "lane_id": "ln_ssoa9b59e2fe7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g2a8cc51405"
+            ],
+            "start": "2026-08-14T11:15:00+09:00",
+            "end": "2026-08-14T11:55:00+09:00"
+          },
+          {
+            "id": "ac_sso7d5739a07f",
+            "lane_id": "ln_ssoa9b59e2fe7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g2ce53a4e57"
+            ],
+            "start": "2026-08-14T12:45:00+09:00",
+            "end": "2026-08-14T13:25:00+09:00"
+          },
+          {
+            "id": "ac_sso7a8fe42fe9",
+            "lane_id": "ln_ssoa9b59e2fe7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g168dd0457a"
+            ],
+            "start": "2026-08-14T14:15:00+09:00",
+            "end": "2026-08-14T14:55:00+09:00"
+          },
+          {
+            "id": "ac_sso11e9e2491b",
+            "lane_id": "ln_ssoa9b59e2fe7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g2e440b4b40"
+            ],
+            "start": "2026-08-14T15:45:00+09:00",
+            "end": "2026-08-14T16:35:00+09:00"
+          },
+          {
+            "id": "ac_sso919ea3a070",
+            "lane_id": "ln_ssoa9b59e2fe7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g56943ad8db"
+            ],
+            "start": "2026-08-14T17:20:00+09:00",
+            "end": "2026-08-14T18:20:00+09:00"
+          },
+          {
+            "id": "ac_sso6a831d7f61",
+            "lane_id": "ln_ssoa9b59e2fe7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4b6520d4c7"
+            ],
+            "start": "2026-08-14T19:20:00+09:00",
+            "end": "2026-08-14T20:50:00+09:00"
+          },
+          {
+            "id": "ac_ssoba6656acbb",
+            "lane_id": "ln_sso0d51b74efb",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g7e14eeac3f"
+            ],
+            "start": "2026-08-14T11:15:00+09:00",
+            "end": "2026-08-14T11:50:00+09:00"
+          },
+          {
+            "id": "ac_sso4da399ac1d",
+            "lane_id": "ln_sso0d51b74efb",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gefbfb9a5cc"
+            ],
+            "start": "2026-08-14T12:20:00+09:00",
+            "end": "2026-08-14T13:00:00+09:00"
+          },
+          {
+            "id": "ac_ssod8b35ec413",
+            "lane_id": "ln_sso0d51b74efb",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g627f2418d8"
+            ],
+            "start": "2026-08-14T13:30:00+09:00",
+            "end": "2026-08-14T14:10:00+09:00"
+          },
+          {
+            "id": "ac_sso0570b8b9ec",
+            "lane_id": "ln_sso0d51b74efb",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g1639a2cb01"
+            ],
+            "start": "2026-08-14T14:40:00+09:00",
+            "end": "2026-08-14T15:20:00+09:00"
+          },
+          {
+            "id": "ac_sso33c3cd8496",
+            "lane_id": "ln_sso0d51b74efb",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gd4e6a01644"
+            ],
+            "start": "2026-08-14T15:50:00+09:00",
+            "end": "2026-08-14T16:35:00+09:00"
+          },
+          {
+            "id": "ac_sso530fc16686",
+            "lane_id": "ln_sso0d51b74efb",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4671729778"
+            ],
+            "start": "2026-08-14T17:15:00+09:00",
+            "end": "2026-08-14T18:00:00+09:00"
+          },
+          {
+            "id": "ac_sso8cb6061521",
+            "lane_id": "ln_sso0d51b74efb",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g300ae52b72"
+            ],
+            "start": "2026-08-14T18:50:00+09:00",
+            "end": "2026-08-14T20:10:00+09:00"
+          },
+          {
+            "id": "ac_sso2a7dfdd523",
+            "lane_id": "ln_ssoa0153c9c70",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ga79990d2b0"
+            ],
+            "start": "2026-08-14T12:00:00+09:00",
+            "end": "2026-08-14T12:30:00+09:00"
+          },
+          {
+            "id": "ac_sso7f8db031a4",
+            "lane_id": "ln_ssoa0153c9c70",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gc9991bce5e"
+            ],
+            "start": "2026-08-14T13:00:00+09:00",
+            "end": "2026-08-14T13:40:00+09:00"
+          },
+          {
+            "id": "ac_sso99621548f6",
+            "lane_id": "ln_ssoa0153c9c70",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g0d7ba87660"
+            ],
+            "start": "2026-08-14T14:10:00+09:00",
+            "end": "2026-08-14T14:50:00+09:00"
+          },
+          {
+            "id": "ac_sso0d6b41feff",
+            "lane_id": "ln_ssoa0153c9c70",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g8b347a8f70"
+            ],
+            "start": "2026-08-14T15:20:00+09:00",
+            "end": "2026-08-14T16:00:00+09:00"
+          },
+          {
+            "id": "ac_sso66047da687",
+            "lane_id": "ln_ssoa0153c9c70",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gbeb0c5cf48"
+            ],
+            "start": "2026-08-14T16:30:00+09:00",
+            "end": "2026-08-14T17:20:00+09:00"
+          },
+          {
+            "id": "ac_sso45157ecdb9",
+            "lane_id": "ln_ssoa0153c9c70",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g3a5964ddb5"
+            ],
+            "start": "2026-08-14T18:00:00+09:00",
+            "end": "2026-08-14T18:50:00+09:00"
+          },
+          {
+            "id": "ac_sso05c8c96428",
+            "lane_id": "ln_ssoa0153c9c70",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g093bdf4278"
+            ],
+            "start": "2026-08-14T19:30:00+09:00",
+            "end": "2026-08-14T20:30:00+09:00"
+          },
+          {
+            "id": "ac_ssod7fceb1081",
+            "lane_id": "ln_sso2f1409fe29",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gd9c84b97ec"
+            ],
+            "start": "2026-08-14T10:50:00+09:00",
+            "end": "2026-08-14T11:10:00+09:00"
+          },
+          {
+            "id": "ac_ssocce86b7a7d",
+            "lane_id": "ln_sso2f1409fe29",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g9bf91fa31e"
+            ],
+            "start": "2026-08-14T11:30:00+09:00",
+            "end": "2026-08-14T12:00:00+09:00"
+          },
+          {
+            "id": "ac_sso23a9b2a4d9",
+            "lane_id": "ln_sso2f1409fe29",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g7d0e28e4ee"
+            ],
+            "start": "2026-08-14T12:30:00+09:00",
+            "end": "2026-08-14T13:00:00+09:00"
+          },
+          {
+            "id": "ac_ssocd7f3b2e6c",
+            "lane_id": "ln_sso2f1409fe29",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ge8aa2426f9"
+            ],
+            "start": "2026-08-14T13:30:00+09:00",
+            "end": "2026-08-14T14:00:00+09:00"
+          },
+          {
+            "id": "ac_sso1ca2727b6e",
+            "lane_id": "ln_sso2f1409fe29",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g6511f49738"
+            ],
+            "start": "2026-08-14T14:30:00+09:00",
+            "end": "2026-08-14T15:00:00+09:00"
+          },
+          {
+            "id": "ac_ssoaf3026bd41",
+            "lane_id": "ln_sso2f1409fe29",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gd45109e3f7"
+            ],
+            "start": "2026-08-14T15:35:00+09:00",
+            "end": "2026-08-14T16:20:00+09:00"
+          },
+          {
+            "id": "ac_ssof71a19b5b5",
+            "lane_id": "ln_sso2f1409fe29",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gd48fe7e599"
+            ],
+            "start": "2026-08-14T16:50:00+09:00",
+            "end": "2026-08-14T17:35:00+09:00"
+          },
+          {
+            "id": "ac_ssobc684747e9",
+            "lane_id": "ln_sso2f1409fe29",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g63296d8ac3"
+            ],
+            "start": "2026-08-14T18:05:00+09:00",
+            "end": "2026-08-14T18:50:00+09:00"
+          },
+          {
+            "id": "ac_sso74b3be2df6",
+            "lane_id": "ln_sso2f1409fe29",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g194f13d18b"
+            ],
+            "start": "2026-08-14T19:20:00+09:00",
+            "end": "2026-08-14T20:20:00+09:00"
+          },
+          {
+            "id": "ac_ssofcfde78739",
+            "lane_id": "ln_ssob53559739e",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gfa287d9d99"
+            ],
+            "start": "2026-08-14T13:00:00+09:00",
+            "end": "2026-08-14T13:30:00+09:00"
+          },
+          {
+            "id": "ac_sso6515dce68b",
+            "lane_id": "ln_ssob53559739e",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g5f25339e10"
+            ],
+            "start": "2026-08-14T13:50:00+09:00",
+            "end": "2026-08-14T14:20:00+09:00"
+          },
+          {
+            "id": "ac_sso2ed12886bc",
+            "lane_id": "ln_ssob53559739e",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g03aaf07a92"
+            ],
+            "start": "2026-08-14T14:40:00+09:00",
+            "end": "2026-08-14T15:10:00+09:00"
+          },
+          {
+            "id": "ac_sso77d58fa3f2",
+            "lane_id": "ln_ssob53559739e",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g68f732c587"
+            ],
+            "start": "2026-08-14T15:30:00+09:00",
+            "end": "2026-08-14T16:00:00+09:00"
+          },
+          {
+            "id": "ac_ssofd0b15a1a7",
+            "lane_id": "ln_ssob53559739e",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gbdf01ce219"
+            ],
+            "start": "2026-08-14T16:20:00+09:00",
+            "end": "2026-08-14T16:50:00+09:00"
+          },
+          {
+            "id": "ac_sso25b3a0882c",
+            "lane_id": "ln_ssob53559739e",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g802f1c83d0"
+            ],
+            "start": "2026-08-14T17:10:00+09:00",
+            "end": "2026-08-14T17:40:00+09:00"
+          },
+          {
+            "id": "ac_sso7e37d007fd",
+            "lane_id": "ln_ssob53559739e",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g97a497a21e"
+            ],
+            "start": "2026-08-14T18:00:00+09:00",
+            "end": "2026-08-14T18:45:00+09:00"
+          },
+          {
+            "id": "ac_ssoa079b8eb27",
+            "lane_id": "ln_ssob53559739e",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g9fc910b7cc"
+            ],
+            "start": "2026-08-14T18:45:00+09:00",
+            "end": "2026-08-14T19:30:00+09:00"
+          }
+        ]
+      },
+      {
+        "id": "dy_sso20260815",
+        "activity_date": "2026-08-15",
+        "start": "2026-08-15T11:10:00+09:00",
+        "end": "2026-08-15T20:55:00+09:00",
+        "timetable_status": "published",
+        "venue_ids": [
+          "vn_ssosaka2026"
+        ],
+        "lanes": [
+          {
+            "id": "ln_sso6bd790799c",
+            "name": "AIR STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 1
+          },
+          {
+            "id": "ln_ssod367491db1",
+            "name": "MOUNTAIN STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 2
+          },
+          {
+            "id": "ln_sso53a6cebe21",
+            "name": "SONIC STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 3
+          },
+          {
+            "id": "ln_sso2fadf21258",
+            "name": "MASSIVE STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 4
+          },
+          {
+            "id": "ln_ssof88f61349a",
+            "name": "PAVILION STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 5
+          }
+        ],
+        "acts": [
+          {
+            "id": "ac_sso01f589843d",
+            "lane_id": "ln_sso6bd790799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g1e3f5d3da7"
+            ],
+            "start": "2026-08-15T11:10:00+09:00",
+            "end": "2026-08-15T11:50:00+09:00"
+          },
+          {
+            "id": "ac_ssodd5cfd5816",
+            "lane_id": "ln_sso6bd790799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gfb2773d6a1"
+            ],
+            "start": "2026-08-15T12:35:00+09:00",
+            "end": "2026-08-15T13:15:00+09:00"
+          },
+          {
+            "id": "ac_sso6d957d62eb",
+            "lane_id": "ln_sso6bd790799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g3b61e53970"
+            ],
+            "start": "2026-08-15T14:00:00+09:00",
+            "end": "2026-08-15T14:40:00+09:00"
+          },
+          {
+            "id": "ac_sso0ecbdd17bd",
+            "lane_id": "ln_sso6bd790799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g122b02f4d2"
+            ],
+            "start": "2026-08-15T15:30:00+09:00",
+            "end": "2026-08-15T16:20:00+09:00"
+          },
+          {
+            "id": "ac_sso33d6bd95c1",
+            "lane_id": "ln_sso6bd790799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g0dde677aef"
+            ],
+            "start": "2026-08-15T17:10:00+09:00",
+            "end": "2026-08-15T18:10:00+09:00"
+          },
+          {
+            "id": "ac_sso90710b515e",
+            "lane_id": "ln_sso6bd790799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g19a4ee8356"
+            ],
+            "start": "2026-08-15T19:10:00+09:00",
+            "end": "2026-08-15T20:40:00+09:00"
+          },
+          {
+            "id": "ac_sso499d9c7857",
+            "lane_id": "ln_ssod367491db1",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gb7671e7215"
+            ],
+            "start": "2026-08-15T11:30:00+09:00",
+            "end": "2026-08-15T12:10:00+09:00"
+          },
+          {
+            "id": "ac_sso8abd530052",
+            "lane_id": "ln_ssod367491db1",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g975b3a108b"
+            ],
+            "start": "2026-08-15T12:40:00+09:00",
+            "end": "2026-08-15T13:25:00+09:00"
+          },
+          {
+            "id": "ac_sso0e5ccc4621",
+            "lane_id": "ln_ssod367491db1",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g5b17131975"
+            ],
+            "start": "2026-08-15T14:00:00+09:00",
+            "end": "2026-08-15T14:45:00+09:00"
+          },
+          {
+            "id": "ac_sso379ac3c34e",
+            "lane_id": "ln_ssod367491db1",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gcd26289e0e"
+            ],
+            "start": "2026-08-15T15:20:00+09:00",
+            "end": "2026-08-15T16:05:00+09:00"
+          },
+          {
+            "id": "ac_ssocc8e191a7c",
+            "lane_id": "ln_ssod367491db1",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g942110ae10"
+            ],
+            "start": "2026-08-15T16:40:00+09:00",
+            "end": "2026-08-15T17:40:00+09:00"
+          },
+          {
+            "id": "ac_ssoc23d36f4dc",
+            "lane_id": "ln_ssod367491db1",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g8765c02aa1"
+            ],
+            "start": "2026-08-15T18:15:00+09:00",
+            "end": "2026-08-15T19:05:00+09:00"
+          },
+          {
+            "id": "ac_ssocaa9bd63f0",
+            "lane_id": "ln_ssod367491db1",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g03edd5486e"
+            ],
+            "start": "2026-08-15T19:45:00+09:00",
+            "end": "2026-08-15T20:45:00+09:00"
+          },
+          {
+            "id": "ac_ssoea465bc110",
+            "lane_id": "ln_sso53a6cebe21",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g1bd9a67ecb"
+            ],
+            "start": "2026-08-15T11:40:00+09:00",
+            "end": "2026-08-15T12:20:00+09:00"
+          },
+          {
+            "id": "ac_sso648cb7c25d",
+            "lane_id": "ln_sso53a6cebe21",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g1fa52ea3b9"
+            ],
+            "start": "2026-08-15T12:50:00+09:00",
+            "end": "2026-08-15T13:30:00+09:00"
+          },
+          {
+            "id": "ac_sso4238a42d97",
+            "lane_id": "ln_sso53a6cebe21",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g48fc30c9bc"
+            ],
+            "start": "2026-08-15T14:00:00+09:00",
+            "end": "2026-08-15T14:40:00+09:00"
+          },
+          {
+            "id": "ac_sso2101c652d3",
+            "lane_id": "ln_sso53a6cebe21",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g33e1d96f2d"
+            ],
+            "start": "2026-08-15T15:10:00+09:00",
+            "end": "2026-08-15T15:55:00+09:00"
+          },
+          {
+            "id": "ac_ssodd95dfd007",
+            "lane_id": "ln_sso53a6cebe21",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g2e95036ff8"
+            ],
+            "start": "2026-08-15T16:25:00+09:00",
+            "end": "2026-08-15T17:10:00+09:00"
+          },
+          {
+            "id": "ac_sso4ecfdbf298",
+            "lane_id": "ln_sso53a6cebe21",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g8f03696a2f"
+            ],
+            "start": "2026-08-15T17:40:00+09:00",
+            "end": "2026-08-15T18:40:00+09:00"
+          },
+          {
+            "id": "ac_sso467a37906e",
+            "lane_id": "ln_sso53a6cebe21",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g9a8fead0df"
+            ],
+            "start": "2026-08-15T19:30:00+09:00",
+            "end": "2026-08-15T20:55:00+09:00"
+          },
+          {
+            "id": "ac_ssob321216650",
+            "lane_id": "ln_sso2fadf21258",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4b127b3d40"
+            ],
+            "start": "2026-08-15T11:10:00+09:00",
+            "end": "2026-08-15T11:30:00+09:00"
+          },
+          {
+            "id": "ac_sso1d8d5655ea",
+            "lane_id": "ln_sso2fadf21258",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g34f2eb529e"
+            ],
+            "start": "2026-08-15T12:00:00+09:00",
+            "end": "2026-08-15T12:30:00+09:00"
+          },
+          {
+            "id": "ac_ssoc708335d2d",
+            "lane_id": "ln_sso2fadf21258",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gedaecf2d9e"
+            ],
+            "start": "2026-08-15T13:00:00+09:00",
+            "end": "2026-08-15T13:30:00+09:00"
+          },
+          {
+            "id": "ac_sso5881155bde",
+            "lane_id": "ln_sso2fadf21258",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g3f069934e3"
+            ],
+            "start": "2026-08-15T14:00:00+09:00",
+            "end": "2026-08-15T14:30:00+09:00"
+          },
+          {
+            "id": "ac_ssod0ceac51eb",
+            "lane_id": "ln_sso2fadf21258",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g5a94501174"
+            ],
+            "start": "2026-08-15T15:00:00+09:00",
+            "end": "2026-08-15T15:30:00+09:00"
+          },
+          {
+            "id": "ac_sso5391d0a50d",
+            "lane_id": "ln_sso2fadf21258",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ge0d6c1a190"
+            ],
+            "start": "2026-08-15T16:00:00+09:00",
+            "end": "2026-08-15T16:30:00+09:00"
+          },
+          {
+            "id": "ac_sso2c72385f0f",
+            "lane_id": "ln_sso2fadf21258",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g0a8fa09635"
+            ],
+            "start": "2026-08-15T17:00:00+09:00",
+            "end": "2026-08-15T17:35:00+09:00"
+          },
+          {
+            "id": "ac_sso02d9702775",
+            "lane_id": "ln_sso2fadf21258",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g34d86b00b1"
+            ],
+            "start": "2026-08-15T18:05:00+09:00",
+            "end": "2026-08-15T18:40:00+09:00"
+          },
+          {
+            "id": "ac_sso15feab2ccc",
+            "lane_id": "ln_sso2fadf21258",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ga86e4bc672"
+            ],
+            "start": "2026-08-15T19:10:00+09:00",
+            "end": "2026-08-15T20:00:00+09:00"
+          },
+          {
+            "id": "ac_sso86a0804504",
+            "lane_id": "ln_ssof88f61349a",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g67f0cf6e8c"
+            ],
+            "start": "2026-08-15T13:00:00+09:00",
+            "end": "2026-08-15T13:30:00+09:00"
+          },
+          {
+            "id": "ac_ssobc19e45686",
+            "lane_id": "ln_ssof88f61349a",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gf279af04ca"
+            ],
+            "start": "2026-08-15T13:50:00+09:00",
+            "end": "2026-08-15T14:20:00+09:00"
+          },
+          {
+            "id": "ac_ssobdece93021",
+            "lane_id": "ln_ssof88f61349a",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g2a3532c9a9"
+            ],
+            "start": "2026-08-15T14:40:00+09:00",
+            "end": "2026-08-15T15:10:00+09:00"
+          },
+          {
+            "id": "ac_sso9c6cb12cef",
+            "lane_id": "ln_ssof88f61349a",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g50d267aff9"
+            ],
+            "start": "2026-08-15T15:30:00+09:00",
+            "end": "2026-08-15T16:00:00+09:00"
+          },
+          {
+            "id": "ac_sso26d9b4e433",
+            "lane_id": "ln_ssof88f61349a",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g34bb57571b"
+            ],
+            "start": "2026-08-15T16:20:00+09:00",
+            "end": "2026-08-15T16:50:00+09:00"
+          },
+          {
+            "id": "ac_sso60a54451da",
+            "lane_id": "ln_ssof88f61349a",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gf41a1ac1c4"
+            ],
+            "start": "2026-08-15T17:10:00+09:00",
+            "end": "2026-08-15T17:40:00+09:00"
+          },
+          {
+            "id": "ac_sso58b1b8de78",
+            "lane_id": "ln_ssof88f61349a",
+            "kind": "other",
+            "title": "HAPPY FLOWER LIVE（UKI〜TOCCHI〜NODATIN〜七尾旅人〜Hiplin）",
+            "start": "2026-08-15T18:10:00+09:00",
+            "end": "2026-08-15T19:40:00+09:00"
+          }
+        ]
+      },
+      {
+        "id": "dy_sso20260816",
+        "activity_date": "2026-08-16",
+        "start": "2026-08-16T10:25:00+09:00",
+        "end": "2026-08-16T21:00:00+09:00",
+        "timetable_status": "published",
+        "venue_ids": [
+          "vn_ssosaka2026"
+        ],
+        "lanes": [
+          {
+            "id": "ln_sso732ad48506",
+            "name": "AIR STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 1
+          },
+          {
+            "id": "ln_ssobf415d0348",
+            "name": "MOUNTAIN STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 2
+          },
+          {
+            "id": "ln_sso864f76ac8b",
+            "name": "SONIC STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 3
+          },
+          {
+            "id": "ln_sso3f12a2aef9",
+            "name": "MASSIVE STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 4
+          },
+          {
+            "id": "ln_sso3aa3d9ede0",
+            "name": "PAVILION STAGE",
+            "kind": "stage",
+            "venue_id": "vn_ssosaka2026",
+            "sort_order": 5
+          }
+        ],
+        "acts": [
+          {
+            "id": "ac_sso9ef3a4b585",
+            "lane_id": "ln_sso732ad48506",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gaea3fa763a"
+            ],
+            "start": "2026-08-16T11:00:00+09:00",
+            "end": "2026-08-16T11:40:00+09:00"
+          },
+          {
+            "id": "ac_sso35ddbce6f1",
+            "lane_id": "ln_sso732ad48506",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g3838c87609"
+            ],
+            "start": "2026-08-16T12:15:00+09:00",
+            "end": "2026-08-16T12:55:00+09:00"
+          },
+          {
+            "id": "ac_ssoc00478c7a4",
+            "lane_id": "ln_sso732ad48506",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g35f6eeab26"
+            ],
+            "start": "2026-08-16T13:35:00+09:00",
+            "end": "2026-08-16T14:20:00+09:00"
+          },
+          {
+            "id": "ac_sso62bed85d0b",
+            "lane_id": "ln_sso732ad48506",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ge0aab2e18d"
+            ],
+            "start": "2026-08-16T15:10:00+09:00",
+            "end": "2026-08-16T16:00:00+09:00"
+          },
+          {
+            "id": "ac_sso0fac5023d5",
+            "lane_id": "ln_sso732ad48506",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4c7efff8d7"
+            ],
+            "start": "2026-08-16T17:00:00+09:00",
+            "end": "2026-08-16T18:00:00+09:00"
+          },
+          {
+            "id": "ac_sso050f8e90a3",
+            "lane_id": "ln_sso732ad48506",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gc693baba30"
+            ],
+            "start": "2026-08-16T19:00:00+09:00",
+            "end": "2026-08-16T20:30:00+09:00"
+          },
+          {
+            "id": "ac_sso2534a7c006",
+            "lane_id": "ln_ssobf415d0348",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gea43adfed4"
+            ],
+            "start": "2026-08-16T11:20:00+09:00",
+            "end": "2026-08-16T11:55:00+09:00"
+          },
+          {
+            "id": "ac_sso3a39e274e5",
+            "lane_id": "ln_ssobf415d0348",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gca60ac4ac1"
+            ],
+            "start": "2026-08-16T12:25:00+09:00",
+            "end": "2026-08-16T13:05:00+09:00"
+          },
+          {
+            "id": "ac_ssoaadae080af",
+            "lane_id": "ln_ssobf415d0348",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g916af79357"
+            ],
+            "start": "2026-08-16T13:30:00+09:00",
+            "end": "2026-08-16T14:15:00+09:00"
+          },
+          {
+            "id": "ac_ssocb6b08796a",
+            "lane_id": "ln_ssobf415d0348",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g8b81e8fc89"
+            ],
+            "start": "2026-08-16T14:45:00+09:00",
+            "end": "2026-08-16T15:25:00+09:00"
+          },
+          {
+            "id": "ac_sso8a664089a0",
+            "lane_id": "ln_ssobf415d0348",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g15e785aa69"
+            ],
+            "start": "2026-08-16T15:55:00+09:00",
+            "end": "2026-08-16T16:45:00+09:00"
+          },
+          {
+            "id": "ac_sso2d0f495bbf",
+            "lane_id": "ln_ssobf415d0348",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gf8f9ab2d34"
+            ],
+            "start": "2026-08-16T17:25:00+09:00",
+            "end": "2026-08-16T18:35:00+09:00"
+          },
+          {
+            "id": "ac_sso717c16dfd9",
+            "lane_id": "ln_ssobf415d0348",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g3fba67f2ff"
+            ],
+            "start": "2026-08-16T19:35:00+09:00",
+            "end": "2026-08-16T20:55:00+09:00"
+          },
+          {
+            "id": "ac_sso95cf919fd8",
+            "lane_id": "ln_sso864f76ac8b",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gc76c5ec768"
+            ],
+            "start": "2026-08-16T10:25:00+09:00",
+            "end": "2026-08-16T10:45:00+09:00"
+          },
+          {
+            "id": "ac_sso9d041de1c3",
+            "lane_id": "ln_sso864f76ac8b",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g2f2e66a06d"
+            ],
+            "start": "2026-08-16T11:00:00+09:00",
+            "end": "2026-08-16T11:35:00+09:00"
+          },
+          {
+            "id": "ac_sso79b38c5082",
+            "lane_id": "ln_sso864f76ac8b",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g0019383945"
+            ],
+            "start": "2026-08-16T12:05:00+09:00",
+            "end": "2026-08-16T12:45:00+09:00"
+          },
+          {
+            "id": "ac_ssoe565431323",
+            "lane_id": "ln_sso864f76ac8b",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g1841049c4c"
+            ],
+            "start": "2026-08-16T13:15:00+09:00",
+            "end": "2026-08-16T13:55:00+09:00"
+          },
+          {
+            "id": "ac_ssof2dece3592",
+            "lane_id": "ln_sso864f76ac8b",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g0130daaa84"
+            ],
+            "start": "2026-08-16T14:25:00+09:00",
+            "end": "2026-08-16T15:05:00+09:00"
+          },
+          {
+            "id": "ac_sso1ef905d45c",
+            "lane_id": "ln_sso864f76ac8b",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g81dfd8fb83"
+            ],
+            "start": "2026-08-16T15:35:00+09:00",
+            "end": "2026-08-16T16:20:00+09:00"
+          },
+          {
+            "id": "ac_sso4ae73946cd",
+            "lane_id": "ln_sso864f76ac8b",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g32dc6989c6"
+            ],
+            "start": "2026-08-16T17:00:00+09:00",
+            "end": "2026-08-16T17:50:00+09:00"
+          },
+          {
+            "id": "ac_ssoc21fbd8b58",
+            "lane_id": "ln_sso864f76ac8b",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gf4272c57e8"
+            ],
+            "start": "2026-08-16T18:30:00+09:00",
+            "end": "2026-08-16T19:20:00+09:00"
+          },
+          {
+            "id": "ac_ssoe634508b1f",
+            "lane_id": "ln_sso864f76ac8b",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gbd3affb554"
+            ],
+            "start": "2026-08-16T20:00:00+09:00",
+            "end": "2026-08-16T21:00:00+09:00"
+          },
+          {
+            "id": "ac_ssod0ecfac1ae",
+            "lane_id": "ln_sso3f12a2aef9",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4d3433d601"
+            ],
+            "start": "2026-08-16T10:40:00+09:00",
+            "end": "2026-08-16T11:00:00+09:00"
+          },
+          {
+            "id": "ac_sso8b89cf6f04",
+            "lane_id": "ln_sso3f12a2aef9",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g612a464f99"
+            ],
+            "start": "2026-08-16T11:20:00+09:00",
+            "end": "2026-08-16T11:50:00+09:00"
+          },
+          {
+            "id": "ac_ssof081dea073",
+            "lane_id": "ln_sso3f12a2aef9",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g66a234ba11"
+            ],
+            "start": "2026-08-16T12:20:00+09:00",
+            "end": "2026-08-16T12:50:00+09:00"
+          },
+          {
+            "id": "ac_sso653a676165",
+            "lane_id": "ln_sso3f12a2aef9",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gde3de3fe81"
+            ],
+            "start": "2026-08-16T13:20:00+09:00",
+            "end": "2026-08-16T14:00:00+09:00"
+          },
+          {
+            "id": "ac_sso283a577834",
+            "lane_id": "ln_sso3f12a2aef9",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g66de1a0e70"
+            ],
+            "start": "2026-08-16T14:30:00+09:00",
+            "end": "2026-08-16T15:00:00+09:00"
+          },
+          {
+            "id": "ac_sso8e9b1ca71e",
+            "lane_id": "ln_sso3f12a2aef9",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gf84cb5762e"
+            ],
+            "start": "2026-08-16T15:30:00+09:00",
+            "end": "2026-08-16T16:00:00+09:00"
+          },
+          {
+            "id": "ac_ssoc965433f77",
+            "lane_id": "ln_sso3f12a2aef9",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ge2d2ad2aea"
+            ],
+            "start": "2026-08-16T16:30:00+09:00",
+            "end": "2026-08-16T17:10:00+09:00"
+          },
+          {
+            "id": "ac_sso5d8ecbcb54",
+            "lane_id": "ln_sso3f12a2aef9",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4e2368790a"
+            ],
+            "start": "2026-08-16T17:40:00+09:00",
+            "end": "2026-08-16T18:20:00+09:00"
+          },
+          {
+            "id": "ac_ssobaa6bdcce4",
+            "lane_id": "ln_sso3f12a2aef9",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g47778f93de"
+            ],
+            "start": "2026-08-16T18:50:00+09:00",
+            "end": "2026-08-16T19:40:00+09:00"
+          },
+          {
+            "id": "ac_ssoaf18d94eea",
+            "lane_id": "ln_sso3aa3d9ede0",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gb495c841bf"
+            ],
+            "start": "2026-08-16T13:00:00+09:00",
+            "end": "2026-08-16T13:30:00+09:00"
+          },
+          {
+            "id": "ac_sso92c27e24dc",
+            "lane_id": "ln_sso3aa3d9ede0",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gdd7efe8cc3"
+            ],
+            "start": "2026-08-16T13:50:00+09:00",
+            "end": "2026-08-16T14:20:00+09:00"
+          },
+          {
+            "id": "ac_sso5dc953da48",
+            "lane_id": "ln_sso3aa3d9ede0",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gb9406e8553"
+            ],
+            "start": "2026-08-16T14:40:00+09:00",
+            "end": "2026-08-16T15:10:00+09:00"
+          },
+          {
+            "id": "ac_sso5df70a14ab",
+            "lane_id": "ln_sso3aa3d9ede0",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g08253a932f"
+            ],
+            "start": "2026-08-16T15:30:00+09:00",
+            "end": "2026-08-16T16:00:00+09:00"
+          },
+          {
+            "id": "ac_sso71093c8647",
+            "lane_id": "ln_sso3aa3d9ede0",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g7b9717b93a"
+            ],
+            "start": "2026-08-16T16:20:00+09:00",
+            "end": "2026-08-16T16:50:00+09:00"
+          },
+          {
+            "id": "ac_sso0ae0e90229",
+            "lane_id": "ln_sso3aa3d9ede0",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gf89e5c2b56"
+            ],
+            "start": "2026-08-16T17:10:00+09:00",
+            "end": "2026-08-16T17:55:00+09:00"
+          },
+          {
+            "id": "ac_ssoaff27bfc67",
+            "lane_id": "ln_sso3aa3d9ede0",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g964729c63a"
+            ],
+            "start": "2026-08-16T17:55:00+09:00",
+            "end": "2026-08-16T18:40:00+09:00"
+          },
+          {
+            "id": "ac_sso21d5d7f45e",
+            "lane_id": "ln_sso3aa3d9ede0",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gb3dc626cab"
+            ],
+            "start": "2026-08-16T19:10:00+09:00",
+            "end": "2026-08-16T19:55:00+09:00"
+          }
+        ]
+      }
+    ]
+  }
+}

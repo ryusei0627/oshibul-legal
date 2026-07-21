@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T23:19:24+09:00",
+  "generated_at": "2026-07-21T23:49:58+09:00",
   "events": [
     {
       "id": "ev_frf2026main",
@@ -76,6 +76,37 @@
       "timetable_status": "lineup_only",
       "updated_at": "2026-07-21T21:55:55+09:00",
       "path": "catalog/events/ev_isj2026main.json"
+    },
+    {
+      "id": "ev_sstokyo2026main",
+      "name": "SUMMER SONIC 2026 TOKYO",
+      "dates": [
+        "2026-08-14",
+        "2026-08-15",
+        "2026-08-16"
+      ],
+      "venue_names": [
+        "幕張"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-21T23:49:58+09:00",
+      "path": "catalog/events/ev_sstokyo2026main.json"
+    },
+    {
+      "id": "ev_ssosaka2026main",
+      "name": "SUMMER SONIC 2026 OSAKA",
+      "dates": [
+        "2026-08-14",
+        "2026-08-15",
+        "2026-08-16"
+      ],
+      "venue_names": [
+        "万博記念公園",
+        "大阪"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-21T23:49:58+09:00",
+      "path": "catalog/events/ev_ssosaka2026main.json"
     }
   ]
 }
