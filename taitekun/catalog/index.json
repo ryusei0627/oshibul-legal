@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T23:09:11+09:00",
+  "generated_at": "2026-07-21T23:19:24+09:00",
   "events": [
     {
       "id": "ev_frf2026main",
@@ -30,6 +30,22 @@
       "timetable_status": "published",
       "updated_at": "2026-07-21T21:29:53+09:00",
       "path": "catalog/events/ev_rif2026main.json"
+    },
+    {
+      "id": "ev_giga2026main",
+      "name": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
+      "dates": [
+        "2026-07-25",
+        "2026-07-26",
+        "2026-08-01",
+        "2026-08-02"
+      ],
+      "venue_names": [
+        "大阪"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-21T23:19:24+09:00",
+      "path": "catalog/events/ev_giga2026main.json"
     },
     {
       "id": "ev_tif2026main",

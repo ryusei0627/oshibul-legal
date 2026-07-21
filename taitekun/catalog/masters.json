@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T23:09:11+09:00",
+  "generated_at": "2026-07-21T23:19:24+09:00",
   "artists": [
     {
       "id": "ar_tif0000001",
@@ -3041,6 +3041,581 @@
       "id": "ar_gbcb317ce51",
       "name": "鬼の右腕",
       "aliases": []
+    },
+    {
+      "id": "ar_g8b456fecdf",
+      "name": "04 Limited Sazabys",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga0b0c4f894",
+      "name": "35.7",
+      "aliases": []
+    },
+    {
+      "id": "ar_g20a76b05fd",
+      "name": "ACE COLLECTION",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6f9dd46449",
+      "name": "Age Factory",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8ab0644a1b",
+      "name": "Awich",
+      "aliases": []
+    },
+    {
+      "id": "ar_gec6769a79f",
+      "name": "Ayumu Imazu",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3df1c3e320",
+      "name": "BAND-MAID",
+      "aliases": []
+    },
+    {
+      "id": "ar_gafb332e56c",
+      "name": "BLUE ENCOUNT",
+      "aliases": []
+    },
+    {
+      "id": "ar_g43e36cb936",
+      "name": "Billyrrom",
+      "aliases": []
+    },
+    {
+      "id": "ar_gca3b8e725f",
+      "name": "C&K",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge5cd7f1ed9",
+      "name": "Chevon",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7035b95493",
+      "name": "Chimothy→",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8eb6af1835",
+      "name": "Conton Candy",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4a66fa887b",
+      "name": "Creepy Nuts",
+      "aliases": []
+    },
+    {
+      "id": "ar_gda276b87c8",
+      "name": "Crystal Lake",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge0d6c1a190",
+      "name": "Czecho No Republic",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0e61200147",
+      "name": "DISH//",
+      "aliases": []
+    },
+    {
+      "id": "ar_g74307ff8be",
+      "name": "Da-iCE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2401781ccb",
+      "name": "Dizzy Sunfist",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3d4803ed18",
+      "name": "FOMARE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1e3f5d3da7",
+      "name": "FRUITS ZIPPER",
+      "aliases": []
+    },
+    {
+      "id": "ar_g00b5bd6d8c",
+      "name": "FUNKY MONKEY BABY'S",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1b4aeeb3f8",
+      "name": "Fear, and Loathing in Las Vegas",
+      "aliases": []
+    },
+    {
+      "id": "ar_g16fc4534b9",
+      "name": "First Love is Never Returned",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6b9a497d5d",
+      "name": "Furui Riho",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7dd876b64e",
+      "name": "GENERATIONS",
+      "aliases": []
+    },
+    {
+      "id": "ar_gdbbfede9af",
+      "name": "HEY-SMITH",
+      "aliases": []
+    },
+    {
+      "id": "ar_g03eb8aeb84",
+      "name": "HOME MADE 家族",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga51e3e84f4",
+      "name": "HY",
+      "aliases": []
+    },
+    {
+      "id": "ar_gdafd9335ba",
+      "name": "Hump Back",
+      "aliases": []
+    },
+    {
+      "id": "ar_g24a2a2d995",
+      "name": "JIJIM",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc1d580fc36",
+      "name": "Jin Dogg",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6a594b98c6",
+      "name": "KNOCK OUT MONKEY",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd518202c48",
+      "name": "Ku:ui",
+      "aliases": []
+    },
+    {
+      "id": "ar_g06d32ba3e3",
+      "name": "LEGO BIG MORL",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7dd24499ba",
+      "name": "LONGMAN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6adc3db9e4",
+      "name": "Laughing Hick",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb397283c34",
+      "name": "Little Glee Monster",
+      "aliases": []
+    },
+    {
+      "id": "ar_g35f6eeab26",
+      "name": "MAZZEL",
+      "aliases": []
+    },
+    {
+      "id": "ar_g358517227b",
+      "name": "NELKE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6dcda41808",
+      "name": "NOISEMAKER",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8f74ff8570",
+      "name": "Nothing's Carved In Stone",
+      "aliases": []
+    },
+    {
+      "id": "ar_g57ec5ea6f1",
+      "name": "Novelbright",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc1dcc3bf18",
+      "name": "ONE OR EIGHT",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6754822cda",
+      "name": "OZworld",
+      "aliases": []
+    },
+    {
+      "id": "ar_g612a464f99",
+      "name": "OddRe:",
+      "aliases": []
+    },
+    {
+      "id": "ar_g14089b7cd4",
+      "name": "Omoinotake",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb19c81f46e",
+      "name": "Paledusk",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8e145137ad",
+      "name": "PassCode",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4ca9996817",
+      "name": "Penthouse",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9bf91fa31e",
+      "name": "PompadollS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7e39928875",
+      "name": "ROTTENGRAFFTY",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcdd0a452b1",
+      "name": "Reol",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1dacc4703c",
+      "name": "Rin音",
+      "aliases": []
+    },
+    {
+      "id": "ar_gef0d4a5bc4",
+      "name": "SHANK",
+      "aliases": []
+    },
+    {
+      "id": "ar_g314fbd5e94",
+      "name": "SKA SKA CLUB",
+      "aliases": []
+    },
+    {
+      "id": "ar_g014eba2ec3",
+      "name": "SPYAIR",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5a94501174",
+      "name": "Survive Said The Prophet",
+      "aliases": []
+    },
+    {
+      "id": "ar_g407159df31",
+      "name": "Suspended 4th",
+      "aliases": []
+    },
+    {
+      "id": "ar_gddb38423cd",
+      "name": "TRACK15",
+      "aliases": []
+    },
+    {
+      "id": "ar_gdd0037cc62",
+      "name": "Tani Yuuki",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6c0c10487d",
+      "name": "This is LAST",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf1acfc2aa1",
+      "name": "UVERworld",
+      "aliases": []
+    },
+    {
+      "id": "ar_g067e7b8684",
+      "name": "Vaundy",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge00fb6582f",
+      "name": "Wienners",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9c6630a916",
+      "name": "androp",
+      "aliases": []
+    },
+    {
+      "id": "ar_gaa3655dd15",
+      "name": "asmi",
+      "aliases": []
+    },
+    {
+      "id": "ar_g68b7d2a01d",
+      "name": "chilldspot",
+      "aliases": []
+    },
+    {
+      "id": "ar_g413003c9fb",
+      "name": "coldrain",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcb4ab0823e",
+      "name": "harha",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge7373ca2da",
+      "name": "indigo la End",
+      "aliases": []
+    },
+    {
+      "id": "ar_g92ceb74028",
+      "name": "locofrank",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6ed2abace1",
+      "name": "luv",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0d1cb325f7",
+      "name": "moon drop",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc739fe1a23",
+      "name": "muque",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9a9dfb38bf",
+      "name": "reGretGirl",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd9c8842e37",
+      "name": "sanetii",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga2667cb7d3",
+      "name": "sumika",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc23c104833",
+      "name": "tricot",
+      "aliases": []
+    },
+    {
+      "id": "ar_g32ce8cc9e0",
+      "name": "yama",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd697b336c0",
+      "name": "yutori",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfa64b8683d",
+      "name": "『ユイカ』",
+      "aliases": []
+    },
+    {
+      "id": "ar_g128546e6d7",
+      "name": "おいしくるメロンパン",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2a186bc90f",
+      "name": "きゃりーぱみゅぱみゅ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g449c914db8",
+      "name": "すりぃ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbee524d0d5",
+      "name": "ずっと真夜中でいいのに。",
+      "aliases": []
+    },
+    {
+      "id": "ar_g033e1579c8",
+      "name": "なとり",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd1ca8905c2",
+      "name": "ねぐせ。",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1cca0c704b",
+      "name": "らそんぶる",
+      "aliases": []
+    },
+    {
+      "id": "ar_gecc16c7729",
+      "name": "ウルフルズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gea8e50369c",
+      "name": "カネヨリマサル",
+      "aliases": []
+    },
+    {
+      "id": "ar_g14a35ee488",
+      "name": "クリープハイプ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5007d74c8d",
+      "name": "サイダーガール",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga55353e32d",
+      "name": "サバシスター",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge67b98d491",
+      "name": "ズーカラデル",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd1c7062f25",
+      "name": "ハルカミライ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbdc3bb0da5",
+      "name": "ハンブレッダーズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gff40b7b99b",
+      "name": "ビッケブランカ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6ea84f918d",
+      "name": "フレデリック",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc1047b62c3",
+      "name": "ベリーグッドマン",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6c679ab639",
+      "name": "ポルカドットスティングレイ",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga0d40a7093",
+      "name": "マキシマム ザ ホルモン",
+      "aliases": []
+    },
+    {
+      "id": "ar_g33f0a2000c",
+      "name": "マルシィ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8139685602",
+      "name": "ミーマイナー",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6a0a619c7e",
+      "name": "ヤバイTシャツ屋さん",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga6d120f68c",
+      "name": "レトロリロン",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb31219666c",
+      "name": "優里",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd16bf04f38",
+      "name": "向井太一",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcb2965bf58",
+      "name": "川崎鷹也",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3e51dceb36",
+      "name": "打首獄門同好会",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga8207a70b1",
+      "name": "日食なつこ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf1c6f6baa7",
+      "name": "櫻坂46",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf175a82182",
+      "name": "湘南乃風",
+      "aliases": []
+    },
+    {
+      "id": "ar_g98e74a56e2",
+      "name": "猫背のネイビーセゾン",
+      "aliases": []
+    },
+    {
+      "id": "ar_gebab0ed173",
+      "name": "秋山黄色",
+      "aliases": []
     }
   ],
   "venues": [
@@ -3068,6 +3643,13 @@
     {
       "id": "vn_frf2026naeba",
       "name": "苗場スキー場(新潟県湯沢町)",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_giga2026maishima",
+      "name": "舞洲スポーツアイランド(大阪)",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 10
