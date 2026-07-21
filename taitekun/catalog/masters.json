@@ -3,45 +3,6 @@
   "generated_at": "2026-07-21T12:00:00+09:00",
   "artists": [
     {
-      "id": "ar_01J2SAMPLEARTIST000000001",
-      "name": "燦々サマー",
-      "reading": "さんさんさまー",
-      "aliases": [
-        "さんさま"
-      ]
-    },
-    {
-      "id": "ar_01J2SAMPLEARTIST000000002",
-      "name": "ネオンテトラ",
-      "reading": "ねおんてとら",
-      "aliases": []
-    },
-    {
-      "id": "ar_01J2SAMPLEARTIST000000003",
-      "name": "月虹パレード",
-      "reading": "げっこうぱれーど",
-      "aliases": [
-        "げっぱれ"
-      ]
-    },
-    {
-      "id": "ar_01J2SAMPLEARTIST000000004",
-      "name": "青空メトロ",
-      "reading": "あおぞらめとろ",
-      "aliases": []
-    },
-    {
-      "id": "ar_01J2SAMPLEARTIST000000005",
-      "name": "MELLOW MINT",
-      "aliases": []
-    },
-    {
-      "id": "ar_01J2SAMPLEARTIST000000006",
-      "name": "放課後サイダー",
-      "reading": "ほうかごさいだー",
-      "aliases": []
-    },
-    {
       "id": "ar_tif0000001",
       "name": "OCHA NORMA",
       "aliases": []
@@ -1033,52 +994,6 @@
     }
   ],
   "venues": [
-    {
-      "id": "vn_01J2SAMPLEVENUE0000000001",
-      "name": "渋谷 CLUB ORBIT",
-      "zones": [
-        {
-          "id": "zn_01J2SAMPLEZONE00000000001",
-          "name": "フロア"
-        },
-        {
-          "id": "zn_01J2SAMPLEZONE00000000002",
-          "name": "特典会エリア"
-        }
-      ],
-      "zone_walk": [
-        {
-          "from_zone_id": "zn_01J2SAMPLEZONE00000000001",
-          "to_zone_id": "zn_01J2SAMPLEZONE00000000002",
-          "minutes": 3
-        }
-      ],
-      "default_walk_minutes": 5
-    },
-    {
-      "id": "vn_01J2SAMPLEVENUE0000000002",
-      "name": "新宿 STAGE EAST",
-      "zones": [
-        {
-          "id": "zn_01J2SAMPLEZONE00000000003",
-          "name": "メインフロア"
-        }
-      ],
-      "zone_walk": [],
-      "default_walk_minutes": 4
-    },
-    {
-      "id": "vn_01J2SAMPLEVENUE0000000003",
-      "name": "新宿 STAGE WEST",
-      "zones": [
-        {
-          "id": "zn_01J2SAMPLEZONE00000000004",
-          "name": "フロア"
-        }
-      ],
-      "zone_walk": [],
-      "default_walk_minutes": 4
-    },
     {
       "id": "vn_tif2026daiba",
       "name": "TIF2026 お台場・青海会場",
