@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-19T12:00:00+09:00",
+  "event": {
+    "id": "ev_01J2SAMPLEEVENT0000000001",
+    "name": "STARLIGHT REVUE vol.7",
+    "name_reading": "すたーらいとれびゅー",
+    "hashtag": "#スタレビュ7",
+    "official_url": "https://example.com/starlight-revue-7",
+    "note": "2ステージ＋特典会。真夏のアイドルサーキット。",
+    "days": [
+      {
+        "id": "day_01J2SAMPLEDAY000000000001",
+        "activity_date": "2026-08-09",
+        "doors_open": "2026-08-09T12:30:00+09:00",
+        "start": "2026-08-09T13:00:00+09:00",
+        "end": "2026-08-09T16:30:00+09:00",
+        "timetable_status": "published",
+        "venue_ids": ["vn_01J2SAMPLEVENUE0000000001"],
+        "lanes": [
+          {"id":"ln_01J2SAMPLELANE00000000001","name":"ORBIT","kind":"stage","venue_id":"vn_01J2SAMPLEVENUE0000000001","zone_id":"zn_01J2SAMPLEZONE00000000001","sort_order":1},
+          {"id":"ln_01J2SAMPLELANE00000000002","name":"MOON","kind":"stage","venue_id":"vn_01J2SAMPLEVENUE0000000001","zone_id":"zn_01J2SAMPLEZONE00000000001","sort_order":2},
+          {"id":"ln_01J2SAMPLELANE00000000003","name":"特典会","kind":"booth","venue_id":"vn_01J2SAMPLEVENUE0000000001","zone_id":"zn_01J2SAMPLEZONE00000000002","sort_order":3}
+        ],
+        "acts": [
+          {"id":"act_01J2SAMPLEACT000000000001","lane_id":"ln_01J2SAMPLELANE00000000001","kind":"live","artist_ids":["ar_01J2SAMPLEARTIST000000001"],"start":"2026-08-09T13:00:00+09:00","end":"2026-08-09T13:30:00+09:00"},
+          {"id":"act_01J2SAMPLEACT000000000002","lane_id":"ln_01J2SAMPLELANE00000000002","kind":"live","artist_ids":["ar_01J2SAMPLEARTIST000000003"],"start":"2026-08-09T13:10:00+09:00","end":"2026-08-09T13:42:00+09:00"},
+          {"id":"act_01J2SAMPLEACT000000000003","lane_id":"ln_01J2SAMPLELANE00000000001","kind":"live","artist_ids":["ar_01J2SAMPLEARTIST000000002"],"start":"2026-08-09T13:45:00+09:00","end":"2026-08-09T14:15:00+09:00"},
+          {"id":"act_01J2SAMPLEACT000000000004","lane_id":"ln_01J2SAMPLELANE00000000002","kind":"live","artist_ids":["ar_01J2SAMPLEARTIST000000004"],"start":"2026-08-09T13:58:00+09:00","end":"2026-08-09T14:30:00+09:00"},
+          {"id":"act_01J2SAMPLEACT000000000005","lane_id":"ln_01J2SAMPLELANE00000000001","kind":"other","title":"大抽選会","start":"2026-08-09T14:22:00+09:00","end":"2026-08-09T14:42:00+09:00"},
+          {"id":"act_01J2SAMPLEACT000000000006","lane_id":"ln_01J2SAMPLELANE00000000002","kind":"live","artist_ids":["ar_01J2SAMPLEARTIST000000005"],"start":"2026-08-09T14:40:00+09:00","end":"2026-08-09T15:10:00+09:00"},
+          {"id":"act_01J2SAMPLEACT000000000007","lane_id":"ln_01J2SAMPLELANE00000000001","kind":"live","artist_ids":["ar_01J2SAMPLEARTIST000000006"],"start":"2026-08-09T14:55:00+09:00","end":"2026-08-09T15:28:00+09:00"},
+          {"id":"act_01J2SAMPLEACT000000000008","lane_id":"ln_01J2SAMPLELANE00000000003","kind":"tokutenkai","artist_ids":["ar_01J2SAMPLEARTIST000000001"],"start":"2026-08-09T13:40:00+09:00","end":"2026-08-09T14:40:00+09:00","related_act_ids":["act_01J2SAMPLEACT000000000001"]},
+          {"id":"act_01J2SAMPLEACT000000000009","lane_id":"ln_01J2SAMPLELANE00000000003","kind":"tokutenkai","artist_ids":["ar_01J2SAMPLEARTIST000000003"],"start":"2026-08-09T14:15:00+09:00","end":"2026-08-09T15:15:00+09:00","related_act_ids":["act_01J2SAMPLEACT000000000002"]},
+          {"id":"act_01J2SAMPLEACT000000000010","lane_id":"ln_01J2SAMPLELANE00000000003","kind":"tokutenkai","artist_ids":["ar_01J2SAMPLEARTIST000000002"],"start":"2026-08-09T15:05:00+09:00","end":"2026-08-09T16:05:00+09:00","related_act_ids":["act_01J2SAMPLEACT000000000003"]}
+        ]
+      },
+      {
+        "id": "day_01J2SAMPLEDAY000000000002",
+        "activity_date": "2026-08-10",
+        "doors_open": "2026-08-10T11:30:00+09:00",
+        "start": "2026-08-10T12:00:00+09:00",
+        "end": "2026-08-10T14:30:00+09:00",
+        "timetable_status": "published",
+        "venue_ids": ["vn_01J2SAMPLEVENUE0000000001"],
+        "lanes": [
+          {"id":"ln_01J2SAMPLELANE00000000004","name":"ORBIT","kind":"stage","venue_id":"vn_01J2SAMPLEVENUE0000000001","zone_id":"zn_01J2SAMPLEZONE00000000001","sort_order":1},
+          {"id":"ln_01J2SAMPLELANE00000000005","name":"MOON","kind":"stage","venue_id":"vn_01J2SAMPLEVENUE0000000001","zone_id":"zn_01J2SAMPLEZONE00000000001","sort_order":2}
+        ],
+        "acts": [
+          {"id":"act_01J2SAMPLEACT000000000011","lane_id":"ln_01J2SAMPLELANE00000000004","kind":"live","artist_ids":["ar_01J2SAMPLEARTIST000000004"],"start":"2026-08-10T12:00:00+09:00","end":"2026-08-10T12:30:00+09:00"},
+          {"id":"act_01J2SAMPLEACT000000000012","lane_id":"ln_01J2SAMPLELANE00000000005","kind":"live","artist_ids":["ar_01J2SAMPLEARTIST000000005"],"start":"2026-08-10T12:15:00+09:00","end":"2026-08-10T12:45:00+09:00"},
+          {"id":"act_01J2SAMPLEACT000000000013","lane_id":"ln_01J2SAMPLELANE00000000004","kind":"live","artist_ids":["ar_01J2SAMPLEARTIST000000001"],"start":"2026-08-10T12:50:00+09:00","end":"2026-08-10T13:25:00+09:00"},
+          {"id":"act_01J2SAMPLEACT000000000014","lane_id":"ln_01J2SAMPLELANE00000000005","kind":"live","artist_ids":["ar_01J2SAMPLEARTIST000000006"],"start":"2026-08-10T13:05:00+09:00","end":"2026-08-10T13:40:00+09:00"}
+        ]
+      }
+    ]
+  }
+}

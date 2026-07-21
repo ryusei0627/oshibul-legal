@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-21T12:00:00+09:00",
+  "events": [
+    {
+      "id": "ev_01J2SAMPLEEVENT0000000001",
+      "name": "STARLIGHT REVUE vol.7",
+      "dates": [
+        "2026-08-09",
+        "2026-08-10"
+      ],
+      "venue_names": [
+        "渋谷 CLUB ORBIT"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-19T12:00:00+09:00",
+      "path": "catalog/events/ev_01J2SAMPLEEVENT0000000001.json"
+    },
+    {
+      "id": "ev_01J2CIRCUITEVENT000000001",
+      "name": "TOKYO IDOL CIRCUIT 2026",
+      "dates": [
+        "2026-08-23"
+      ],
+      "venue_names": [
+        "新宿5会場"
+      ],
+      "timetable_status": "lineup_only",
+      "updated_at": "2026-07-19T12:00:00+09:00",
+      "path": "catalog/events/ev_01J2CIRCUITEVENT000000001.json"
+    },
+    {
+      "id": "ev_01J2SEASIDEEVENT000000001",
+      "name": "SEASIDE IDOL FESTA",
+      "dates": [
+        "2026-09-12"
+      ],
+      "venue_names": [
+        "横浜ベイホール周辺"
+      ],
+      "timetable_status": "unannounced",
+      "updated_at": "2026-07-19T12:00:00+09:00",
+      "path": "catalog/events/ev_01J2SEASIDEEVENT000000001.json"
+    },
+    {
+      "id": "ev_tif2026main",
+      "name": "TOKYO IDOL FESTIVAL 2026",
+      "dates": [
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-02"
+      ],
+      "venue_names": [
+        "お台場・青海エリア"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-21T12:00:00+09:00",
+      "path": "catalog/events/ev_tif2026main.json"
+    }
+  ]
+}

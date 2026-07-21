@@ -1,0 +1,1090 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-21T12:00:00+09:00",
+  "artists": [
+    {
+      "id": "ar_01J2SAMPLEARTIST000000001",
+      "name": "燦々サマー",
+      "reading": "さんさんさまー",
+      "aliases": [
+        "さんさま"
+      ]
+    },
+    {
+      "id": "ar_01J2SAMPLEARTIST000000002",
+      "name": "ネオンテトラ",
+      "reading": "ねおんてとら",
+      "aliases": []
+    },
+    {
+      "id": "ar_01J2SAMPLEARTIST000000003",
+      "name": "月虹パレード",
+      "reading": "げっこうぱれーど",
+      "aliases": [
+        "げっぱれ"
+      ]
+    },
+    {
+      "id": "ar_01J2SAMPLEARTIST000000004",
+      "name": "青空メトロ",
+      "reading": "あおぞらめとろ",
+      "aliases": []
+    },
+    {
+      "id": "ar_01J2SAMPLEARTIST000000005",
+      "name": "MELLOW MINT",
+      "aliases": []
+    },
+    {
+      "id": "ar_01J2SAMPLEARTIST000000006",
+      "name": "放課後サイダー",
+      "reading": "ほうかごさいだー",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000001",
+      "name": "OCHA NORMA",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000002",
+      "name": "Juice=Juice",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000003",
+      "name": "NEO JAPONISM",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000004",
+      "name": "ドラマチックレコード",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000005",
+      "name": "iON!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000006",
+      "name": "CANDY TUNE",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000007",
+      "name": "Jams Collection",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000008",
+      "name": "櫻井優衣",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000009",
+      "name": "いぎなり東北産",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000010",
+      "name": "PassCode(Band Set)",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000011",
+      "name": "私立恵比寿中学",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000012",
+      "name": "CUTIE STREET",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000013",
+      "name": "SWEET STEADY",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000014",
+      "name": "超ときめき♡宣伝部",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000015",
+      "name": "Pixel Ribbon",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000016",
+      "name": "こみっきゅおん!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000017",
+      "name": "TENRIN",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000018",
+      "name": "KAWAII LAB. MATES",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000019",
+      "name": "君に、胸キュン。",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000020",
+      "name": "点染テンセイ少女。",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000021",
+      "name": "THE ENCORE",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000022",
+      "name": "Sweet Alley",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000023",
+      "name": "SITUASION",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000024",
+      "name": "WHITE SCORPION",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000025",
+      "name": "最終未来少女",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000026",
+      "name": "Ringwanderung",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000027",
+      "name": "Merry BAD TUNE.",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000028",
+      "name": "ラフ×ラフ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000029",
+      "name": "MORE STAR",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000030",
+      "name": "LinQ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000031",
+      "name": "きゅるりんってしてみて",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000032",
+      "name": "佐々木彩夏(ももいろクローバーZ)",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000033",
+      "name": "AsIs",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000034",
+      "name": "feelNEO",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000035",
+      "name": "HIBANA",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000036",
+      "name": "ワガママなラストノート",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000037",
+      "name": "chuLa",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000038",
+      "name": "虹のコンキスタドール",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000039",
+      "name": "くまま",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000040",
+      "name": "Toi Toi Toi",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000041",
+      "name": "テンシンランマン",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000042",
+      "name": "可憐なアイボリー",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000043",
+      "name": "SUPER☆GiRLS",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000044",
+      "name": "愛乙女★DOLL",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000045",
+      "name": "かすみ草とステラ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000046",
+      "name": "myojou",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000047",
+      "name": "fav me",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000048",
+      "name": "#Mooove!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000049",
+      "name": "Appare!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000050",
+      "name": "NANIMONO",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000051",
+      "name": "AKB48",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000052",
+      "name": "SEKAIE☆",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000053",
+      "name": "ROOKEY♡ROOKEYS",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000054",
+      "name": "KAWAII LAB. SOUTH",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000055",
+      "name": "MAGICAL SPEC",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000056",
+      "name": "BNSI",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000057",
+      "name": "NUANCE",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000058",
+      "name": "selfish",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000059",
+      "name": "透色ドロップ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000060",
+      "name": "クマリデパート",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000061",
+      "name": "フューチャーサイダー",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000062",
+      "name": "UtaGe!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000063",
+      "name": "HzMe",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000064",
+      "name": "Mirror,Mirror",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000065",
+      "name": "INUWASI",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000066",
+      "name": "Peel the Apple",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000067",
+      "name": "ドレスコード",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000068",
+      "name": "log you",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000069",
+      "name": "のんふぃく!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000070",
+      "name": "AVAM",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000071",
+      "name": "RAViDAVi",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000072",
+      "name": "夜光性アミューズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000073",
+      "name": "シンデレラ宣言!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000074",
+      "name": "MyDearDarlin'",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000075",
+      "name": "hakanai",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000076",
+      "name": "キングサリ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000077",
+      "name": "ジエメイ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000078",
+      "name": "MEGAFON",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000079",
+      "name": "瞬きもせず",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000080",
+      "name": "びっくえんじぇる",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000081",
+      "name": "いちごみるく色に染まりたい。",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000082",
+      "name": "FES☆TIVE",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000083",
+      "name": "W.ダブルヴィー",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000084",
+      "name": "なみだ色の消しごむ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000085",
+      "name": "RiNCENT♯",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000086",
+      "name": "限りなく白く",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000087",
+      "name": "himawari(船橋)",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000088",
+      "name": "ファーストプレイリスト",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000089",
+      "name": "AOAO",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000090",
+      "name": "Tohkei",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000091",
+      "name": "高嶺のなでしこ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000092",
+      "name": "Sepiacode",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000093",
+      "name": "Sparkling Eyes",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000094",
+      "name": "FULIT BOX",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000095",
+      "name": "STAiNY",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000096",
+      "name": "#よーよーよー",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000097",
+      "name": "風男塾",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000098",
+      "name": "PIGGS",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000099",
+      "name": "Devil ANTHEM.",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000100",
+      "name": "Ma'Scar'Piece",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000101",
+      "name": "つばきファクトリー",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000102",
+      "name": "i☆Ris",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000103",
+      "name": "HKT48",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000104",
+      "name": "SKE48",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000105",
+      "name": "僕が見たかった青空",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000106",
+      "name": "≒JOY",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000107",
+      "name": "≠ME",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000108",
+      "name": "=LOVE",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000109",
+      "name": "ロージークロニクル",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000110",
+      "name": "AdamLilith",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000111",
+      "name": "手羽先センセーション",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000112",
+      "name": "i-COL",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000113",
+      "name": "後藤真希",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000114",
+      "name": "@onefive",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000115",
+      "name": "CYNHN",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000116",
+      "name": "衛星とカラテア",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000117",
+      "name": "Palette Parade",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000118",
+      "name": "Onephony",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000119",
+      "name": "ラナキュラ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000120",
+      "name": "THE ORCHESTRA TOKYO",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000121",
+      "name": "アンスリューム",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000122",
+      "name": "二丁目の魁カミングアウト",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000123",
+      "name": "ばってん少女隊",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000124",
+      "name": "きのホ。",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000125",
+      "name": "fishbowl",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000126",
+      "name": "ハルニシオン",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000127",
+      "name": "CiON",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000128",
+      "name": "CYBERJAPAN DANCERS",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000129",
+      "name": "諸橋沙夏(=LOVE)",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000130",
+      "name": "Task have Fun",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000131",
+      "name": "わーすた",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000132",
+      "name": "iLiFE!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000133",
+      "name": "ラストシーン",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000134",
+      "name": "Kolokol",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000135",
+      "name": "カフェオーレ(乃木坂46 五百城茉央&奥田いろは)",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000136",
+      "name": "Rain Tree",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000137",
+      "name": "zanka",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000138",
+      "name": "ナナコロビヤオキ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000139",
+      "name": "KLP48",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000140",
+      "name": "Ill",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000141",
+      "name": "Axelight",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000142",
+      "name": "アップアップガールズ(2)",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000143",
+      "name": "まねきケチャ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000144",
+      "name": "ChumToto",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000145",
+      "name": "Pastel Closet",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000146",
+      "name": "Primulav",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000147",
+      "name": "Luce Twinkle Wink☆",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000148",
+      "name": "木苺FRUCTOSE",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000149",
+      "name": "すーぱーぷーばぁー!!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000150",
+      "name": "さよならステイチューン",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000151",
+      "name": "NEKIRU",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000152",
+      "name": "さとりモンスター",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000153",
+      "name": "カラフルスクリーム",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000154",
+      "name": "メイビーME",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000155",
+      "name": "アップアップガールズ(仮)",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000156",
+      "name": "NGT48",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000157",
+      "name": "柏木由紀",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000158",
+      "name": "NMB48",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000159",
+      "name": "STU48",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000160",
+      "name": "ファントムシータ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000161",
+      "name": "yosugala",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000162",
+      "name": "ExWHYZ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000163",
+      "name": "IS:SUE",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000164",
+      "name": "乃木坂46",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000165",
+      "name": "ウマ娘 プリティーダービー",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000166",
+      "name": "GILTY x GILTY",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000167",
+      "name": "GANG PARADE",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000168",
+      "name": "My_Stage",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000169",
+      "name": "RE-GE",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000170",
+      "name": "22/7",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000171",
+      "name": "豆柴の大群",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000172",
+      "name": "りんご娘",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000173",
+      "name": "Move Next Knot",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000174",
+      "name": "すべての瞬間は君だった。",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000175",
+      "name": "コングラッチェ!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000176",
+      "name": "Gran☆Ciel",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000177",
+      "name": "Quubi",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000178",
+      "name": "PRSMIN",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000179",
+      "name": "フルコース",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000180",
+      "name": "いにしえ永遠?",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000181",
+      "name": "ワッツ◎さーくる",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000182",
+      "name": "アルテミスの翼",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000183",
+      "name": "アイドルカレッジ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000184",
+      "name": "ルージュブック",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000185",
+      "name": "虹色の飛行少女",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000186",
+      "name": "YOLOZ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000187",
+      "name": "22/7_the 3rd",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000188",
+      "name": "Hey!Mommy!",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000189",
+      "name": "すてねこキャッツ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000190",
+      "name": "LINKL PLANET",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000191",
+      "name": "AQUAPLANET",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000192",
+      "name": "Root mimi",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000193",
+      "name": "α+",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000194",
+      "name": "ハルカエコー",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000195",
+      "name": "KiSS KiSS",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000196",
+      "name": "ポンコツコンポ",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000197",
+      "name": "KRD8",
+      "aliases": []
+    },
+    {
+      "id": "ar_tif0000198",
+      "name": "パラディーク",
+      "aliases": []
+    }
+  ],
+  "venues": [
+    {
+      "id": "vn_01J2SAMPLEVENUE0000000001",
+      "name": "渋谷 CLUB ORBIT",
+      "zones": [
+        {
+          "id": "zn_01J2SAMPLEZONE00000000001",
+          "name": "フロア"
+        },
+        {
+          "id": "zn_01J2SAMPLEZONE00000000002",
+          "name": "特典会エリア"
+        }
+      ],
+      "zone_walk": [
+        {
+          "from_zone_id": "zn_01J2SAMPLEZONE00000000001",
+          "to_zone_id": "zn_01J2SAMPLEZONE00000000002",
+          "minutes": 3
+        }
+      ],
+      "default_walk_minutes": 5
+    },
+    {
+      "id": "vn_01J2SAMPLEVENUE0000000002",
+      "name": "新宿 STAGE EAST",
+      "zones": [
+        {
+          "id": "zn_01J2SAMPLEZONE00000000003",
+          "name": "メインフロア"
+        }
+      ],
+      "zone_walk": [],
+      "default_walk_minutes": 4
+    },
+    {
+      "id": "vn_01J2SAMPLEVENUE0000000003",
+      "name": "新宿 STAGE WEST",
+      "zones": [
+        {
+          "id": "zn_01J2SAMPLEZONE00000000004",
+          "name": "フロア"
+        }
+      ],
+      "zone_walk": [],
+      "default_walk_minutes": 4
+    },
+    {
+      "id": "vn_tif2026daiba",
+      "name": "TIF2026 お台場・青海会場",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    }
+  ]
+}

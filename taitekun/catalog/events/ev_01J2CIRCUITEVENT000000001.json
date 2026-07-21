@@ -1,0 +1,22 @@
+{
+  "schema_version":1,
+  "generated_at":"2026-07-19T12:00:00+09:00",
+  "event":{
+    "id":"ev_01J2CIRCUITEVENT000000001",
+    "name":"TOKYO IDOL CIRCUIT 2026",
+    "name_reading":"とうきょうあいどるさーきっと",
+    "hashtag":"#TIC2026",
+    "note":"全5会場を回る都市型サーキット。出演者まで発表済み。",
+    "days":[{
+      "id":"day_01J2CIRCUITDAY00000000001",
+      "activity_date":"2026-08-23",
+      "doors_open":"2026-08-23T11:30:00+09:00",
+      "start":"2026-08-23T12:00:00+09:00",
+      "end":"2026-08-23T21:30:00+09:00",
+      "timetable_status":"lineup_only",
+      "venue_ids":["vn_01J2SAMPLEVENUE0000000002","vn_01J2SAMPLEVENUE0000000003"],
+      "inter_venue_walk":[{"from_venue_id":"vn_01J2SAMPLEVENUE0000000002","to_venue_id":"vn_01J2SAMPLEVENUE0000000003","minutes":8}],
+      "lineup":["ar_01J2SAMPLEARTIST000000001","ar_01J2SAMPLEARTIST000000002","ar_01J2SAMPLEARTIST000000003","ar_01J2SAMPLEARTIST000000004"]
+    }]
+  }
+}
