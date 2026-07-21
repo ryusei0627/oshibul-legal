@@ -1,0 +1,872 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-22T08:44:08+09:00",
+  "event": {
+    "id": "ev_rsr2026main",
+    "name": "RISING SUN ROCK FESTIVAL 2026 in EZO",
+    "name_reading": "らいじんぐさんろっくふぇすてぃばる",
+    "hashtag": "#RSR2026",
+    "official_url": "https://rsr.wess.co.jp/2026/artists/timetable/",
+    "note": "石狩湾新港樽川ふ頭横野外特設ステージ（北海道石狩市） 5ステージ / 8月14日(金)・15日(土)オールナイト開催。WESS主催。深夜帯は24:00〜表記。終了時刻はタイテ画像のボックス高さから実測(公式は開始時刻のみ表記)。",
+    "days": [
+      {
+        "id": "dy_rsr20260814",
+        "activity_date": "2026-08-14",
+        "start": "2026-08-14T13:00:00+09:00",
+        "end": "2026-08-15T00:40:00+09:00",
+        "timetable_status": "published",
+        "venue_ids": [
+          "vn_rsr2026ishikari"
+        ],
+        "lanes": [
+          {
+            "id": "ln_rsraded01c0ca",
+            "name": "SUN STAGE",
+            "kind": "stage",
+            "venue_id": "vn_rsr2026ishikari",
+            "sort_order": 1
+          },
+          {
+            "id": "ln_rsr8e3e69799c",
+            "name": "EARTH TENT",
+            "kind": "stage",
+            "venue_id": "vn_rsr2026ishikari",
+            "sort_order": 2
+          },
+          {
+            "id": "ln_rsra46f2160a7",
+            "name": "RED STAR FIELD",
+            "kind": "stage",
+            "venue_id": "vn_rsr2026ishikari",
+            "sort_order": 3
+          },
+          {
+            "id": "ln_rsr4ca3ea2c4c",
+            "name": "BOHEMIAN GARDEN",
+            "kind": "stage",
+            "venue_id": "vn_rsr2026ishikari",
+            "sort_order": 4
+          },
+          {
+            "id": "ln_rsrb94580119f",
+            "name": "def garage",
+            "kind": "stage",
+            "venue_id": "vn_rsr2026ishikari",
+            "sort_order": 5
+          }
+        ],
+        "acts": [
+          {
+            "id": "ac_rsrd83cdd2bb7",
+            "lane_id": "ln_rsraded01c0ca",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g8b456fecdf"
+            ],
+            "start": "2026-08-14T14:00:00+09:00",
+            "end": "2026-08-14T14:50:00+09:00"
+          },
+          {
+            "id": "ac_rsre178697fee",
+            "lane_id": "ln_rsraded01c0ca",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ga0d40a7093"
+            ],
+            "start": "2026-08-14T15:40:00+09:00",
+            "end": "2026-08-14T16:30:00+09:00"
+          },
+          {
+            "id": "ac_rsr28eb50e1ac",
+            "lane_id": "ln_rsraded01c0ca",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g0130daaa84"
+            ],
+            "start": "2026-08-14T17:20:00+09:00",
+            "end": "2026-08-14T18:10:00+09:00"
+          },
+          {
+            "id": "ac_rsrd630c6f782",
+            "lane_id": "ln_rsraded01c0ca",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g14a35ee488"
+            ],
+            "start": "2026-08-14T19:00:00+09:00",
+            "end": "2026-08-14T19:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr38f5a81688",
+            "lane_id": "ln_rsraded01c0ca",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4a66fa887b"
+            ],
+            "start": "2026-08-14T20:50:00+09:00",
+            "end": "2026-08-14T21:50:00+09:00"
+          },
+          {
+            "id": "ac_rsrd68020c0a0",
+            "lane_id": "ln_rsr8e3e69799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g88fac43ebe"
+            ],
+            "start": "2026-08-14T14:40:00+09:00",
+            "end": "2026-08-14T15:30:00+09:00"
+          },
+          {
+            "id": "ac_rsrf072e506a7",
+            "lane_id": "ln_rsr8e3e69799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ge2d2ad2aea"
+            ],
+            "start": "2026-08-14T16:20:00+09:00",
+            "end": "2026-08-14T17:10:00+09:00"
+          },
+          {
+            "id": "ac_rsr42a37fec73",
+            "lane_id": "ln_rsr8e3e69799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g32ce8cc9e0"
+            ],
+            "start": "2026-08-14T18:00:00+09:00",
+            "end": "2026-08-14T18:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr4a45efa993",
+            "lane_id": "ln_rsr8e3e69799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ge1908ab27e"
+            ],
+            "start": "2026-08-14T19:40:00+09:00",
+            "end": "2026-08-14T20:30:00+09:00"
+          },
+          {
+            "id": "ac_rsr421b93ca26",
+            "lane_id": "ln_rsr8e3e69799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g68c37c7972"
+            ],
+            "start": "2026-08-14T21:20:00+09:00",
+            "end": "2026-08-14T22:10:00+09:00"
+          },
+          {
+            "id": "ac_rsr9c9da83e19",
+            "lane_id": "ln_rsr8e3e69799c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g3e51dceb36"
+            ],
+            "start": "2026-08-14T23:00:00+09:00",
+            "end": "2026-08-15T00:00:00+09:00"
+          },
+          {
+            "id": "ac_rsr44987d1a3a",
+            "lane_id": "ln_rsra46f2160a7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4ca9996817"
+            ],
+            "start": "2026-08-14T14:00:00+09:00",
+            "end": "2026-08-14T14:50:00+09:00"
+          },
+          {
+            "id": "ac_rsrce8f491e53",
+            "lane_id": "ln_rsra46f2160a7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4a0b32a17d"
+            ],
+            "start": "2026-08-14T15:40:00+09:00",
+            "end": "2026-08-14T16:30:00+09:00"
+          },
+          {
+            "id": "ac_rsrd329ef337f",
+            "lane_id": "ln_rsra46f2160a7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g72d5d79d9f"
+            ],
+            "start": "2026-08-14T17:20:00+09:00",
+            "end": "2026-08-14T18:10:00+09:00"
+          },
+          {
+            "id": "ac_rsra991f5431c",
+            "lane_id": "ln_rsra46f2160a7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ge7bb642c36"
+            ],
+            "start": "2026-08-14T19:00:00+09:00",
+            "end": "2026-08-14T19:50:00+09:00"
+          },
+          {
+            "id": "ac_rsred9cd0753a",
+            "lane_id": "ln_rsra46f2160a7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g033e1579c8"
+            ],
+            "start": "2026-08-14T20:40:00+09:00",
+            "end": "2026-08-14T21:30:00+09:00"
+          },
+          {
+            "id": "ac_rsr14f0d4dd9c",
+            "lane_id": "ln_rsra46f2160a7",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g73da1cab2d"
+            ],
+            "start": "2026-08-14T23:00:00+09:00",
+            "end": "2026-08-15T00:00:00+09:00"
+          },
+          {
+            "id": "ac_rsrd0cc57d868",
+            "lane_id": "ln_rsr4ca3ea2c4c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g621bb1450e"
+            ],
+            "start": "2026-08-14T14:30:00+09:00",
+            "end": "2026-08-14T15:20:00+09:00"
+          },
+          {
+            "id": "ac_rsr401845063f",
+            "lane_id": "ln_rsr4ca3ea2c4c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g30be72c8a1"
+            ],
+            "start": "2026-08-14T16:10:00+09:00",
+            "end": "2026-08-14T17:00:00+09:00"
+          },
+          {
+            "id": "ac_rsr84520bcd85",
+            "lane_id": "ln_rsr4ca3ea2c4c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g551703d05a"
+            ],
+            "start": "2026-08-14T17:50:00+09:00",
+            "end": "2026-08-14T18:40:00+09:00"
+          },
+          {
+            "id": "ac_rsr3e406b5fd5",
+            "lane_id": "ln_rsr4ca3ea2c4c",
+            "kind": "other",
+            "title": "向井秀徳×松重豊「地獄の諸行無常セッション in EZO」",
+            "start": "2026-08-14T19:30:00+09:00",
+            "end": "2026-08-14T20:20:00+09:00"
+          },
+          {
+            "id": "ac_rsr55e47eaf24",
+            "lane_id": "ln_rsr4ca3ea2c4c",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g66472728c0"
+            ],
+            "start": "2026-08-14T21:10:00+09:00",
+            "end": "2026-08-14T22:00:00+09:00"
+          },
+          {
+            "id": "ac_rsrff9638be99",
+            "lane_id": "ln_rsr4ca3ea2c4c",
+            "kind": "other",
+            "title": "須藤寿 GATALI ACOUSTIC SET",
+            "start": "2026-08-14T23:30:00+09:00",
+            "end": "2026-08-15T00:40:00+09:00"
+          },
+          {
+            "id": "ac_rsrcce490277f",
+            "lane_id": "ln_rsrb94580119f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g96d15f0590"
+            ],
+            "start": "2026-08-14T13:00:00+09:00",
+            "end": "2026-08-14T13:30:00+09:00"
+          },
+          {
+            "id": "ac_rsr7971404b93",
+            "lane_id": "ln_rsrb94580119f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g358517227b"
+            ],
+            "start": "2026-08-14T14:30:00+09:00",
+            "end": "2026-08-14T15:00:00+09:00"
+          },
+          {
+            "id": "ac_rsrf5bb168b69",
+            "lane_id": "ln_rsrb94580119f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ga5cb33f674"
+            ],
+            "start": "2026-08-14T15:40:00+09:00",
+            "end": "2026-08-14T16:10:00+09:00"
+          },
+          {
+            "id": "ac_rsr317bea7bef",
+            "lane_id": "ln_rsrb94580119f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gfa64b8683d"
+            ],
+            "start": "2026-08-14T16:50:00+09:00",
+            "end": "2026-08-14T17:20:00+09:00"
+          },
+          {
+            "id": "ac_rsr028c701f9a",
+            "lane_id": "ln_rsrb94580119f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gebab0ed173"
+            ],
+            "start": "2026-08-14T18:00:00+09:00",
+            "end": "2026-08-14T18:30:00+09:00"
+          },
+          {
+            "id": "ac_rsrb968ccc0cf",
+            "lane_id": "ln_rsrb94580119f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g1d22951465"
+            ],
+            "start": "2026-08-14T19:10:00+09:00",
+            "end": "2026-08-14T19:40:00+09:00"
+          },
+          {
+            "id": "ac_rsrca8b0079db",
+            "lane_id": "ln_rsrb94580119f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g7d4ab2c9a6"
+            ],
+            "start": "2026-08-14T20:20:00+09:00",
+            "end": "2026-08-14T20:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr6e1738e654",
+            "lane_id": "ln_rsrb94580119f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g0d585f4327"
+            ],
+            "start": "2026-08-14T21:30:00+09:00",
+            "end": "2026-08-14T22:00:00+09:00"
+          },
+          {
+            "id": "ac_rsr7a6f973b8e",
+            "lane_id": "ln_rsrb94580119f",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g5f2675cadb"
+            ],
+            "start": "2026-08-14T23:30:00+09:00",
+            "end": "2026-08-15T00:30:00+09:00"
+          }
+        ]
+      },
+      {
+        "id": "dy_rsr20260815",
+        "activity_date": "2026-08-15",
+        "start": "2026-08-15T12:00:00+09:00",
+        "end": "2026-08-16T05:00:00+09:00",
+        "timetable_status": "published",
+        "venue_ids": [
+          "vn_rsr2026ishikari"
+        ],
+        "lanes": [
+          {
+            "id": "ln_rsr9ce4b9e3c4",
+            "name": "SUN STAGE",
+            "kind": "stage",
+            "venue_id": "vn_rsr2026ishikari",
+            "sort_order": 1
+          },
+          {
+            "id": "ln_rsr664d2c7c75",
+            "name": "EARTH TENT",
+            "kind": "stage",
+            "venue_id": "vn_rsr2026ishikari",
+            "sort_order": 2
+          },
+          {
+            "id": "ln_rsr5e5c81e3d2",
+            "name": "RED STAR FIELD",
+            "kind": "stage",
+            "venue_id": "vn_rsr2026ishikari",
+            "sort_order": 3
+          },
+          {
+            "id": "ln_rsr79424637d3",
+            "name": "BOHEMIAN GARDEN",
+            "kind": "stage",
+            "venue_id": "vn_rsr2026ishikari",
+            "sort_order": 4
+          },
+          {
+            "id": "ln_rsr14247451ef",
+            "name": "def garage",
+            "kind": "stage",
+            "venue_id": "vn_rsr2026ishikari",
+            "sort_order": 5
+          }
+        ],
+        "acts": [
+          {
+            "id": "ac_rsr1239c7a1e0",
+            "lane_id": "ln_rsr9ce4b9e3c4",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g9659389fa2"
+            ],
+            "start": "2026-08-15T12:30:00+09:00",
+            "end": "2026-08-15T13:20:00+09:00"
+          },
+          {
+            "id": "ac_rsr5c65beccb0",
+            "lane_id": "ln_rsr9ce4b9e3c4",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gb21232c2a6"
+            ],
+            "start": "2026-08-15T14:20:00+09:00",
+            "end": "2026-08-15T15:10:00+09:00"
+          },
+          {
+            "id": "ac_rsr6a281d22a0",
+            "lane_id": "ln_rsr9ce4b9e3c4",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g64d2f4efaf"
+            ],
+            "start": "2026-08-15T16:10:00+09:00",
+            "end": "2026-08-15T17:00:00+09:00"
+          },
+          {
+            "id": "ac_rsr47ca720408",
+            "lane_id": "ln_rsr9ce4b9e3c4",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gf1acfc2aa1"
+            ],
+            "start": "2026-08-15T18:00:00+09:00",
+            "end": "2026-08-15T19:00:00+09:00"
+          },
+          {
+            "id": "ac_rsre5d87b6f86",
+            "lane_id": "ln_rsr9ce4b9e3c4",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g067e7b8684"
+            ],
+            "start": "2026-08-15T21:00:00+09:00",
+            "end": "2026-08-15T22:00:00+09:00"
+          },
+          {
+            "id": "ac_rsrd3c317907c",
+            "lane_id": "ln_rsr9ce4b9e3c4",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g80f2e3d00d"
+            ],
+            "start": "2026-08-15T23:20:00+09:00",
+            "end": "2026-08-16T00:20:00+09:00"
+          },
+          {
+            "id": "ac_rsr66768a1a89",
+            "lane_id": "ln_rsr9ce4b9e3c4",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g8ab0644a1b"
+            ],
+            "start": "2026-08-16T01:40:00+09:00",
+            "end": "2026-08-16T02:40:00+09:00"
+          },
+          {
+            "id": "ac_rsrcd3d79bac5",
+            "lane_id": "ln_rsr9ce4b9e3c4",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g64eed3c167"
+            ],
+            "start": "2026-08-16T04:00:00+09:00",
+            "end": "2026-08-16T05:00:00+09:00"
+          },
+          {
+            "id": "ac_rsr97dc311128",
+            "lane_id": "ln_rsr664d2c7c75",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gdbbfede9af"
+            ],
+            "start": "2026-08-15T13:30:00+09:00",
+            "end": "2026-08-15T14:10:00+09:00"
+          },
+          {
+            "id": "ac_rsr0c96596051",
+            "lane_id": "ln_rsr664d2c7c75",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gd035d09b6a"
+            ],
+            "start": "2026-08-15T14:50:00+09:00",
+            "end": "2026-08-15T15:30:00+09:00"
+          },
+          {
+            "id": "ac_rsrbc666e3802",
+            "lane_id": "ln_rsr664d2c7c75",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g413003c9fb"
+            ],
+            "start": "2026-08-15T16:10:00+09:00",
+            "end": "2026-08-15T16:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr9a888c4b5a",
+            "lane_id": "ln_rsr664d2c7c75",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g045e49ec9a"
+            ],
+            "start": "2026-08-15T17:30:00+09:00",
+            "end": "2026-08-15T18:10:00+09:00"
+          },
+          {
+            "id": "ac_rsr07a2a7dd0f",
+            "lane_id": "ln_rsr664d2c7c75",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gc1789ff998"
+            ],
+            "start": "2026-08-15T18:50:00+09:00",
+            "end": "2026-08-15T19:40:00+09:00"
+          },
+          {
+            "id": "ac_rsr55f1e86268",
+            "lane_id": "ln_rsr664d2c7c75",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gb7a96ab32c"
+            ],
+            "start": "2026-08-15T21:00:00+09:00",
+            "end": "2026-08-15T21:40:00+09:00"
+          },
+          {
+            "id": "ac_rsr499ac4d1dd",
+            "lane_id": "ln_rsr664d2c7c75",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4964ff5dad"
+            ],
+            "start": "2026-08-15T22:40:00+09:00",
+            "end": "2026-08-15T23:20:00+09:00"
+          },
+          {
+            "id": "ac_rsr6168994e47",
+            "lane_id": "ln_rsr664d2c7c75",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g8f74ff8570"
+            ],
+            "start": "2026-08-16T00:20:00+09:00",
+            "end": "2026-08-16T01:00:00+09:00"
+          },
+          {
+            "id": "ac_rsr345a67827c",
+            "lane_id": "ln_rsr664d2c7c75",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gb37212ead0"
+            ],
+            "start": "2026-08-16T02:00:00+09:00",
+            "end": "2026-08-16T02:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr7a9c7593c6",
+            "lane_id": "ln_rsr5e5c81e3d2",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gbdc3bb0da5"
+            ],
+            "start": "2026-08-15T12:30:00+09:00",
+            "end": "2026-08-15T13:20:00+09:00"
+          },
+          {
+            "id": "ac_rsre71d188670",
+            "lane_id": "ln_rsr5e5c81e3d2",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g97de3297f8"
+            ],
+            "start": "2026-08-15T14:10:00+09:00",
+            "end": "2026-08-15T15:00:00+09:00"
+          },
+          {
+            "id": "ac_rsr280c569f31",
+            "lane_id": "ln_rsr5e5c81e3d2",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g6c4a46027e"
+            ],
+            "start": "2026-08-15T15:50:00+09:00",
+            "end": "2026-08-15T16:40:00+09:00"
+          },
+          {
+            "id": "ac_rsr1f38ffaf44",
+            "lane_id": "ln_rsr5e5c81e3d2",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gac2f5ac152"
+            ],
+            "start": "2026-08-15T17:30:00+09:00",
+            "end": "2026-08-15T18:20:00+09:00"
+          },
+          {
+            "id": "ac_rsrbd4b2bb755",
+            "lane_id": "ln_rsr5e5c81e3d2",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g5dd0c91300"
+            ],
+            "start": "2026-08-15T19:10:00+09:00",
+            "end": "2026-08-15T20:00:00+09:00"
+          },
+          {
+            "id": "ac_rsrb33e469395",
+            "lane_id": "ln_rsr5e5c81e3d2",
+            "kind": "other",
+            "title": "Improvise Session in EZO \"episode 0\"（石若駿/角野隼斗/Marty Holoubek）",
+            "start": "2026-08-15T22:00:00+09:00",
+            "end": "2026-08-15T22:50:00+09:00"
+          },
+          {
+            "id": "ac_rsrfcf92406e9",
+            "lane_id": "ln_rsr5e5c81e3d2",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gd5a1bd8852"
+            ],
+            "start": "2026-08-16T00:00:00+09:00",
+            "end": "2026-08-16T00:50:00+09:00"
+          },
+          {
+            "id": "ac_rsrf55e65337a",
+            "lane_id": "ln_rsr5e5c81e3d2",
+            "kind": "other",
+            "title": "THE SPELLBOUND × BOOM BOOM SATELLITES",
+            "start": "2026-08-16T02:00:00+09:00",
+            "end": "2026-08-16T03:00:00+09:00"
+          },
+          {
+            "id": "ac_rsr2a35bb3258",
+            "lane_id": "ln_rsr79424637d3",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gaceb0f268c"
+            ],
+            "start": "2026-08-15T13:00:00+09:00",
+            "end": "2026-08-15T13:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr479703206b",
+            "lane_id": "ln_rsr79424637d3",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g9f7370d1ed"
+            ],
+            "start": "2026-08-15T14:40:00+09:00",
+            "end": "2026-08-15T15:30:00+09:00"
+          },
+          {
+            "id": "ac_rsr25d64ada49",
+            "lane_id": "ln_rsr79424637d3",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g38c679f2ad"
+            ],
+            "start": "2026-08-15T16:20:00+09:00",
+            "end": "2026-08-15T17:10:00+09:00"
+          },
+          {
+            "id": "ac_rsr85541a009e",
+            "lane_id": "ln_rsr79424637d3",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g04306a0b50"
+            ],
+            "start": "2026-08-15T18:00:00+09:00",
+            "end": "2026-08-15T18:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr0edbff3ce5",
+            "lane_id": "ln_rsr79424637d3",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g3836e5ea74"
+            ],
+            "start": "2026-08-15T21:00:00+09:00",
+            "end": "2026-08-15T21:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr2313d2ee23",
+            "lane_id": "ln_rsr79424637d3",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g3daa24a98f"
+            ],
+            "start": "2026-08-15T22:50:00+09:00",
+            "end": "2026-08-15T23:40:00+09:00"
+          },
+          {
+            "id": "ac_rsref00e4df0f",
+            "lane_id": "ln_rsr79424637d3",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g4b44dff540"
+            ],
+            "start": "2026-08-16T00:40:00+09:00",
+            "end": "2026-08-16T01:30:00+09:00"
+          },
+          {
+            "id": "ac_rsrb9b154ae10",
+            "lane_id": "ln_rsr79424637d3",
+            "kind": "other",
+            "title": "ROTH BART BARON \"BEAR NIGHT 7\"（Guest: Hana Hope/吉田崇展/森大翔/下倉幹人）",
+            "start": "2026-08-16T02:30:00+09:00",
+            "end": "2026-08-16T03:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr90a4268504",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gf38f0ab8df"
+            ],
+            "start": "2026-08-15T12:00:00+09:00",
+            "end": "2026-08-15T12:30:00+09:00"
+          },
+          {
+            "id": "ac_rsrcf1ef27923",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gf708981a1f"
+            ],
+            "start": "2026-08-15T13:20:00+09:00",
+            "end": "2026-08-15T13:50:00+09:00"
+          },
+          {
+            "id": "ac_rsre478d04e25",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g58a9da2b65"
+            ],
+            "start": "2026-08-15T14:30:00+09:00",
+            "end": "2026-08-15T15:00:00+09:00"
+          },
+          {
+            "id": "ac_rsr642a29e24c",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ga5cc4dbf87"
+            ],
+            "start": "2026-08-15T15:40:00+09:00",
+            "end": "2026-08-15T16:10:00+09:00"
+          },
+          {
+            "id": "ac_rsrdcad306c7c",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g219f00c289"
+            ],
+            "start": "2026-08-15T16:50:00+09:00",
+            "end": "2026-08-15T17:20:00+09:00"
+          },
+          {
+            "id": "ac_rsr4f878a3c21",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g80d2a12e6c"
+            ],
+            "start": "2026-08-15T18:00:00+09:00",
+            "end": "2026-08-15T18:30:00+09:00"
+          },
+          {
+            "id": "ac_rsr6e0b74a5f0",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_ga316af8306"
+            ],
+            "start": "2026-08-15T19:10:00+09:00",
+            "end": "2026-08-15T19:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr7ed2d25a7a",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gd39de64e71"
+            ],
+            "start": "2026-08-15T21:30:00+09:00",
+            "end": "2026-08-15T22:10:00+09:00"
+          },
+          {
+            "id": "ac_rsr50961fb116",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g75f344645f"
+            ],
+            "start": "2026-08-15T22:50:00+09:00",
+            "end": "2026-08-15T23:30:00+09:00"
+          },
+          {
+            "id": "ac_rsrdbf0208c55",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g7f552d75db"
+            ],
+            "start": "2026-08-16T00:10:00+09:00",
+            "end": "2026-08-16T00:50:00+09:00"
+          },
+          {
+            "id": "ac_rsr6e5eadcb31",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_gfca4945373"
+            ],
+            "start": "2026-08-16T01:30:00+09:00",
+            "end": "2026-08-16T02:10:00+09:00"
+          },
+          {
+            "id": "ac_rsrb89e656cc0",
+            "lane_id": "ln_rsr14247451ef",
+            "kind": "live",
+            "artist_ids": [
+              "ar_g1bf049891a"
+            ],
+            "start": "2026-08-16T02:50:00+09:00",
+            "end": "2026-08-16T03:30:00+09:00"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T23:49:58+09:00",
+  "generated_at": "2026-07-22T08:44:08+09:00",
   "artists": [
     {
       "id": "ar_tif0000001",
@@ -4431,6 +4431,206 @@
       "id": "ar_g34bb57571b",
       "name": "鈴木真海子",
       "aliases": []
+    },
+    {
+      "id": "ar_g1d22951465",
+      "name": "Arakezuri",
+      "aliases": []
+    },
+    {
+      "id": "ar_g66472728c0",
+      "name": "D.A.N.",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf38f0ab8df",
+      "name": "Doona",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5f2675cadb",
+      "name": "LAUSBUB",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd5a1bd8852",
+      "name": "Lucky Kilimanjaro",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4964ff5dad",
+      "name": "PEDRO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g97de3297f8",
+      "name": "PUFFY",
+      "aliases": []
+    },
+    {
+      "id": "ar_g551703d05a",
+      "name": "Riddim Saunter",
+      "aliases": []
+    },
+    {
+      "id": "ar_g75f344645f",
+      "name": "SHAKALABBITS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4b44dff540",
+      "name": "SPECIAL OTHERS",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd035d09b6a",
+      "name": "TETORA",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga316af8306",
+      "name": "THE BAWDIES",
+      "aliases": []
+    },
+    {
+      "id": "ar_g68c37c7972",
+      "name": "THE PREDATORS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g58a9da2b65",
+      "name": "UNFAIR RULE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g621bb1450e",
+      "name": "YOGEE NEW WAVES",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga5cc4dbf87",
+      "name": "YONA YONA WEEKENDERS",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb37212ead0",
+      "name": "ZAZEN BOYS",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge1908ab27e",
+      "name": "ano",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfca4945373",
+      "name": "goethe",
+      "aliases": []
+    },
+    {
+      "id": "ar_g04306a0b50",
+      "name": "jo0ji",
+      "aliases": []
+    },
+    {
+      "id": "ar_g80f2e3d00d",
+      "name": "milet",
+      "aliases": []
+    },
+    {
+      "id": "ar_g219f00c289",
+      "name": "plenty",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1bf049891a",
+      "name": "おとぼけビ〜バ〜",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7d4ab2c9a6",
+      "name": "アルステイク",
+      "aliases": []
+    },
+    {
+      "id": "ar_g88fac43ebe",
+      "name": "コレサワ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g64eed3c167",
+      "name": "サンボマスター",
+      "aliases": []
+    },
+    {
+      "id": "ar_g72d5d79d9f",
+      "name": "スガ シカオ & The Family Sugar",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4a0b32a17d",
+      "name": "ハンバート ハンバート",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0d585f4327",
+      "name": "バックドロップシンデレラ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g96d15f0590",
+      "name": "ラナメリサ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g80d2a12e6c",
+      "name": "リーガルリリー",
+      "aliases": []
+    },
+    {
+      "id": "ar_gac2f5ac152",
+      "name": "レミオロメン",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge7bb642c36",
+      "name": "宮本浩次",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9f7370d1ed",
+      "name": "小山田壮平BAND",
+      "aliases": []
+    },
+    {
+      "id": "ar_g38c679f2ad",
+      "name": "山内総一郎",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6c4a46027e",
+      "name": "怒髪天",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9659389fa2",
+      "name": "東京スカパラダイスオーケストラ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3836e5ea74",
+      "name": "長岡亮介",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3daa24a98f",
+      "name": "青葉市子",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb7a96ab32c",
+      "name": "黒夢",
+      "aliases": []
     }
   ],
   "venues": [
@@ -4479,6 +4679,13 @@
     {
       "id": "vn_ssosaka2026",
       "name": "万博記念公園（大阪府吹田市）",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_rsr2026ishikari",
+      "name": "石狩湾新港樽川ふ頭横野外特設ステージ（北海道石狩市）",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 10

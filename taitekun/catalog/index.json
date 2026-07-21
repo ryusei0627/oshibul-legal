@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T23:49:58+09:00",
+  "generated_at": "2026-07-22T08:44:08+09:00",
   "events": [
     {
       "id": "ev_frf2026main",
@@ -107,6 +107,21 @@
       "timetable_status": "published",
       "updated_at": "2026-07-21T23:49:58+09:00",
       "path": "catalog/events/ev_ssosaka2026main.json"
+    },
+    {
+      "id": "ev_rsr2026main",
+      "name": "RISING SUN ROCK FESTIVAL 2026 in EZO",
+      "dates": [
+        "2026-08-14",
+        "2026-08-15"
+      ],
+      "venue_names": [
+        "石狩",
+        "北海道"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-22T08:44:08+09:00",
+      "path": "catalog/events/ev_rsr2026main.json"
     }
   ]
 }
