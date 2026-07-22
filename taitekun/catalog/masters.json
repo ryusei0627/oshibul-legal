@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-22T10:29:29+09:00",
+  "generated_at": "2026-07-23T00:05:26+09:00",
   "artists": [
     {
       "id": "ar_tif0000001",
@@ -6141,6 +6141,56 @@
       "id": "ar_g4ae2df00b0",
       "name": "♮リアスクライブ",
       "aliases": []
+    },
+    {
+      "id": "ar_g07baf6cf70",
+      "name": ".LiNIXLiNE.",
+      "aliases": []
+    },
+    {
+      "id": "ar_g38b2e7a807",
+      "name": "Bibbidi Chu",
+      "aliases": []
+    },
+    {
+      "id": "ar_g917b6547b7",
+      "name": "Lily S/ash",
+      "aliases": []
+    },
+    {
+      "id": "ar_g14dab841f4",
+      "name": "Melty BeaR",
+      "aliases": []
+    },
+    {
+      "id": "ar_g84fa8e5cf1",
+      "name": "NORMiL",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0aedcd68b0",
+      "name": "SAI ²Rium",
+      "aliases": []
+    },
+    {
+      "id": "ar_gde5e0d1a47",
+      "name": "SAISON",
+      "aliases": []
+    },
+    {
+      "id": "ar_g626e613943",
+      "name": "TERIOS",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd49a4c3ce9",
+      "name": "あたまのなかは8ビット！？",
+      "aliases": []
+    },
+    {
+      "id": "ar_g14054789ca",
+      "name": "グットクルー",
+      "aliases": []
     }
   ],
   "venues": [
@@ -6231,6 +6281,13 @@
     {
       "id": "vn_pg2026odaiba",
       "name": "お台場R地区",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_utg2026shibuya",
+      "name": "渋谷・Spotify O-WEST ほか4会場",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 10

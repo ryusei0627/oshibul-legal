@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-22T10:29:29+09:00",
+  "generated_at": "2026-07-23T00:05:26+09:00",
   "events": [
     {
       "id": "ev_frf2026main",
@@ -74,7 +74,7 @@
         "お台場"
       ],
       "timetable_status": "lineup_only",
-      "updated_at": "2026-07-21T21:55:55+09:00",
+      "updated_at": "2026-07-23T00:05:26+09:00",
       "path": "catalog/events/ev_isj2026main.json"
     },
     {
@@ -153,6 +153,20 @@
       "timetable_status": "lineup_only",
       "updated_at": "2026-07-22T10:29:29+09:00",
       "path": "catalog/events/ev_pg2026main.json"
+    },
+    {
+      "id": "ev_utage2026main",
+      "name": "超宴祭！",
+      "dates": [
+        "2026-08-16"
+      ],
+      "venue_names": [
+        "渋谷",
+        "東京"
+      ],
+      "timetable_status": "lineup_only",
+      "updated_at": "2026-07-23T00:05:26+09:00",
+      "path": "catalog/events/ev_utage2026main.json"
     },
     {
       "id": "ev_wbf2026main",
