@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-22T09:14:29+09:00",
+  "generated_at": "2026-07-22T10:19:27+09:00",
   "artists": [
     {
       "id": "ar_tif0000001",
@@ -5416,6 +5416,736 @@
       "id": "ar_gcda301e906",
       "name": "＝LOVE",
       "aliases": []
+    },
+    {
+      "id": "ar_g9974f424c2",
+      "name": "..そして、消え逝くキミ達と。",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc2cdcd736f",
+      "name": "8ANGEL",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6c47d7894e",
+      "name": "8WIZARD",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb7aeb71a75",
+      "name": "ACEQUAD",
+      "aliases": []
+    },
+    {
+      "id": "ar_g72863572ea",
+      "name": "AI♡RARA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8bf9c844c5",
+      "name": "AQ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g82f6b249f8",
+      "name": "Aivery",
+      "aliases": []
+    },
+    {
+      "id": "ar_g56128addcc",
+      "name": "Anluce♡Sugar",
+      "aliases": []
+    },
+    {
+      "id": "ar_gadc9f7791c",
+      "name": "ArcanaCharm",
+      "aliases": []
+    },
+    {
+      "id": "ar_geeee9b76ec",
+      "name": "Aurora",
+      "aliases": []
+    },
+    {
+      "id": "ar_g979555ab36",
+      "name": "BUNGEE GUM.",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga2b1547f87",
+      "name": "Baby'z Breath",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge37c890843",
+      "name": "Beloved",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1a356c0fa4",
+      "name": "Bety",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9cef61eee6",
+      "name": "Brave Mental Orchestra",
+      "aliases": []
+    },
+    {
+      "id": "ar_g36a2ec3bbb",
+      "name": "Chaica",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfd11edb2b6",
+      "name": "Claire♡Dolls",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcc6a6a727d",
+      "name": "Cortile",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbe0c50c860",
+      "name": "DAISY TOWN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2433b39881",
+      "name": "DJクロミ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g221162ad67",
+      "name": "Dolly Kiss",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5b1140edec",
+      "name": "Drawry.",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9dae2ec970",
+      "name": "EDEN",
+      "aliases": []
+    },
+    {
+      "id": "ar_gec6075856a",
+      "name": "FOKALITE",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbc60de4370",
+      "name": "FandL",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd7c0845ba8",
+      "name": "GANGDEMIC",
+      "aliases": []
+    },
+    {
+      "id": "ar_g598f46fab5",
+      "name": "HEARLATE",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf6f0a66818",
+      "name": "I'Rink",
+      "aliases": []
+    },
+    {
+      "id": "ar_gabe243af92",
+      "name": "KANA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9a3318611c",
+      "name": "LEVEL7",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd63b561d25",
+      "name": "LIE LILIE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g854b6ef403",
+      "name": "LOVEME",
+      "aliases": []
+    },
+    {
+      "id": "ar_g07d92365ab",
+      "name": "LUVRiX",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf640197025",
+      "name": "Leola",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4d6c98aa10",
+      "name": "Lumi Cherie",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2628a47ef0",
+      "name": "MAPA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5349d7a232",
+      "name": "MELYUME",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5cbf34404f",
+      "name": "MISS MY NOTES",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5e69490733",
+      "name": "MORE*",
+      "aliases": []
+    },
+    {
+      "id": "ar_g77a43740c0",
+      "name": "Maison de Queen",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6bd05739ec",
+      "name": "MofruRock",
+      "aliases": []
+    },
+    {
+      "id": "ar_g32d93c50b9",
+      "name": "Next☆Rico",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1ac4ad093b",
+      "name": "NiLUNLOCK",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbc950bbc14",
+      "name": "Question V.I",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf82ddc50ff",
+      "name": "R.I.P.研究所",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge4c9471868",
+      "name": "Re:M!ND",
+      "aliases": []
+    },
+    {
+      "id": "ar_gddddf586f2",
+      "name": "Re:【りらいく】",
+      "aliases": []
+    },
+    {
+      "id": "ar_g83e574b438",
+      "name": "ReFLiA",
+      "aliases": []
+    },
+    {
+      "id": "ar_gefd5391563",
+      "name": "Red Radiance",
+      "aliases": []
+    },
+    {
+      "id": "ar_g01249007da",
+      "name": "SCRAMBLE SMILE",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga1c9c9f07c",
+      "name": "SWANTICK",
+      "aliases": []
+    },
+    {
+      "id": "ar_g892c631a8f",
+      "name": "Starlet",
+      "aliases": []
+    },
+    {
+      "id": "ar_g69b8614644",
+      "name": "SugarNote",
+      "aliases": []
+    },
+    {
+      "id": "ar_g24c5469c6d",
+      "name": "YA'ABURNEE",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga3c7141342",
+      "name": "ai*ai",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8e5e6ce4ff",
+      "name": "airrow",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5f5ea3800d",
+      "name": "alma",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb0dc2d88e6",
+      "name": "iROTORiDOLLY",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1c068a5bb2",
+      "name": "melt×melts",
+      "aliases": []
+    },
+    {
+      "id": "ar_g41ef94b010",
+      "name": "mementoa",
+      "aliases": []
+    },
+    {
+      "id": "ar_g528b2d6fc5",
+      "name": "mibuki",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd90df94415",
+      "name": "minipure",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1a65305803",
+      "name": "sanoha",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4507e28dc2",
+      "name": "tami",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd24bd92f7e",
+      "name": "tune time capsule",
+      "aliases": []
+    },
+    {
+      "id": "ar_g883f59ad33",
+      "name": "unFinale Tokyo",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2b2ba0ebbf",
+      "name": "wonder channel",
+      "aliases": []
+    },
+    {
+      "id": "ar_g086b9d6505",
+      "name": "yukaDD",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb8f320f55e",
+      "name": "『リアスクライブ』",
+      "aliases": []
+    },
+    {
+      "id": "ar_g99eff3c426",
+      "name": "あまいものつめあわせ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8b004440c8",
+      "name": "あみマリア",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf2c80abe03",
+      "name": "あ！恋見つけちゃいました...♡",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8f288662d5",
+      "name": "かけっこ！",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbe4a12418e",
+      "name": "きみパレ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcc8124963a",
+      "name": "きゅん死に一生を!?",
+      "aliases": []
+    },
+    {
+      "id": "ar_g28586b077c",
+      "name": "しおんあい",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb248ea0be0",
+      "name": "つじりお",
+      "aliases": []
+    },
+    {
+      "id": "ar_gaa5c806af2",
+      "name": "はぐっと！",
+      "aliases": []
+    },
+    {
+      "id": "ar_g40cbe6d54f",
+      "name": "びびっとキュート",
+      "aliases": []
+    },
+    {
+      "id": "ar_gac93dbedc6",
+      "name": "ぶっとび！パンデミック",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4089889f73",
+      "name": "ぷれしゃす♡ぱーてぃー",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbf6de6b446",
+      "name": "ほのん",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd4e3390663",
+      "name": "ぽっぷこーん☆",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga03785601d",
+      "name": "まるり",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3a628d64a2",
+      "name": "みつば",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0527de8c7f",
+      "name": "もえのあずき",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8b28e6b32f",
+      "name": "もふる×クロス",
+      "aliases": []
+    },
+    {
+      "id": "ar_g657c3092e6",
+      "name": "るりぽっぷ!!!!!!!!",
+      "aliases": []
+    },
+    {
+      "id": "ar_gecf766319c",
+      "name": "るるぱにっく!!",
+      "aliases": []
+    },
+    {
+      "id": "ar_g37422052b7",
+      "name": "わんだふるぱれーど！",
+      "aliases": []
+    },
+    {
+      "id": "ar_g05577e2980",
+      "name": "アイオケ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g628471e707",
+      "name": "アタシノトリコ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0177eb5b9a",
+      "name": "アンチテーゼ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd38c205f99",
+      "name": "エラバレシ",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga914ada7e4",
+      "name": "カリスマめんざいふっ！",
+      "aliases": []
+    },
+    {
+      "id": "ar_gaa837f77ee",
+      "name": "キュン!?恋堕ちキューピッド",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge6d640c66c",
+      "name": "サイレントフィルム",
+      "aliases": []
+    },
+    {
+      "id": "ar_gdbfcb3f99b",
+      "name": "スーパーベイビーズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbfff9ef526",
+      "name": "ゼンゼロランカー",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6aa893c3bd",
+      "name": "ツヅリカ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6d03251f6a",
+      "name": "トウトイナ。",
+      "aliases": []
+    },
+    {
+      "id": "ar_g991f5787c1",
+      "name": "ヒガシアオイ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf582a4e181",
+      "name": "ブルーなままで",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga05391a7ff",
+      "name": "プエラの絶対値",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga5afc4f526",
+      "name": "ベイビーウルフ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g49517ba293",
+      "name": "ベンジャス！",
+      "aliases": []
+    },
+    {
+      "id": "ar_g89520844bb",
+      "name": "ポラリスマイル",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga896f0e4ba",
+      "name": "マシュマロドロップ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf2cd4545c7",
+      "name": "ミライズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g32c6b4de62",
+      "name": "ミリフェア",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9c1b4abc48",
+      "name": "ラフティア",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4ad0cc4d10",
+      "name": "リボンクロック",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7e117ef78b",
+      "name": "リルリボン",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4b908e952f",
+      "name": "ルシフェルの園。",
+      "aliases": []
+    },
+    {
+      "id": "ar_g39f3a91818",
+      "name": "一ノ瀬みか",
+      "aliases": []
+    },
+    {
+      "id": "ar_g562a7841df",
+      "name": "上月せれな",
+      "aliases": []
+    },
+    {
+      "id": "ar_g127fe0655e",
+      "name": "上田百夏",
+      "aliases": []
+    },
+    {
+      "id": "ar_gda623c2806",
+      "name": "世ノ果テデテ人形八唯晒フ。",
+      "aliases": []
+    },
+    {
+      "id": "ar_g12c3cc4063",
+      "name": "姫城りな",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4fa3b55bdf",
+      "name": "宮本沙也佳",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfef134d88f",
+      "name": "幻色シアター",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge9e575cebe",
+      "name": "憑依中毒-シャーマンホリック-",
+      "aliases": []
+    },
+    {
+      "id": "ar_g78e27aa874",
+      "name": "新世界ギルドール",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6d053708e3",
+      "name": "昼夜逆転",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3063943d77",
+      "name": "未完成パズル",
+      "aliases": []
+    },
+    {
+      "id": "ar_g39860a7f19",
+      "name": "本條佳花",
+      "aliases": []
+    },
+    {
+      "id": "ar_g71de51a580",
+      "name": "杏珠",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9460f07046",
+      "name": "東京CuteCute",
+      "aliases": []
+    },
+    {
+      "id": "ar_g82b65d7c86",
+      "name": "松下玲緒菜",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5d62b46c0d",
+      "name": "桃色革命",
+      "aliases": []
+    },
+    {
+      "id": "ar_gead70d9587",
+      "name": "桜咲",
+      "aliases": []
+    },
+    {
+      "id": "ar_g39fb82a0e4",
+      "name": "森あんぱん",
+      "aliases": []
+    },
+    {
+      "id": "ar_g46ca5744e0",
+      "name": "森川英咲樹",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1188996628",
+      "name": "泡沫パーティーズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g763b13079c",
+      "name": "煌めき☆アンフォレント",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc3363a8faa",
+      "name": "琴音",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7c5532a458",
+      "name": "砂月凜々香",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2c8cc313be",
+      "name": "純情のアフィリア",
+      "aliases": []
+    },
+    {
+      "id": "ar_g04b38a2495",
+      "name": "純美音",
+      "aliases": []
+    },
+    {
+      "id": "ar_g22f9e4e58b",
+      "name": "絶対少女",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd2d161203b",
+      "name": "美味しい曖昧",
+      "aliases": []
+    },
+    {
+      "id": "ar_g641bfc62ce",
+      "name": "美味しい水玉",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8b02331525",
+      "name": "美味しい贖罪",
+      "aliases": []
+    },
+    {
+      "id": "ar_g679b9e2aac",
+      "name": "野島樺乃",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga945f34df2",
+      "name": "青山菜花",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge7347ed579",
+      "name": "魔訶不思議変革者 -デステス-",
+      "aliases": []
     }
   ],
   "venues": [
@@ -5499,6 +6229,13 @@
     {
       "id": "vn_rij2026soga",
       "name": "蘇我スポーツ公園",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_pg2026odaiba",
+      "name": "お台場R地区",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 10
