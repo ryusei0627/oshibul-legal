@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-22T08:44:08+09:00",
+  "generated_at": "2026-07-22T09:14:29+09:00",
   "events": [
     {
       "id": "ev_frf2026main",
@@ -78,6 +78,23 @@
       "path": "catalog/events/ev_isj2026main.json"
     },
     {
+      "id": "ev_lucky2026main",
+      "name": "LuckyFes'26",
+      "dates": [
+        "2026-08-08",
+        "2026-08-09",
+        "2026-08-10",
+        "2026-08-11"
+      ],
+      "venue_names": [
+        "ひたちなか",
+        "茨城"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-22T09:10:23+09:00",
+      "path": "catalog/events/ev_lucky2026main.json"
+    },
+    {
       "id": "ev_sstokyo2026main",
       "name": "SUMMER SONIC 2026 TOKYO",
       "dates": [
@@ -122,6 +139,54 @@
       "timetable_status": "published",
       "updated_at": "2026-07-22T08:44:08+09:00",
       "path": "catalog/events/ev_rsr2026main.json"
+    },
+    {
+      "id": "ev_wbf2026main",
+      "name": "WILD BUNCH FEST. 2026",
+      "dates": [
+        "2026-08-21",
+        "2026-08-22",
+        "2026-08-23"
+      ],
+      "venue_names": [
+        "山口"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-22T09:10:23+09:00",
+      "path": "catalog/events/ev_wbf2026main.json"
+    },
+    {
+      "id": "ev_mb2026main",
+      "name": "MONSTER baSH 2026",
+      "dates": [
+        "2026-08-22",
+        "2026-08-23"
+      ],
+      "venue_names": [
+        "香川",
+        "まんのう"
+      ],
+      "timetable_status": "published",
+      "updated_at": "2026-07-22T09:14:29+09:00",
+      "path": "catalog/events/ev_mb2026main.json"
+    },
+    {
+      "id": "ev_rij2026main",
+      "name": "ROCK IN JAPAN FESTIVAL 2026",
+      "dates": [
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21"
+      ],
+      "venue_names": [
+        "蘇我",
+        "千葉"
+      ],
+      "timetable_status": "lineup_only",
+      "updated_at": "2026-07-22T09:10:23+09:00",
+      "path": "catalog/events/ev_rij2026main.json"
     }
   ]
 }

@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-22T09:10:23+09:00",
+  "event": {
+    "id": "ev_rij2026main",
+    "name": "ROCK IN JAPAN FESTIVAL 2026",
+    "name_reading": "ろっくいんじゃぱん",
+    "hashtag": "#RIJF2026",
+    "official_url": "https://rijfes.jp/",
+    "note": "蘇我スポーツ公園(千葉市) / 9月12日(土)・13日(日)・19日(土)・20日(日)・21日(月祝)の5日間。国内最大級ロックフェス。出演者・出演日は公式発表済み(各日24組)、ステージ別タイムテーブルは未公開のため lineup_only。",
+    "days": [
+      {
+        "id": "dy_rij20260912",
+        "activity_date": "2026-09-12",
+        "timetable_status": "lineup_only",
+        "venue_ids": [
+          "vn_rij2026soga"
+        ],
+        "lineup": [
+          "ar_g5b17131975",
+          "ar_g8ab0644a1b",
+          "ar_ge7c26124c3",
+          "ar_g128546e6d7",
+          "ar_g4a66fa887b",
+          "ar_g4b199cc881",
+          "ar_g88fac43ebe",
+          "ar_g0130daaa84",
+          "ar_g64eed3c167",
+          "ar_g8cb214bdea",
+          "ar_g62778b0808",
+          "ar_g6511f49738",
+          "ar_g6c0c10487d",
+          "ar_g1ffe326061",
+          "ar_g033e1579c8",
+          "ar_g067e7b8684",
+          "ar_gc0ddac4655",
+          "ar_g8b456fecdf",
+          "ar_g3d4803ed18",
+          "ar_g219f00c289",
+          "ar_g64d2f4efaf",
+          "ar_gc60667c0c9",
+          "ar_g03ffae8d42",
+          "ar_g710db0cda8"
+        ]
+      },
+      {
+        "id": "dy_rij20260913",
+        "activity_date": "2026-09-13",
+        "timetable_status": "lineup_only",
+        "venue_ids": [
+          "vn_rij2026soga"
+        ],
+        "lineup": [
+          "ar_g41400d095e",
+          "ar_g7497e155b8",
+          "ar_g6f9dd46449",
+          "ar_g612a464f99",
+          "ar_g2400d1c92f",
+          "ar_g44961bce9c",
+          "ar_g14a35ee488",
+          "ar_ga55353e32d",
+          "ar_gf175a82182",
+          "ar_g74307ff8be",
+          "ar_ga8207a70b1",
+          "ar_g98e74a56e2",
+          "ar_g358517227b",
+          "ar_gd1c7062f25",
+          "ar_gbb8c579656",
+          "ar_g1e3f5d3da7",
+          "ar_g6c679ab639",
+          "ar_g942110ae10",
+          "ar_ge7bb642c36",
+          "ar_g2e39068232",
+          "ar_gfa64b8683d",
+          "ar_gb31219666c",
+          "ar_g6adc3db9e4",
+          "ar_g710db0cda8"
+        ]
+      },
+      {
+        "id": "dy_rij20260919",
+        "activity_date": "2026-09-19",
+        "timetable_status": "lineup_only",
+        "venue_ids": [
+          "vn_rij2026soga"
+        ],
+        "lineup": [
+          "ar_tif0000132",
+          "ar_gebab0ed173",
+          "ar_gcda301e906",
+          "ar_g8dd949461b",
+          "ar_tif0000012",
+          "ar_ge5cd7f1ed9",
+          "ar_g04306a0b50",
+          "ar_gfc2da0a540",
+          "ar_gbee524d0d5",
+          "ar_g995f95bd14",
+          "ar_g061220fcad",
+          "ar_g0e61200147",
+          "ar_gae74bc406d",
+          "ar_gf8ea3d7e9f",
+          "ar_gd1ca8905c2",
+          "ar_g57ec5ea6f1",
+          "ar_gd675ffae31",
+          "ar_gbdc3bb0da5",
+          "ar_g9099220711",
+          "ar_g33f0a2000c",
+          "ar_gc739fe1a23",
+          "ar_g32ce8cc9e0",
+          "ar_g754c2283f9",
+          "ar_g710db0cda8"
+        ]
+      },
+      {
+        "id": "dy_rij20260920",
+        "activity_date": "2026-09-20",
+        "timetable_status": "lineup_only",
+        "venue_ids": [
+          "vn_rij2026soga"
+        ],
+        "lineup": [
+          "ar_g90083b4ff5",
+          "ar_gec6769a79f",
+          "ar_ge7373ca2da",
+          "ar_gf1acfc2aa1",
+          "ar_g2a186bc90f",
+          "ar_gcdea8b21ed",
+          "ar_g05a400f924",
+          "ar_ga2667cb7d3",
+          "ar_tif0000014",
+          "ar_gc0c24feb81",
+          "ar_g9659389fa2",
+          "ar_g20cf7f80b9",
+          "ar_gaea3fa763a",
+          "ar_gdafd9335ba",
+          "ar_gb21232c2a6",
+          "ar_gae32291034",
+          "ar_gfafa3d8548",
+          "ar_gafb332e56c",
+          "ar_g6ea84f918d",
+          "ar_g50b3214da1",
+          "ar_g5e87e5465c",
+          "ar_ga6d120f68c",
+          "ar_gac2f5ac152",
+          "ar_g710db0cda8"
+        ]
+      },
+      {
+        "id": "dy_rij20260921",
+        "activity_date": "2026-09-21",
+        "timetable_status": "lineup_only",
+        "venue_ids": [
+          "vn_rij2026soga"
+        ],
+        "lineup": [
+          "ar_ge7eb1f3fa9",
+          "ar_gc693baba30",
+          "ar_ge1908ab27e",
+          "ar_gc3fcaafbc6",
+          "ar_g58a9da2b65",
+          "ar_tif0000006",
+          "ar_gf84cb5762e",
+          "ar_gf1c6f6baa7",
+          "ar_g99fa02f4cc",
+          "ar_gef0d4a5bc4",
+          "ar_g95bcae4455",
+          "ar_gd7b788ac09",
+          "ar_g449c914db8",
+          "ar_g6448b8fcf1",
+          "ar_tif0000160",
+          "ar_g1b4aeeb3f8",
+          "ar_gb19c81f46e",
+          "ar_g35f6eeab26",
+          "ar_ga0d40a7093",
+          "ar_g43154e8b46",
+          "ar_g6a0a619c7e",
+          "ar_g9b0c6c3018",
+          "ar_g2ce53a4e57",
+          "ar_g710db0cda8"
+        ]
+      }
+    ]
+  }
+}

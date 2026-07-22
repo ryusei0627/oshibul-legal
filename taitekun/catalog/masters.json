@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-22T08:44:08+09:00",
+  "generated_at": "2026-07-22T09:14:29+09:00",
   "artists": [
     {
       "id": "ar_tif0000001",
@@ -4631,6 +4631,791 @@
       "id": "ar_gb7a96ab32c",
       "name": "黒夢",
       "aliases": []
+    },
+    {
+      "id": "ar_g5f6955d227",
+      "name": "321",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd842fcd920",
+      "name": "ALI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g80a85085e6",
+      "name": "ALL iN FAZE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9601f351df",
+      "name": "Aile The Shota",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0b2d293306",
+      "name": "Ashley",
+      "aliases": []
+    },
+    {
+      "id": "ar_g98984d5e4f",
+      "name": "Broken my toybox",
+      "aliases": []
+    },
+    {
+      "id": "ar_g388630f419",
+      "name": "ColorSing",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge6906f89d9",
+      "name": "DJ YU-KI with くまきもえ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc0c24feb81",
+      "name": "DXTEEN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g45a0dd084c",
+      "name": "Dannie May",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfa85e9db5c",
+      "name": "Dragon Ash",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb992b24528",
+      "name": "FLOW",
+      "aliases": []
+    },
+    {
+      "id": "ar_gffd7957d1b",
+      "name": "GADORO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4e17a344d1",
+      "name": "HAPPY CREATORS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2fcf760cc2",
+      "name": "Hammer Head Shark",
+      "aliases": []
+    },
+    {
+      "id": "ar_g32a52753d8",
+      "name": "Hi-Fi Un!corn",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbb7ffdceac",
+      "name": "ILLIT",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8dd949461b",
+      "name": "KANA-BOON",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc351b8715e",
+      "name": "KARINBA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g597eefaeb8",
+      "name": "KAWAUSO NIGHT QUESTION...?",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9d64a2f0a2",
+      "name": "KEN EBISAWA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g739edcff82",
+      "name": "Klang Ruler",
+      "aliases": []
+    },
+    {
+      "id": "ar_g38c8e38c17",
+      "name": "LOM",
+      "aliases": []
+    },
+    {
+      "id": "ar_g85b5b252c6",
+      "name": "Liella!",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6078711dba",
+      "name": "MADKID",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc4d0485869",
+      "name": "ME:I",
+      "aliases": []
+    },
+    {
+      "id": "ar_g12ddb6b8b1",
+      "name": "MONKEY MAJIK",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3affa1972d",
+      "name": "MUCC",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4d25ec5641",
+      "name": "MYERA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g04e3662f1c",
+      "name": "Mega Shinnosuke",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf2542cf2a9",
+      "name": "MiiNA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g381e37b18c",
+      "name": "Mudia",
+      "aliases": []
+    },
+    {
+      "id": "ar_geedab31148",
+      "name": "MyGO!!!!!",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1814f2f307",
+      "name": "MyM",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9f621eb5fd",
+      "name": "NEWS",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd439801da7",
+      "name": "Nagie Lane",
+      "aliases": []
+    },
+    {
+      "id": "ar_g20cf7f80b9",
+      "name": "NiziU",
+      "aliases": []
+    },
+    {
+      "id": "ar_g25252368f2",
+      "name": "Pokekara",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge0e75544b9",
+      "name": "RAISE A SUILEN",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc2fbe184ce",
+      "name": "Soala",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1363a8f7b2",
+      "name": "THE BACK HORN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6e2839b697",
+      "name": "TOOBOE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g26cc6c012e",
+      "name": "TUBE",
+      "aliases": []
+    },
+    {
+      "id": "ar_g459c74063a",
+      "name": "VALHALLA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g47a4a1b01a",
+      "name": "VIBY",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2e36cbd519",
+      "name": "WHISPER OUT LOUD",
+      "aliases": []
+    },
+    {
+      "id": "ar_g95bcae4455",
+      "name": "syudou",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc241409a23",
+      "name": "t-Ace",
+      "aliases": []
+    },
+    {
+      "id": "ar_g409db04e85",
+      "name": "いばらき若旦那",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9ce802f173",
+      "name": "えびちる",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8ad93288a3",
+      "name": "かわにしなつき",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1ca7aa00b5",
+      "name": "こっちのけんと",
+      "aliases": []
+    },
+    {
+      "id": "ar_g601e8055bc",
+      "name": "しなこ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc3fcaafbc6",
+      "name": "アンジュルム",
+      "aliases": []
+    },
+    {
+      "id": "ar_g09a3fb9f5c",
+      "name": "イバラッパーa.k.aイバラキング",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6df1bcb19d",
+      "name": "オーイシマサヨシ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g36fa0ffd74",
+      "name": "カフネ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g01f56cffc2",
+      "name": "キマグレン",
+      "aliases": []
+    },
+    {
+      "id": "ar_g162e805de0",
+      "name": "キュウソネコカミ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9439462d00",
+      "name": "ココラシカ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1b1236abf0",
+      "name": "ゴールデンボンバー",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfc2da0a540",
+      "name": "シンガーズハイ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g39f02aa361",
+      "name": "スキップカウズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb05e34d4dd",
+      "name": "ハラミちゃん",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6feb86a2ac",
+      "name": "マシコタツロウ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g57843ee74f",
+      "name": "乃紫",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga5b6b02d90",
+      "name": "佐咲紗花",
+      "aliases": []
+    },
+    {
+      "id": "ar_g362b62039c",
+      "name": "冨岡 愛",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf992ee0981",
+      "name": "加藤里保菜",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7f083261bb",
+      "name": "大黒摩季",
+      "aliases": []
+    },
+    {
+      "id": "ar_g72d18df1f5",
+      "name": "宇宙まお",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge8cf8ceca9",
+      "name": "安達勇人",
+      "aliases": []
+    },
+    {
+      "id": "ar_g766e4a680b",
+      "name": "宝鐘マリン＆ハコス・ベールズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gdfeda0f570",
+      "name": "岸本ゆめの(band)",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9deb887cf4",
+      "name": "岸谷香",
+      "aliases": []
+    },
+    {
+      "id": "ar_g268ba9804e",
+      "name": "新種のImmigrationsB",
+      "aliases": []
+    },
+    {
+      "id": "ar_g689f180522",
+      "name": "星来",
+      "aliases": []
+    },
+    {
+      "id": "ar_gaa9a1fa650",
+      "name": "根本凪",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfcfeb4ffe6",
+      "name": "氣志團",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6bc0d6789c",
+      "name": "水曜日のカンパネラ",
+      "aliases": []
+    },
+    {
+      "id": "ar_ga706926a9e",
+      "name": "浪漫派マシュマロ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g581176c607",
+      "name": "瀬名ちひろ",
+      "aliases": []
+    },
+    {
+      "id": "ar_gefa341be7a",
+      "name": "相川七瀬",
+      "aliases": []
+    },
+    {
+      "id": "ar_g83486b7ed6",
+      "name": "石井竜也",
+      "aliases": []
+    },
+    {
+      "id": "ar_g3dc6266f36",
+      "name": "石崎ひゅーい",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7715b3d4f6",
+      "name": "磯山純",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5544aab353",
+      "name": "神はサイコロを振らない",
+      "aliases": []
+    },
+    {
+      "id": "ar_g65bb690b14",
+      "name": "福島清香",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4d4f033cf9",
+      "name": "葵乃まみ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g819b4d25c9",
+      "name": "西川貴教",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8dbf691bd0",
+      "name": "超☆社会的サンダル",
+      "aliases": []
+    },
+    {
+      "id": "ar_gd00ec25f26",
+      "name": "超学生",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf4e8d52704",
+      "name": "超能力戦士ドリアン",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf14dff120d",
+      "name": "鈴木愛理",
+      "aliases": []
+    },
+    {
+      "id": "ar_g583fc0aa7b",
+      "name": "鈴木萌花",
+      "aliases": []
+    },
+    {
+      "id": "ar_g16e9f8d5b8",
+      "name": "零[Hz]",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbcf19e1152",
+      "name": "青木陽菜",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4373f49fca",
+      "name": "須田景凪",
+      "aliases": []
+    },
+    {
+      "id": "ar_g94940e534a",
+      "name": "171",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge0a36c5dca",
+      "name": "BILLY BOO",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2529432fe6",
+      "name": "Blue Mash",
+      "aliases": []
+    },
+    {
+      "id": "ar_g236f0c7cd4",
+      "name": "EGO-WRAPPIN'",
+      "aliases": []
+    },
+    {
+      "id": "ar_gae32291034",
+      "name": "FUNKY MONKEY BΛBY'S",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2400d1c92f",
+      "name": "KUZIRA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g03ffae8d42",
+      "name": "LANA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g99fa02f4cc",
+      "name": "SiM",
+      "aliases": []
+    },
+    {
+      "id": "ar_g0615c5f9c6",
+      "name": "Sunny Girl",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge41ed474b8",
+      "name": "THE SPELLBOUND × BOOM BOOM SATELLITES",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7497e155b8",
+      "name": "[Alexandros]",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4b199cc881",
+      "name": "go!go!vanillas",
+      "aliases": []
+    },
+    {
+      "id": "ar_g66a02293b1",
+      "name": "the paddles",
+      "aliases": []
+    },
+    {
+      "id": "ar_gddd53899c9",
+      "name": "the奥歯's",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1f2bd43cfb",
+      "name": "かずき山盛り",
+      "aliases": []
+    },
+    {
+      "id": "ar_g190726e39e",
+      "name": "セカンドバッカー",
+      "aliases": []
+    },
+    {
+      "id": "ar_g93e9b07cdd",
+      "name": "センチミリメンタル",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9a6b2f4573",
+      "name": "山本大斗",
+      "aliases": []
+    },
+    {
+      "id": "ar_gb3c8e1cae5",
+      "name": "汐れいら",
+      "aliases": []
+    },
+    {
+      "id": "ar_g6448b8fcf1",
+      "name": "10-FEET",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf7553b7208",
+      "name": "Base Ball Bear (ACOUSTIC SET)",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf2f6f328a7",
+      "name": "ELLEGARDEN",
+      "aliases": []
+    },
+    {
+      "id": "ar_g389af5e18c",
+      "name": "LiSA",
+      "aliases": []
+    },
+    {
+      "id": "ar_g09434bf49b",
+      "name": "Tele",
+      "aliases": []
+    },
+    {
+      "id": "ar_g43f03ab7f1",
+      "name": "TenTwenty",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbb6a0cb169",
+      "name": "かりゆし58",
+      "aliases": []
+    },
+    {
+      "id": "ar_g7901fb6785",
+      "name": "ねぎ塩豚丼",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4fb3c49516",
+      "name": "スキマスイッチ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1d4d4fc809",
+      "name": "スターダスト☆レビュー",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1aabf5c26f",
+      "name": "ストレイテナー",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1cd3735902",
+      "name": "上江洌.清作& The BK Sounds!!",
+      "aliases": []
+    },
+    {
+      "id": "ar_g61d28eb602",
+      "name": "八生",
+      "aliases": []
+    },
+    {
+      "id": "ar_gbff0668b1d",
+      "name": "古墳シスターズ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g05a400f924",
+      "name": "四星球",
+      "aliases": []
+    },
+    {
+      "id": "ar_g77482ffe4d",
+      "name": "多次元制御機構よだか",
+      "aliases": []
+    },
+    {
+      "id": "ar_g25fab8e99d",
+      "name": "天々高々",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcee0a238d2",
+      "name": "時速36km",
+      "aliases": []
+    },
+    {
+      "id": "ar_g05e93ee670",
+      "name": "橋口洋平(wacci)",
+      "aliases": []
+    },
+    {
+      "id": "ar_g48be34c2c7",
+      "name": "竹原ピストル",
+      "aliases": []
+    },
+    {
+      "id": "ar_g995f95bd14",
+      "name": "CHiCO with HoneyWorks",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcdea8b21ed",
+      "name": "CORTIS",
+      "aliases": []
+    },
+    {
+      "id": "ar_g44961bce9c",
+      "name": "Cloudy",
+      "aliases": []
+    },
+    {
+      "id": "ar_g710db0cda8",
+      "name": "DJ和",
+      "aliases": []
+    },
+    {
+      "id": "ar_g41400d095e",
+      "name": "IMP.",
+      "aliases": []
+    },
+    {
+      "id": "ar_ge7eb1f3fa9",
+      "name": "INI",
+      "aliases": []
+    },
+    {
+      "id": "ar_g8cb214bdea",
+      "name": "JO1",
+      "aliases": []
+    },
+    {
+      "id": "ar_g50b3214da1",
+      "name": "M!LK",
+      "aliases": []
+    },
+    {
+      "id": "ar_g5e87e5465c",
+      "name": "MON7A",
+      "aliases": []
+    },
+    {
+      "id": "ar_g2e39068232",
+      "name": "MONGOL800",
+      "aliases": []
+    },
+    {
+      "id": "ar_gc60667c0c9",
+      "name": "Maki",
+      "aliases": []
+    },
+    {
+      "id": "ar_gf8ea3d7e9f",
+      "name": "NEE",
+      "aliases": []
+    },
+    {
+      "id": "ar_gae74bc406d",
+      "name": "Number_i",
+      "aliases": []
+    },
+    {
+      "id": "ar_g90083b4ff5",
+      "name": "あいみょん",
+      "aliases": []
+    },
+    {
+      "id": "ar_g43154e8b46",
+      "name": "ももいろクローバーZ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g1ffe326061",
+      "name": "トゲナシトゲアリ",
+      "aliases": []
+    },
+    {
+      "id": "ar_g754c2283f9",
+      "name": "ヤングスキニー",
+      "aliases": []
+    },
+    {
+      "id": "ar_g9099220711",
+      "name": "星街すいせい",
+      "aliases": []
+    },
+    {
+      "id": "ar_g061220fcad",
+      "name": "超特急",
+      "aliases": []
+    },
+    {
+      "id": "ar_gcda301e906",
+      "name": "＝LOVE",
+      "aliases": []
     }
   ],
   "venues": [
@@ -4686,6 +5471,34 @@
     {
       "id": "vn_rsr2026ishikari",
       "name": "石狩湾新港樽川ふ頭横野外特設ステージ（北海道石狩市）",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_lucky2026hitachi",
+      "name": "国営ひたち海浜公園",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_wbf2026kirara",
+      "name": "山口きらら博記念公園",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_mb2026mannou",
+      "name": "国営讃岐まんのう公園",
+      "zones": [],
+      "zone_walk": [],
+      "default_walk_minutes": 10
+    },
+    {
+      "id": "vn_rij2026soga",
+      "name": "蘇我スポーツ公園",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 10
