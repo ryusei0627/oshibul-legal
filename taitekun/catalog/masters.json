@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-22T10:19:27+09:00",
+  "generated_at": "2026-07-22T10:29:29+09:00",
   "artists": [
     {
       "id": "ar_tif0000001",
@@ -1065,11 +1065,6 @@
     {
       "id": "ar_g94a077e3e9",
       "name": "きゅ〜くる",
-      "aliases": []
-    },
-    {
-      "id": "ar_g2dd8e7449c",
-      "name": "すーぱーぷーぱぁー!!",
       "aliases": []
     },
     {
@@ -5648,11 +5643,6 @@
       "aliases": []
     },
     {
-      "id": "ar_gddddf586f2",
-      "name": "Re:【りらいく】",
-      "aliases": []
-    },
-    {
       "id": "ar_g83e574b438",
       "name": "ReFLiA",
       "aliases": []
@@ -5755,11 +5745,6 @@
     {
       "id": "ar_g086b9d6505",
       "name": "yukaDD",
-      "aliases": []
-    },
-    {
-      "id": "ar_gb8f320f55e",
-      "name": "『リアスクライブ』",
       "aliases": []
     },
     {
@@ -6145,6 +6130,16 @@
     {
       "id": "ar_ge7347ed579",
       "name": "魔訶不思議変革者 -デステス-",
+      "aliases": []
+    },
+    {
+      "id": "ar_gfd44432834",
+      "name": "Re:♡【りらいく】",
+      "aliases": []
+    },
+    {
+      "id": "ar_g4ae2df00b0",
+      "name": "♮リアスクライブ",
       "aliases": []
     }
   ],
