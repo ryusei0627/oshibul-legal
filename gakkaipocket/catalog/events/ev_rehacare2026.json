@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T17:13:47+09:00",
+  "generated_at": "2026-09-15T18:04:02+09:00",
   "event": {
     "id": "ev_rehacare2026",
     "name": "リハビリテーション・ケア合同研究大会 高知2026",
@@ -384,6 +384,10 @@
               }
             ],
             "category": "03. 運動器疾患・運動器ケア等",
+            "chair_ids": [
+              "ar_rkc91d42321c",
+              "ar_rkc0d3dc6cb2"
+            ],
             "session_code": "一般演題01",
             "capacity": 100
           },
@@ -486,6 +490,10 @@
               }
             ],
             "category": "02. 脳卒中・神経疾患・心臓疾患等",
+            "chair_ids": [
+              "ar_rkdf90418075",
+              "ar_rk1cbd5e471d"
+            ],
             "session_code": "一般演題04",
             "capacity": 120
           },
@@ -566,6 +574,9 @@
               }
             ],
             "category": "35. その他",
+            "chair_ids": [
+              "ar_rk0e0a445b99"
+            ],
             "session_code": "一般演題08",
             "capacity": 104
           },
@@ -646,6 +657,10 @@
               }
             ],
             "category": "22. 入院退院支援",
+            "chair_ids": [
+              "ar_rk1ae04f57a2",
+              "ar_rkf3e2a0e1bb"
+            ],
             "session_code": "一般演題12",
             "capacity": 120
           },
@@ -726,6 +741,10 @@
               }
             ],
             "category": "12. 訪問系サービス",
+            "chair_ids": [
+              "ar_rk04dbc84b60",
+              "ar_rkcd31173b97"
+            ],
             "session_code": "一般演題16",
             "capacity": 120
           },
@@ -824,6 +843,10 @@
               }
             ],
             "category": "16. 地域リハビリテーション・地域包括ケア",
+            "chair_ids": [
+              "ar_rkf0fbea13af",
+              "ar_rk0e3f019ff9"
+            ],
             "session_code": "一般演題20",
             "capacity": 160
           },
@@ -1498,6 +1521,23 @@
               }
             ],
             "category": "02. 脳卒中・神経疾患・心臓疾患等; 03. 運動器疾患・運動器ケア等; 09. ロボット・治療機器; 10. ADL・IADL; 11. QOL; 12. 訪問系サービス; 16. 地域リハビリテーション・地域包括ケア; 22. 入院退院支援; 28. 医療安全・身体拘束関連; 30. チームアプローチ",
+            "chair_ids": [
+              "ar_rkabb0c8b0ed",
+              "ar_rkf9e5fbdf20",
+              "ar_rkd46498bc6e",
+              "ar_rk1dee7f7205",
+              "ar_rkd1882d587d",
+              "ar_rk0017bbbaea",
+              "ar_rkebaf638c2d",
+              "ar_rk630821ff05",
+              "ar_rk1cdc3aaeed",
+              "ar_rkcffce8a750",
+              "ar_rked832935f7",
+              "ar_rk674c0b2fb0",
+              "ar_rk6a713d490d",
+              "ar_rk8d6530c723",
+              "ar_rk71b174ad77"
+            ],
             "session_code": "ポスター01"
           },
           {
@@ -1577,6 +1617,9 @@
               }
             ],
             "category": "05. 摂食嚥下・口腔ケア",
+            "chair_ids": [
+              "ar_rke6e2e8557f"
+            ],
             "session_code": "一般演題02",
             "capacity": 100
           },
@@ -1657,6 +1700,10 @@
               }
             ],
             "category": "02. 脳卒中・神経疾患・心臓疾患等",
+            "chair_ids": [
+              "ar_rka9d883b2e3",
+              "ar_rk29111b4195"
+            ],
             "session_code": "一般演題05",
             "capacity": 120
           },
@@ -1737,6 +1784,9 @@
               }
             ],
             "category": "09. ロボット・治療機器",
+            "chair_ids": [
+              "ar_rkbcc9cbbb7d"
+            ],
             "session_code": "一般演題09",
             "capacity": 104
           },
@@ -1817,6 +1867,10 @@
               }
             ],
             "category": "10. ADL・IADL",
+            "chair_ids": [
+              "ar_rkaf8de5edf3",
+              "ar_rkf858767f39"
+            ],
             "session_code": "一般演題13",
             "capacity": 120
           },
@@ -1897,6 +1951,10 @@
               }
             ],
             "category": "12. 訪問系サービス",
+            "chair_ids": [
+              "ar_rk1792eaedbd",
+              "ar_rk534f632d40"
+            ],
             "session_code": "一般演題17",
             "capacity": 120
           },
@@ -1966,6 +2024,9 @@
               }
             ],
             "category": "16. 地域リハビリテーション・地域包括ケア",
+            "chair_ids": [
+              "ar_rk5e5a9a9537"
+            ],
             "session_code": "一般演題21",
             "capacity": 160
           },
@@ -2640,6 +2701,22 @@
               }
             ],
             "category": "02. 脳卒中・神経疾患・心臓疾患等; 04. 高次脳機能障害・コミュニケーション障害・認知リハビリテーション; 06. 認知症・若年性認知症・MCI; 10. ADL・IADL; 11. QOL; 12. 訪問系サービス; 17. 介護予防・地域支援事業・地域づくり; 22. 入院退院支援; 26. 終末期・緩和ケア・看取り・ACP; 30. チームアプローチ; 32. 人材育成・教育・ヘルスケア",
+            "chair_ids": [
+              "ar_rk233cf9b66e",
+              "ar_rk1683dcce81",
+              "ar_rk8d111af326",
+              "ar_rkf66b0d0077",
+              "ar_rk8d1020a9f8",
+              "ar_rk2f9d472fef",
+              "ar_rk801826ca91",
+              "ar_rkb4339ab02b",
+              "ar_rke7b669352d",
+              "ar_rk32c33ba357",
+              "ar_rk4129070bf1",
+              "ar_rk0eb3796b93",
+              "ar_rkd082dd1b94",
+              "ar_rke9a15daf2a"
+            ],
             "session_code": "ポスター02"
           },
           {
@@ -2795,6 +2872,9 @@
               }
             ],
             "category": "05. 摂食嚥下・口腔ケア",
+            "chair_ids": [
+              "ar_rkd08232c781"
+            ],
             "session_code": "一般演題03",
             "capacity": 100
           },
@@ -2875,6 +2955,10 @@
               }
             ],
             "category": "02. 脳卒中・神経疾患・心臓疾患等",
+            "chair_ids": [
+              "ar_rk0d2d66a358",
+              "ar_rk6881df8f9d"
+            ],
             "session_code": "一般演題06",
             "capacity": 120
           },
@@ -2955,6 +3039,10 @@
               }
             ],
             "category": "11. QOL",
+            "chair_ids": [
+              "ar_rkd6a3149393",
+              "ar_rka42bf516f2"
+            ],
             "session_code": "一般演題10",
             "capacity": 104
           },
@@ -3035,6 +3123,9 @@
               }
             ],
             "category": "10. ADL・IADL",
+            "chair_ids": [
+              "ar_rka05ad36275"
+            ],
             "session_code": "一般演題14",
             "capacity": 120
           },
@@ -3115,6 +3206,9 @@
               }
             ],
             "category": "13. 通所系サービス",
+            "chair_ids": [
+              "ar_rkac0b272008"
+            ],
             "session_code": "一般演題18",
             "capacity": 120
           },
@@ -3195,6 +3289,10 @@
               }
             ],
             "category": "17. 介護予防・地域支援事業・地域づくり",
+            "chair_ids": [
+              "ar_rka92f9419cc",
+              "ar_rk570aef9d66"
+            ],
             "session_code": "一般演題22",
             "capacity": 160
           },
@@ -3858,6 +3956,20 @@
               }
             ],
             "category": "02. 脳卒中・神経疾患・心臓疾患等; 06. 認知症・若年性認知症・MCI; 10. ADL・IADL; 12. 訪問系サービス; 20. 住宅改修・福祉機器・環境整備; 30. チームアプローチ; 31. トータルマネジメント（業務管理等）; 32. 人材育成・教育・ヘルスケア; 34. 地域リハ塾; 35. その他",
+            "chair_ids": [
+              "ar_rkef316d65f6",
+              "ar_rkbece83239b",
+              "ar_rk2c71cd0b40",
+              "ar_rk51a3dae317",
+              "ar_rk027e79c13f",
+              "ar_rk59c9387d97",
+              "ar_rk28db5eab37",
+              "ar_rk9625348de2",
+              "ar_rkcff9d0de20",
+              "ar_rk05aad73d53",
+              "ar_rk6a7ff7a468",
+              "ar_rk2c2fc171ff"
+            ],
             "session_code": "ポスター03"
           },
           {
@@ -4019,6 +4131,9 @@
               }
             ],
             "category": "34. 地域リハ塾",
+            "chair_ids": [
+              "ar_rkaee5ca884b"
+            ],
             "session_code": "一般演題07",
             "capacity": 120
           },
@@ -4099,6 +4214,9 @@
               }
             ],
             "category": "24. 就労・就学支援",
+            "chair_ids": [
+              "ar_rke13f97f2f7"
+            ],
             "session_code": "一般演題11",
             "capacity": 104
           },
@@ -4179,6 +4297,9 @@
               }
             ],
             "category": "10. ADL・IADL",
+            "chair_ids": [
+              "ar_rk44171b532e"
+            ],
             "session_code": "一般演題15",
             "capacity": 120
           },
@@ -4259,6 +4380,9 @@
               }
             ],
             "category": "13. 通所系サービス",
+            "chair_ids": [
+              "ar_rk775a5044f3"
+            ],
             "session_code": "一般演題19",
             "capacity": 120
           },
@@ -4339,6 +4463,9 @@
               }
             ],
             "category": "06. 認知症・若年性認知症・MCI",
+            "chair_ids": [
+              "ar_rk1990c160da"
+            ],
             "session_code": "一般演題23",
             "capacity": 160
           },
@@ -4969,6 +5096,24 @@
               }
             ],
             "category": "02. 脳卒中・神経疾患・心臓疾患等; 03. 運動器疾患・運動器ケア等; 10. ADL・IADL; 11. QOL; 15. 障害福祉サービス; 16. 地域リハビリテーション・地域包括ケア; 19. 地域連携; 24. 就労・就学支援; 25. レスパイトケア・家族支援; 29. 感染関連; 30. チームアプローチ; 33. DX（デジタルトランスフォーメーション）; 35. その他",
+            "chair_ids": [
+              "ar_rk6a0acc9798",
+              "ar_rk969fc2ff1b",
+              "ar_rkeb6910d8df",
+              "ar_rkb33fe66acd",
+              "ar_rk75cf05e02b",
+              "ar_rkc41ebb762b",
+              "ar_rkfa0c3092cb",
+              "ar_rkab1076149f",
+              "ar_rka0ce77a8ce",
+              "ar_rk5000cd0ecc",
+              "ar_rkec439d1e27",
+              "ar_rk192b812859",
+              "ar_rk000fe73be0",
+              "ar_rk24545141ab",
+              "ar_rk2f6badd6f5",
+              "ar_rka3e61adece"
+            ],
             "session_code": "ポスター04"
           }
         ]
@@ -5230,6 +5375,10 @@
               }
             ],
             "category": "04. 高次脳機能障害・コミュニケーション障害・認知リハビリテーション",
+            "chair_ids": [
+              "ar_rk736d801e3e",
+              "ar_rkb385af81bc"
+            ],
             "session_code": "一般演題28",
             "capacity": 120
           },
@@ -5310,6 +5459,9 @@
               }
             ],
             "category": "22. 入院退院支援",
+            "chair_ids": [
+              "ar_rkbed7fc0ddf"
+            ],
             "session_code": "一般演題32",
             "capacity": 104
           },
@@ -5390,6 +5542,9 @@
               }
             ],
             "category": "26. 終末期・緩和ケア・看取り・ACP",
+            "chair_ids": [
+              "ar_rk5ca2852d0e"
+            ],
             "session_code": "一般演題36",
             "capacity": 120
           },
@@ -5470,6 +5625,10 @@
               }
             ],
             "category": "28. 医療安全・身体拘束関連",
+            "chair_ids": [
+              "ar_rke47ff7ed34",
+              "ar_rk1b036a1f70"
+            ],
             "session_code": "一般演題40",
             "capacity": 120
           },
@@ -5571,6 +5730,10 @@
               }
             ],
             "category": "17. 介護予防・地域支援事業・地域づくり",
+            "chair_ids": [
+              "ar_rkd95afb0810",
+              "ar_rk42ba6191e3"
+            ],
             "session_code": "一般演題44",
             "capacity": 160
           },
@@ -6146,6 +6309,22 @@
               }
             ],
             "category": "05. 摂食嚥下・口腔ケア; 07. フレイル・ロコモティブシンドローム・骨粗しょう症; 17. 介護予防・地域支援事業・地域づくり; 20. 住宅改修・福祉機器・環境整備; 21. ソーシャルワーク; 22. 入院退院支援; 27. 障害受容・心のケア; 30. チームアプローチ; 31. トータルマネジメント（業務管理等）; 32. 人材育成・教育・ヘルスケア",
+            "chair_ids": [
+              "ar_rk6191fa9763",
+              "ar_rk4bd6cb5522",
+              "ar_rk8eb2e8b792",
+              "ar_rk36414487da",
+              "ar_rkda51de367d",
+              "ar_rk3c04e33934",
+              "ar_rkfcd3bbc282",
+              "ar_rkbd2010376d",
+              "ar_rkf7f2ae8c9a",
+              "ar_rkcbd75d8ffc",
+              "ar_rk0cdf48f1f4",
+              "ar_rkdb8f484b2a",
+              "ar_rkd8b9928852",
+              "ar_rk6332a4d133"
+            ],
             "session_code": "ポスター05"
           },
           {
@@ -6285,6 +6464,9 @@
               }
             ],
             "category": "04. 高次脳機能障害・コミュニケーション障害・認知リハビリテーション",
+            "chair_ids": [
+              "ar_rke1ff0b8be0"
+            ],
             "session_code": "一般演題29",
             "capacity": 120
           },
@@ -6354,6 +6536,9 @@
               }
             ],
             "category": "22. 入院退院支援",
+            "chair_ids": [
+              "ar_rkd460399ae5"
+            ],
             "session_code": "一般演題33",
             "capacity": 104
           },
@@ -6434,6 +6619,9 @@
               }
             ],
             "category": "28. 医療安全・身体拘束関連",
+            "chair_ids": [
+              "ar_rk09ae8e4e43"
+            ],
             "session_code": "一般演題37",
             "capacity": 120
           },
@@ -6514,6 +6702,10 @@
               }
             ],
             "category": "28. 医療安全・身体拘束関連",
+            "chair_ids": [
+              "ar_rk537aa3eda1",
+              "ar_rkbd8db257a6"
+            ],
             "session_code": "一般演題41",
             "capacity": 120
           },
@@ -6594,6 +6786,9 @@
               }
             ],
             "category": "30. チームアプローチ",
+            "chair_ids": [
+              "ar_rkbfcdaa1fcc"
+            ],
             "session_code": "一般演題45",
             "capacity": 160
           },
@@ -7257,6 +7452,22 @@
               }
             ],
             "category": "01. 疾病の検査・治療; 02. 脳卒中・神経疾患・心臓疾患等; 05. 摂食嚥下・口腔ケア; 10. ADL・IADL; 13. 通所系サービス; 14. 入所系サービス; 17. 介護予防・地域支援事業・地域づくり; 18. 災害関連・BCP; 23. 運転と地域移動支援; 28. 医療安全・身体拘束関連; 32. 人材育成・教育・ヘルスケア",
+            "chair_ids": [
+              "ar_rk5de9646e28",
+              "ar_rk63366e66da",
+              "ar_rkf917bdd87f",
+              "ar_rk16d8415391",
+              "ar_rkcc584328cb",
+              "ar_rk41e95b3cb8",
+              "ar_rk52d6ff30a7",
+              "ar_rk6889db49d6",
+              "ar_rk42cda13df0",
+              "ar_rk949d46e1e7",
+              "ar_rk42c385547a",
+              "ar_rk6038c792a4",
+              "ar_rk9ace544489",
+              "ar_rk62e48b3cac"
+            ],
             "session_code": "ポスター06"
           },
           {
@@ -7403,6 +7614,9 @@
               }
             ],
             "category": "12. 訪問系サービス",
+            "chair_ids": [
+              "ar_rk7bdec2817a"
+            ],
             "session_code": "一般演題24",
             "capacity": 100
           },
@@ -7483,6 +7697,9 @@
               }
             ],
             "category": "13. 通所系サービス",
+            "chair_ids": [
+              "ar_rk775c10118d"
+            ],
             "session_code": "一般演題26",
             "capacity": 200
           },
@@ -7563,6 +7780,9 @@
               }
             ],
             "category": "02. 脳卒中・神経疾患・心臓疾患等",
+            "chair_ids": [
+              "ar_rk1e32ccbaa3"
+            ],
             "session_code": "一般演題30",
             "capacity": 120
           },
@@ -7643,6 +7863,9 @@
               }
             ],
             "category": "31. トータルマネジメント（業務管理等）",
+            "chair_ids": [
+              "ar_rk017f8d3ef2"
+            ],
             "session_code": "一般演題34",
             "capacity": 104
           },
@@ -7723,6 +7946,9 @@
               }
             ],
             "category": "30. チームアプローチ",
+            "chair_ids": [
+              "ar_rkc649dcc5ea"
+            ],
             "session_code": "一般演題38",
             "capacity": 120
           },
@@ -7803,6 +8029,9 @@
               }
             ],
             "category": "32. 人材育成・教育・ヘルスケア",
+            "chair_ids": [
+              "ar_rk5e9bb03e6e"
+            ],
             "session_code": "一般演題42",
             "capacity": 120
           },
@@ -7903,6 +8132,9 @@
               }
             ],
             "category": "30. チームアプローチ",
+            "chair_ids": [
+              "ar_rk2fa6bddee4"
+            ],
             "session_code": "一般演題46",
             "capacity": 160
           },
@@ -8467,6 +8699,19 @@
               }
             ],
             "category": "01. 疾病の検査・治療; 02. 脳卒中・神経疾患・心臓疾患等; 05. 摂食嚥下・口腔ケア; 08. 栄養; 09. ロボット・治療機器; 12. 訪問系サービス; 13. 通所系サービス; 22. 入院退院支援; 23. 運転と地域移動支援; 28. 医療安全・身体拘束関連; 32. 人材育成・教育・ヘルスケア; 33. DX（デジタルトランスフォーメーション）; 35. その他",
+            "chair_ids": [
+              "ar_rkeba10874bb",
+              "ar_rke7df14126d",
+              "ar_rkeabdaaa65f",
+              "ar_rkf344119e3a",
+              "ar_rkfd36d9d322",
+              "ar_rkd2ccdd701f",
+              "ar_rk2dad74016b",
+              "ar_rk788023a9f8",
+              "ar_rk611ca8cf57",
+              "ar_rk94fb259104",
+              "ar_rk55735cbb7e"
+            ],
             "session_code": "ポスター07"
           },
           {
@@ -8567,6 +8812,9 @@
               }
             ],
             "category": "32. 人材育成・教育・ヘルスケア",
+            "chair_ids": [
+              "ar_rkfd6e629d9c"
+            ],
             "session_code": "一般演題25",
             "capacity": 100
           },
@@ -8647,6 +8895,9 @@
               }
             ],
             "category": "32. 人材育成・教育・ヘルスケア",
+            "chair_ids": [
+              "ar_rk282056eb71"
+            ],
             "session_code": "一般演題27",
             "capacity": 200
           },
@@ -8727,6 +8978,9 @@
               }
             ],
             "category": "19. 地域連携",
+            "chair_ids": [
+              "ar_rk2beb224332"
+            ],
             "session_code": "一般演題31",
             "capacity": 120
           },
@@ -8807,6 +9061,9 @@
               }
             ],
             "category": "08. 栄養",
+            "chair_ids": [
+              "ar_rkfd71b5f0f5"
+            ],
             "session_code": "一般演題35",
             "capacity": 104
           },
@@ -8887,6 +9144,9 @@
               }
             ],
             "category": "35. その他",
+            "chair_ids": [
+              "ar_rkaaafdd7684"
+            ],
             "session_code": "一般演題39",
             "capacity": 120
           },
@@ -8967,6 +9227,9 @@
               }
             ],
             "category": "33. DX（デジタルトランスフォーメーション）",
+            "chair_ids": [
+              "ar_rk54601148c4"
+            ],
             "session_code": "一般演題43",
             "capacity": 120
           },
@@ -9068,6 +9331,10 @@
               }
             ],
             "category": "17. 介護予防・地域支援事業・地域づくり",
+            "chair_ids": [
+              "ar_rk6f64f1f2f9",
+              "ar_rkeb3a6060c7"
+            ],
             "session_code": "一般演題47",
             "capacity": 160
           },
