@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-03T17:13:47+09:00",
+  "generated_at": "2026-09-15T17:13:47+09:00",
   "artists": [
     {
       "id": "ar_rk6c57d66149",
@@ -100,11 +100,6 @@
     {
       "id": "ar_rk85e16ef262",
       "name": "中山 瑠莉愛",
-      "aliases": []
-    },
-    {
-      "id": "ar_rkca236fdb7a",
-      "name": "中川 圭子",
       "aliases": []
     },
     {
@@ -1473,6 +1468,11 @@
       "aliases": []
     },
     {
+      "id": "ar_rk971bec83c7",
+      "name": "島田理子",
+      "aliases": []
+    },
+    {
       "id": "ar_rkd4409965d1",
       "name": "嵐 保憲",
       "aliases": []
@@ -1908,11 +1908,6 @@
       "aliases": []
     },
     {
-      "id": "ar_rkb96d956ce5",
-      "name": "東 理香",
-      "aliases": []
-    },
-    {
       "id": "ar_rk6c892799bb",
       "name": "東 真奈美",
       "aliases": []
@@ -2025,6 +2020,11 @@
     {
       "id": "ar_rk9ab2236881",
       "name": "柳沢 亘輝",
+      "aliases": []
+    },
+    {
+      "id": "ar_rka65196f896",
+      "name": "柴田重信",
       "aliases": []
     },
     {
@@ -2350,11 +2350,6 @@
     {
       "id": "ar_rk736d801e3e",
       "name": "清水 宗平",
-      "aliases": []
-    },
-    {
-      "id": "ar_rkad02b05e4e",
-      "name": "清水 康佑",
       "aliases": []
     },
     {
@@ -3786,14 +3781,14 @@
   "venues": [
     {
       "id": "vn_rkkenminhall",
-      "name": "高知県立県民文化ホール",
+      "name": "新来島高知重工ホール（高知県立県民文化ホール）",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 5
     },
     {
       "id": "vn_rkcrownpalace",
-      "name": "ANAクラウンプラザ高知",
+      "name": "ANAクラウンプラザホテル高知",
       "zones": [],
       "zone_walk": [],
       "default_walk_minutes": 5

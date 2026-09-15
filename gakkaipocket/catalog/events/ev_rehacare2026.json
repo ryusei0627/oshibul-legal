@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-03T17:13:47+09:00",
+  "generated_at": "2026-09-15T17:13:47+09:00",
   "event": {
     "id": "ev_rehacare2026",
     "name": "リハビリテーション・ケア合同研究大会 高知2026",
     "name_reading": "りはびりてーしょんけあごうどうけんきゅうたいかいこうち",
     "official_url": "https://rehacarekochi2026.com/",
-    "note": "本アプリは大会主催者・運営とは関係のない非公式アプリです。公式サイトで公開されているプログラム情報(2026-08-03時点)をもとに作成しています。内容は変更される場合があるため、最新情報は必ず公式サイトをご確認ください。",
+    "note": "本アプリは大会主催者・運営とは関係のない非公式アプリです。公式サイトで公開されているプログラム情報(2026-09-15時点)をもとに作成しています。内容は変更される場合があるため、最新情報は必ず公式サイトをご確認ください。",
     "days": [
       {
         "id": "dy_rk20261008",
@@ -249,16 +249,19 @@
             "note": "主催・共催: 株式会社マクニカ"
           },
           {
-            "id": "ac_rke1c1296eda",
+            "id": "ac_rka6f157972a",
             "lane_id": "ln_rk09022444e7",
             "kind": "other",
-            "title": "大誠会とマクニカが取り組んだ共同送迎の軌跡と展望 ～地域医療・福祉を支える新たな経営インフラへの挑戦～",
+            "title": "「あるがままに生きる」を支えるモビリティとしての車椅子 ～高性能・高機能な福祉用具がもたらす価値と導入のメリット～",
             "start": "2026-10-08T12:10:00+09:00",
             "end": "2026-10-08T13:10:00+09:00",
             "session_kind": "luncheon",
             "presentations": [],
             "artist_ids": [
               "ar_rk6a6e86d7e3"
+            ],
+            "chair_ids": [
+              "ar_rk42558b6df7"
             ],
             "session_code": "ランチョンセミナー3",
             "capacity": 200,
@@ -1929,20 +1932,9 @@
                 "estimated": true
               },
               {
-                "id": "pr_rkc6b758e07e",
-                "code": "O21-3",
-                "title": "視神経脊髄炎スペクトラム障害を有する一症例の在宅期におけるWell-beingの再構築 -恐怖心の軽減と地域生活への参加に着目して-",
-                "presenter_ids": [
-                  "ar_rkad02b05e4e"
-                ],
-                "order": 3,
-                "estimated_start": "2026-10-08T15:00:00+09:00",
-                "estimated": true
-              },
-              {
                 "id": "pr_rk88c4404dec",
                 "code": "O21-4",
-                "title": "地域包括ケア病床退院患者における再入院予測因子の検討 －疾患別要因と多職種支援の重要性－",
+                "title": "地域包括ケア病床退院患者における再入院予測因子の検討－疾患別要因と多職種支援の重要性－",
                 "presenter_ids": [
                   "ar_rk106d74176d"
                 ],
@@ -2627,7 +2619,7 @@
               {
                 "id": "pr_rk5d9ba87db0",
                 "code": "P02-10-5",
-                "title": "介護事業を運営する一法人における介護と仕事の両立支援の課題 ―職員アンケートを用いた検討―",
+                "title": "介護事業を運営する一法人における介護と仕事の両立支援の課題―職員アンケートを用いた検討―",
                 "presenter_ids": [
                   "ar_rkd1882d587d"
                 ],
@@ -2669,10 +2661,10 @@
             "capacity": 350
           },
           {
-            "id": "ac_rk2becbddc8f",
+            "id": "ac_rk27298b9678",
             "lane_id": "ln_rk9bceabf6ad",
             "kind": "other",
-            "title": "診療報酬（仮）",
+            "title": "2040年に向けた地域医療のこれから",
             "start": "2026-10-08T15:10:00+09:00",
             "end": "2026-10-08T16:30:00+09:00",
             "session_kind": "special",
@@ -2696,13 +2688,13 @@
             "session_kind": "symposium",
             "presentations": [],
             "artist_ids": [
-              "ar_rkb30d685969",
               "ar_rk834466577e",
+              "ar_rkb30d685969",
               "ar_rk405554cedf"
             ],
             "chair_ids": [
-              "ar_rk017f8d3ef2",
-              "ar_rkd774ab0082"
+              "ar_rkd774ab0082",
+              "ar_rk017f8d3ef2"
             ],
             "session_code": "主催団体企画シンポジウム03",
             "capacity": 200,
@@ -3900,8 +3892,8 @@
             "session_kind": "symposium",
             "presentations": [],
             "artist_ids": [
-              "ar_rk2beb224332",
               "ar_rk5357be572d",
+              "ar_rk2beb224332",
               "ar_rk9b502dacea"
             ],
             "chair_ids": [
@@ -4714,7 +4706,7 @@
               {
                 "id": "pr_rk7fc224efcb",
                 "code": "P04-6-5",
-                "title": "社会参加の制約を呈した若年性難病利用者に対し、 作業療法士介入により就労支援導入に至った一症例",
+                "title": "社会参加の制約を呈した若年性難病利用者に対し、作業療法士介入により就労支援導入に至った一症例",
                 "presenter_ids": [
                   "ar_rk7c209bf93b"
                 ],
@@ -6166,10 +6158,10 @@
             "session_kind": "symposium",
             "presentations": [],
             "artist_ids": [
-              "ar_rkc26531e950",
-              "ar_rk37d3ec9f5b",
+              "ar_rk88f71250b3",
               "ar_rk0f4f565ec1",
-              "ar_rk88f71250b3"
+              "ar_rk37d3ec9f5b",
+              "ar_rkc26531e950"
             ],
             "chair_ids": [
               "ar_rk24823d21d2"
@@ -6178,10 +6170,10 @@
             "capacity": 1500
           },
           {
-            "id": "ac_rkbe9b41436b",
+            "id": "ac_rk70fc5e7ca7",
             "lane_id": "ln_rk49d474b5ba",
             "kind": "other",
-            "title": "「あるがままに生きる」を支える専門職連携ーコンフリクト・マネジメントから始める専門職連携」",
+            "title": "「あるがままに生きる」を支える専門職連携ーコンフリクト・マネジメントから始める専門職連携",
             "start": "2026-10-09T10:00:00+09:00",
             "end": "2026-10-09T11:30:00+09:00",
             "session_kind": "symposium",
@@ -6358,17 +6350,6 @@
                 ],
                 "order": 5,
                 "estimated_start": "2026-10-09T11:40:00+09:00",
-                "estimated": true
-              },
-              {
-                "id": "pr_rkcdecef2e83",
-                "code": "O33-6",
-                "title": "近隣介護施設との多職種連携によるシームレスな退院支援 ～施設訪問と連携強化による在院日数への影響～",
-                "presenter_ids": [
-                  "ar_rkb96d956ce5"
-                ],
-                "order": 6,
-                "estimated_start": "2026-10-09T11:50:00+09:00",
                 "estimated": true
               }
             ],
@@ -6749,7 +6730,7 @@
               {
                 "id": "pr_rka6b0d0a561",
                 "code": "P06-2-6",
-                "title": "COVID-19感染気管挿管後の廃用症候群に対しVital StimとGentle Stimの 併用治療と間接嚥下訓練により3食経口摂取が実現した症例",
+                "title": "COVID-19感染気管挿管後の廃用症候群に対しVital StimとGentle Stimの併用治療と間接嚥下訓練により3食経口摂取が実現した症例",
                 "presenter_ids": [
                   "ar_rkcf7e670d8a"
                 ],
@@ -7290,14 +7271,21 @@
             "capacity": 100
           },
           {
-            "id": "ac_rk0504e840f0",
+            "id": "ac_rk7ffa1f4e2f",
             "lane_id": "ln_rk49d474b5ba",
             "kind": "other",
-            "title": "（演題未定）",
+            "title": "シン・食事サービス～時間栄養学～",
             "start": "2026-10-09T12:20:00+09:00",
             "end": "2026-10-09T13:20:00+09:00",
             "session_kind": "luncheon",
             "presentations": [],
+            "artist_ids": [
+              "ar_rka65196f896",
+              "ar_rk971bec83c7"
+            ],
+            "chair_ids": [
+              "ar_rk14c7f687a2"
+            ],
             "session_code": "ランチョンセミナー4",
             "capacity": 500,
             "note": "主催・共催: 日清医療食品株式会社"
@@ -8313,24 +8301,13 @@
                 "estimated": true
               },
               {
-                "id": "pr_rkad1bada176",
-                "code": "P07-7-3",
-                "title": "筋強直性ジストロフィー患者への自動車運転と就労に対しての取り組み",
-                "presenter_ids": [
-                  "ar_rkca236fdb7a"
-                ],
-                "order": 36,
-                "estimated_start": "2026-10-09T13:52:00+09:00",
-                "estimated": true
-              },
-              {
                 "id": "pr_rkdd714bedcb",
                 "code": "P07-7-4",
                 "title": "若年脳卒中患者における手指機能改善と満足度の乖離 ~病前同様の機能獲得を求める目標共有の再考~",
                 "presenter_ids": [
                   "ar_rkf617c5ff53"
                 ],
-                "order": 37,
+                "order": 36,
                 "estimated_start": "2026-10-09T13:58:00+09:00",
                 "estimated": true
               },
@@ -8341,7 +8318,7 @@
                 "presenter_ids": [
                   "ar_rk3648a57d14"
                 ],
-                "order": 38,
+                "order": 37,
                 "estimated_start": "2026-10-09T14:04:00+09:00",
                 "estimated": true
               },
@@ -8352,7 +8329,7 @@
                 "presenter_ids": [
                   "ar_rk330a231e96"
                 ],
-                "order": 39,
+                "order": 38,
                 "estimated_start": "2026-10-09T14:10:00+09:00",
                 "estimated": true
               },
@@ -8363,7 +8340,7 @@
                 "presenter_ids": [
                   "ar_rka8fd9d0e2a"
                 ],
-                "order": 40,
+                "order": 39,
                 "estimated_start": "2026-10-09T13:40:00+09:00",
                 "estimated": true
               },
@@ -8374,7 +8351,7 @@
                 "presenter_ids": [
                   "ar_rkd4409965d1"
                 ],
-                "order": 41,
+                "order": 40,
                 "estimated_start": "2026-10-09T13:46:00+09:00",
                 "estimated": true
               },
@@ -8385,7 +8362,7 @@
                 "presenter_ids": [
                   "ar_rk1d1a63cc5f"
                 ],
-                "order": 42,
+                "order": 41,
                 "estimated_start": "2026-10-09T13:52:00+09:00",
                 "estimated": true
               },
@@ -8396,7 +8373,7 @@
                 "presenter_ids": [
                   "ar_rk1c8c4da299"
                 ],
-                "order": 43,
+                "order": 42,
                 "estimated_start": "2026-10-09T13:58:00+09:00",
                 "estimated": true
               },
@@ -8407,7 +8384,7 @@
                 "presenter_ids": [
                   "ar_rkbd8db257a6"
                 ],
-                "order": 44,
+                "order": 43,
                 "estimated_start": "2026-10-09T14:04:00+09:00",
                 "estimated": true
               },
@@ -8418,7 +8395,7 @@
                 "presenter_ids": [
                   "ar_rkfad4e98047"
                 ],
-                "order": 45,
+                "order": 44,
                 "estimated_start": "2026-10-09T14:10:00+09:00",
                 "estimated": true
               },
@@ -8429,7 +8406,7 @@
                 "presenter_ids": [
                   "ar_rk440dec7eb5"
                 ],
-                "order": 46,
+                "order": 45,
                 "estimated_start": "2026-10-09T13:40:00+09:00",
                 "estimated": true
               },
@@ -8440,7 +8417,7 @@
                 "presenter_ids": [
                   "ar_rk3faff658be"
                 ],
-                "order": 47,
+                "order": 46,
                 "estimated_start": "2026-10-09T13:46:00+09:00",
                 "estimated": true
               },
@@ -8451,7 +8428,7 @@
                 "presenter_ids": [
                   "ar_rka2c07c5fb5"
                 ],
-                "order": 48,
+                "order": 47,
                 "estimated_start": "2026-10-09T13:52:00+09:00",
                 "estimated": true
               },
@@ -8462,7 +8439,7 @@
                 "presenter_ids": [
                   "ar_rk87ca8f19a3"
                 ],
-                "order": 49,
+                "order": 48,
                 "estimated_start": "2026-10-09T13:58:00+09:00",
                 "estimated": true
               },
@@ -8473,7 +8450,7 @@
                 "presenter_ids": [
                   "ar_rk732527436b"
                 ],
-                "order": 50,
+                "order": 49,
                 "estimated_start": "2026-10-09T14:04:00+09:00",
                 "estimated": true
               },
@@ -8484,7 +8461,7 @@
                 "presenter_ids": [
                   "ar_rk42cda13df0"
                 ],
-                "order": 51,
+                "order": 50,
                 "estimated_start": "2026-10-09T14:10:00+09:00",
                 "estimated": true
               }
@@ -8503,9 +8480,9 @@
             "presentations": [],
             "artist_ids": [
               "ar_rka4e2b510a8",
+              "ar_rkb237431978",
               "ar_rkf9b5f80009",
-              "ar_rkf90ee381b3",
-              "ar_rkb237431978"
+              "ar_rkf90ee381b3"
             ],
             "chair_ids": [
               "ar_rka4e2b510a8"
@@ -8889,7 +8866,7 @@
               {
                 "id": "pr_rk37aa4262d9",
                 "code": "O39-5",
-                "title": "回復期病棟における音楽療法前後の生活変化の可視化 ーテキストマイニングを用いた追加検討ー",
+                "title": "回復期病棟における音楽療法前後の生活変化の可視化ーテキストマイニングを用いた追加検討ー",
                 "presenter_ids": [
                   "ar_rk32e852a758"
                 ],
